@@ -1,0 +1,2 @@
+//MO076-077.TXT ANA00076 TO ANA00077
+Employe	Nom	CLEN*		la rubrique Nom est maintenant une clé
