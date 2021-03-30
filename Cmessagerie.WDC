@@ -1,0 +1,69 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Cmessagerie
+ major_version : 25
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x104792c00185b898
+ internal_properties : BQAAAAUAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1+
+      Cmessagerie est une Classe
+      		IDmessagerie est un entier sur 8 octets = 0 //Identifiant de messagerie
+      		idDestinataire est un entier sur 8 octets = 0 //idDestinataire
+      		Contenu est une chaîne = "" //Contenu
+      		dateheure est une dateheure = "" //dateheure
+      		reçu est un booléen = Faux //reçu
+      		message_lu est un booléen = Faux //message_lu
+      		m_pclRefIDEmploye est un objet Cmessagerie dynamique
+      fin
+     type : 131072
+  procedures :
+   -
+     name : Constructeur
+     procedure_id : 1173067581310351512
+     type_code : 27
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Constructeur ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      
+      
+      
+      procédure Constructeur( )
+     type : 589824
+   -
+     name : Destructeur
+     procedure_id : 1173067581310417048
+     type_code : 28
+     code : |1-
+      
+      
+      procédure Destructeur()
+     type : 655360
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+resources :
+ string_res :
+  identifier : 0x104792c00186b898
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

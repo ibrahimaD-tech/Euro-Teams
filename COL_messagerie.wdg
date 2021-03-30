@@ -1,0 +1,140 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_messagerie
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1034cdd1018a669c
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : enregistre_message
+     procedure_id : 1167877487123939361
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //enregistre_message (<sMondestibataire> est chaîne, <Moncontenue> est chaîne)
+      //
+      // Paramètres :
+      //	sMondestibataire (chaîne ANSI) : <indiquez ici le rôle de sMondestibataire>
+      //	Moncontenue (chaîne ANSI) : <indiquez ici le rôle de Moncontenue>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure enregistre_message(sMondestibataire un entier sur 8 octets,Moncontenue est une chaine)
+      
+      messagerie.IDEmploye		= gnIduser
+      messagerie.idDestinataire	= sMondestibataire
+      messagerie.Contenu			= Moncontenue
+      messagerie.message_lu		= Faux
+      messagerie.reçu				= Faux
+      HAjoute(messagerie)
+     type : 458752
+   -
+     name : affiche_message
+     procedure_id : 1167877959570386307
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //affiche_message ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      //	bRecu2 (booléen) : <indiquez ici le rôle de bRecu2>
+      procédure affiche_message()
+      
+      
+      	polMapolice est une police 
+      	polMapolice = PoliceCrée("Calibri",10,iGras)
+      	FEN_Messagerie.SAI_Texte1		= ""
+      	FEN_Messagerie.IMG_SansNom1	= ""
+      	si gnEmployee = 0 alors
+      		HLitRechercheDernier(messagerie,IDmessagerie,gnIduser)
+      		gnEmployee = messagerie.IDEmploye
+      	FIN
+      	FEN_Messagerie.COMBO_Employe_message= gnEmployee
+      	HLitRecherchePremier(Employe,IDEmploye,FEN_Messagerie.COMBO_Employe_message)
+       	FEN_Messagerie.IMG_SansNom1 = Employe.photo
+      	HLitPremier(messagerie,IDmessagerie)
+      	SI HTrouve(messagerie) ALORS
+      		POUR TOUT messagerie 
+      			SI messagerie.idDestinataire = gnIduser ET messagerie.IDEmploye = FEN_Messagerie.COMBO_Employe_message ALORS
+      				FEN_Messagerie.SAI_Texte1 += Employe.Nom+ " : " + messagerie.Contenu +RC + RC
+      				FEN_Messagerie.SAI_Texte1.Police = polMapolice
+      				messagerie.reçu = vrai 
+      				HModifie(messagerie)
+      			SINON SI messagerie.idDestinataire = FEN_Messagerie.COMBO_Employe_message ET messagerie.IDEmploye = gnIduser
+      				HLitRecherchePremier(Employe,IDEmploye, gnIduser)
+      				FEN_Messagerie.SAI_Texte1 += Employe.Nom + " : " + messagerie.Contenu + RC + RC
+      			
+      			FIN
+      				
+      		FIN
+      		
+      	FIN
+      
+      	
+      //FIN
+     type : 458752
+   -
+     name : verif_message
+     internal_properties : BQAAAAUAAABBEOpm1AOFhrh4b6j8ZKq782IRpQP3+0vYG0j0zct8clvd1l6ZiEeRjjb0IjCXAVqzNtPUi3qvFpmKBBWjmtwVLhf9IWli0GP78Bi665Ak1j3OlQYUPctK2CHphHoiLWG6dzcmmCofISgC7OyiWX/F+4v3I02n9nC6kjv6KBeM32ZIwA==
+     procedure_id : 1167889225284612644
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //verif_message ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //// Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code
+      // Elle sera répétée en boucle, en attendant 2 secondes entre chaque appel
+      // Chaque appel suivant exécute une seule fois la procédure, sans timer
+      // 
+      
+      procédure verif_message()
+      
+      HLitRecherchedernier(messagerie,idDestinataire,gnIduser)
+      
+      SI HTrouve(messagerie) ET messagerie.reçu = Faux ALORS
+      	ToastAffiche("Vous avez reçu un message")
+      	HLitRecherche(Employe,IDEmploye,messagerie.IDEmploye)
+      	Ouvre(FEN_Messagerie,employe.IDEmploye)
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1034cdcb01884d38
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

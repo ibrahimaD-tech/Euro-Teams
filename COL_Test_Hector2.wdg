@@ -1,0 +1,374 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_Test_Hector2
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x102f72c5075dcb2a
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+       dateTemp est une date
+      bDatefinTacheTrouve est un booléen
+      gbDatefinTacheTrouve2 est un booléen
+      soit ghValHeureTest est une heure
+      dhDateFin est une dateheure
+      dateEncour est une dateheure
+      dhDateDebut est une dateheure
+      dhMontempsrestant est une dateheure
+      gduMAcompteur est une durée 
+      soit dateTempo est une dateheure
+      bSortieWeek		est un booléen
+      oNestenWeeken	est un booléen 
+      duNjour			est une durée  
+      gnCompteurNbWeek est un entier
+     type : 720896
+  procedures :
+   -
+     name : integrationTache
+     procedure_id : 1166277019070024506
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //integrationTache (<dhAteDebut> est dateheure, <duReTache> est durée, <nIdEmploye> est entier sur 8 octets, <nIdProjet> est entier sur 8 octets, <nIdFonctionnalite> est entier sur 8 octets, <nIdStatus> est entier sur 8 octets, <sCom> est chaîne, <nIdActivite> est entier sur 8 octets)
+      //
+      // Paramètres :
+      //	dhAteDebut (dateheure) : <indiquez ici le rôle de dAteDebut>
+      //	duReTache (durée) : <indiquez ici le rôle de dureTache>
+      //	nIdEmploye (entier sur 8 octets) : <indiquez ici le rôle de idEmploye>
+      //	nIdProjet (entier sur 8 octets) : <indiquez ici le rôle de idProjet>
+      //	nIdFonctionnalite (entier sur 8 octets) : <indiquez ici le rôle de idFonctionnalite>
+      //	nIdStatus (entier sur 8 octets) : <indiquez ici le rôle de idStatus>
+      //	sCom (chaîne ANSI) : <indiquez ici le rôle de Com>
+      //	nIdActivite (entier sur 8 octets) : <indiquez ici le rôle de nIdActivite>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      
+      
+      
+      procédure integrationTache(dhAteDebut est une dateheure, duReTache est une durée, nIdEmploye est un entier sur 8 octets, nIdProjet est un entier sur 8 octets, ...
+      
+       nIdFonctionnalite est un entier sur 8 octets, nIdStatus est un entier sur 8 octets, sCom est une chaine, nIdActivite est un entier sur 8 octets)
+       
+       dateFin est une dateheure = DateHeurePlusDuree(dhAteDebut, duReTache)
+      
+      //--------------------Initialisation des valeur de test--------------------
+      
+      ghValHeureTest.Heure	= 18//pour tester si il est 18h
+      ghValHeureTest.Minute	= 0
+      ghValHeureTest.Seconde	= 0
+      dateEncour				= dhAteDebut
+      gduMAcompteur			= duReTache
+      duNjour 				= 1j
+      oNestenWeeken			= faux
+      bDatefinTacheTrouve		= faux
+      gbDatefinTacheTrouve2	= faux
+      gnCompteurNbWeek 		= 0
+      //----------------------fin-----------------------------------------------
+      
+      
+      si duNjour = duReTache alors
+      	duReTache = 23h
+      FIN
+      
+      	//-----------------------------condition de sortie--------------------------- 
+      	 //on effectue le traitement tant que 'dateEncor' n'est pas supérieur 'datefin'
+      tantque pas dateEncour >  dateFin
+      		
+      	 //-----------exécution de la requête avec 'gnIduser = IdEmploye' et dateEncour------------
+      	HExécuteRequête(REQ_selection_employe_date_donne,hAvecFiltre,gnIduser,dateEncour)
+      	// exécution de la requête pour récupérer la date de la dernière tache en en jour
+      	//  on ajuste la date de fin de l'ancien tache. qui devient la date de début de la nouvelle tache  
+      	dhDateDebut			= REQ_selection_employe_date_donne.DateFinestimee 
+      	
+      	//-----------------------------On test le résultat de la réquête---------------------------
+        si dhDateDebut <> null ALORS
+        		si  dhDateDebut.PartieHeure.Heure < 18 alors
+      			//si la requête renvoi un résultat on recupére la date de fin de la taché ==> 
+      			dateTemp = dhDateDebut..PartieDate
+      			bDatefinTacheTrouve = vrai
+      		sinon
+      			dateEncour.Jour =  dhDateDebut..PartieDate.Jour + 1
+      			dateTemp	= dateEncour		
+      			gbDatefinTacheTrouve2	= Vrai
+      		fin
+        sinon
+      		// //sinon on garde la date de départ(aucune tache n'a été trouvé pour la date et l'emploi donné en paramètre)
+      		dhDateDebut = dateEncour
+      		dateTemp = dhDateDebut..PartieDate
+       FIN	
+       si oNestenWeeken = Vrai alors
+      		dateTemp = dateEncour.PartieDate
+      		oNestenWeeken = faux
+      		bDatefinTacheTrouve = faux
+      		
+       FIN
+      
+       SI JourTravailler(dateTemp) = Vrai ALORS
+      	 	//-----------------------------condition de decalage--------------------------- 		
+      	 	SI duReTache > duNjour ALORS					
+      	 		 dateTempo = dateTemp	
+      	 		SI dateEncour..PartieDate > dhAteDebut..PartieDate ALORS
+      	 			dateTempo..PartieHeure..Heure	= 9
+      	 			dateTempo..PartieHeure.Minute	= 0
+      	 			dateTempo..PartieHeure.Seconde	= 0
+      	 			
+      	 			dateEncour = dateTempo
+      	 			dateFin		= dateTempo
+      	 			dateFin.Heure = 18
+      	 			si dateFin.PartieHeure >= ghValHeureTest alors
+      	 			dateFin.heure  = 18
+      	 			dateFin.Minute	= 0
+      	 			dateFin.Seconde	= 0
+      	 			fin
+      	 		 SINON
+      	 			dateTempo = dateEncour
+      	 			dateTempo.Heure	= dhDateDebut.Heure
+      	 			dateTempo.Minute	=  dhDateDebut.Minute
+      	 			soit madeDefin 		=	dateTempo + duReTache
+      				si madeDefin.Heure 	= 0 alors
+      					dateFin				= dateTempo
+      					madeDefin.Heure 	= 23
+      					madeDefin.Minute 	= 59
+      					madeDefin.Seconde	= 59
+      				FIN
+      				si madeDefin.PartieHeure.Heure < ghValHeureTest.Heure alors
+      					dateFin				= dateTempo
+      					dateFin.Heure		= 18
+      					dateFin.Minute		= 0
+      					dateFin.Seconde		= 0
+      				sinon
+      					dateFin				= dateTempo
+      					dateFin.Heure		= 18
+      					dateFin.Minute		= 0
+      					dateFin.Seconde		= 0
+      				fin
+      				dateEncour = dateTempo
+      			 FIN	
+      		     CreationTache(nIdEmploye, nIdProjet, nIdFonctionnalite, nIdStatus, sCom, dateTempo, nIdActivite, duReTache,dateEncour,dateFin)
+      		     dateEncour..Jour ++ 
+      		     duReTache -=duNjour
+      		     dateFin = dateEncour + duReTache
+      	  sinon
+      			//il faut tester 'bDatefinTacheTrouve' pour connaitre la date début à utilisé
+      			//Si 'bDatefinTacheTrouve' est égal à vrai alors la date de fin de la tache trouvé devient la date de début de celle qui va commencer
+      			//Sinon on garde la date en cours
+      			si bDatefinTacheTrouve =Vrai alors
+      //				dateFin	= dhDateDebut + duReTache
+      				dateTempo = dhDateDebut
+      				bDatefinTacheTrouve = faux
+      			sinon	
+      				dateFin	= dateEncour
+      				dateTempo = dateEncour
+      			FIN
+      			si duReTache = duNjour alors
+      				dateFin	= dateEncour	
+      				dateFin.PartieHeure.Heure =18
+      				dateFin.PartieHeure.Minute =0
+      				dateFin.PartieHeure.Seconde	=0
+      				dateTempo = dateEncour
+      				dateTempo.Heure 	= 9
+      				dateTempo.Minute	= 0
+      				dateTempo.Seconde	= 0
+      		    sinon
+      		 		dateFin				= dateTempo + duReTache
+      		 		si dateFin.PartieHeure.Heure >= 18 ALORS
+      					dateFin.Heure		= 18
+      					dateFin.Minute		= 0
+      					dateTempo			= dhDateDebut
+      					dateTempo.Heure		= dhDateDebut.Heure
+      					dateTempo.Minute	= dhDateDebut.Minute
+      		 		sinon
+      					dateFin.Heure		= dateFin.Heure
+      					dateFin.Minute		= dateFin.Minute 
+      					dateTempo.Heure		= dhDateDebut.Heure
+      					dateTempo.Minute	= dhDateDebut.Minute
+      		 		FIN
+      	        fin
+      			CreationTache(nIdEmploye, nIdProjet, nIdFonctionnalite, nIdStatus, sCom, dateTempo, nIdActivite, duReTache,dateEncour,dateFin)
+      			dateFin.Jour -=1
+      			dateEncour..Jour += 1  
+      		 //-----------------------------sortie condition de decalage--------------------------- 
+      	 	fin
+        SINON
+      		oNestenWeeken = Vrai
+      //		SI oNestenWeeken = Vrai ALORS
+      			gnCompteurNbWeek ++
+      			dateTestSortieWeek est une date = dateEncour
+      			soit nBJourSemaine = DateVersJour(dateTestSortieWeek)
+      			SI nBJourSemaine = 7 ALORS
+      				oNestenWeeken	= Faux
+      				bSortieWeek		= Vrai
+      				gnCompteurNbWeek ++
+      			fin
+      			SI bSortieWeek = Vrai ALORS
+      				si gnCompteurNbWeek = 2 alors// ou gnCompteurNbWeek = 4  alors
+      					duReTache +=duNjour
+      					dateFin 		  = dateEncour
+      					dateFin..Jour ++
+      					bSortieWeek = faux
+      					gnCompteurNbWeek = 0
+      				sinon
+      //					si  gnCompteurNbWeek = 3 alors
+      //						dateFin 		  = dateEncour
+      //						dateFin..Jour ++
+      //						gnCompteurNbWeek = 0
+      //						bSortieWeek = Faux
+      //					sinon
+      						duReTache		 -= duNjour
+      						dateFin 		  = dateEncour
+      						dateFin..Jour ++
+      						gnCompteurNbWeek	= 0
+      						bSortieWeek			= Faux
+      						
+      //					fin
+      				FIN
+      
+      			SINON
+      				si gbDatefinTacheTrouve2 = vrai alors
+      				 	dateFin..Jour ++
+      				 	  duReTache +=duNjour
+      				sinon 
+      				  dateFin..Jour ++
+      				  duReTache +=duNjour
+      				 fin
+      				 gbDatefinTacheTrouve2 = faux
+      			FIN	
+      			dateEncour..Jour += 1 
+      //		FIN
+        //-----------------------------sortie jour ouvrable---------------------------
+        FIN
+      //-----------------------------Fin condition de sortie---------------------------
+      fin
+      
+      
+      
+     type : 458752
+   -
+     name : DateHeurePlusDuree
+     procedure_id : 1166277019070090042
+     type_code : 15
+     code : |1+
+      
+      procédure DateHeurePlusDuree(dAte est une dateheure, duRe est une durée)
+      dhDateReponse est une dateheure
+      dhDateReponse =  dAte
+      dt est une duree = duRe
+      
+      dhDateReponse..jour += dt..Jour
+      dhDateReponse.Heure +=dt..Heure
+      dhDateReponse.Minute += dt..Minute
+      dhDateReponse.Seconde += dt..Seconde
+      
+      renvoyer dhDateReponse
+     type : 458752
+   -
+     name : JourTravailler
+     procedure_id : 1166277019070155578
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] JourTravailler (<dAte> est date)
+      //
+      // Paramètres :
+      //	dAte (date) : <indiquez ici le rôle de dAte>
+      // Valeur de retour :
+      // 	booléen : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure JourTravailler(dAte est une date)
+      
+      si DateVersJour(dAte) = 6 ou DateVersJour(dAte) = 7 ALORS
+      	renvoyer Faux
+      FIN
+      
+      si JourFérié(dAte) = vrai ALORS
+      	renvoyer faux
+      FIN
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : CreationTache
+     procedure_id : 1166277019070221114
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //CreationTache (<nIdEmploye> est entier sur 8 octets, <nIdProjet> est entier sur 8 octets, <nIdFonctionnalite> est entier sur 8 octets, <nIdStatus> est entier sur 8 octets, <sCom> est chaîne, <dhDAteDebute> est dateheure, <nIdActivite> est entier sur 8 octets, <duReCreation> est durée, <dhDateEnCour> est dateheure, <dhDateFini> est dateheure)
+      //
+      // Paramètres :
+      //	nIdEmploye (entier sur 8 octets) : <indiquez ici le rôle de nIdEmploye>
+      //	nIdProjet (entier sur 8 octets) : <indiquez ici le rôle de nIdProjet>
+      //	nIdFonctionnalite (entier sur 8 octets) : <indiquez ici le rôle de nIdFonctionnalite>
+      //	nIdStatus (entier sur 8 octets) : <indiquez ici le rôle de nIdStatus>
+      //	sCom (chaîne ANSI) : <indiquez ici le rôle de sCom>
+      //	dhDAteDebute (dateheure) : <indiquez ici le rôle de dAteDebut>
+      //	nIdActivite (entier sur 8 octets) : <indiquez ici le rôle de dAteFint>
+      //	duReCreation (durée) : <indiquez ici le rôle de duReCreation>
+      //	dhDateEnCour (dateheure) : <indiquez ici le rôle de dhDateEnCour>
+      //	dhDateFini (dateheure) : <indiquez ici le rôle de dhDateFini>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      //	dateFin (date) : <indiquez ici le rôle de dateFin>
+      procédure CreationTache(nIdEmploye est un entier sur 8 octets, nIdProjet est un entier sur 8 octets, nIdFonctionnalite est un entier sur 8 octets, nIdStatus est un entier sur 8 octets, ...
+      sCom est une chaine, dhDAteDebute est une dateheure, nIdActivite est un entier sur 8 octets, duReCreation est une durée, dhDateEnCour est une dateheure,dhDateFini est une dateheure)
+      
+      
+      
+      
+      	Déclarationtache.IDActivite				= nIdActivite
+      	Déclarationtache.IDStatus				= nIdStatus
+      	Déclarationtache.Date_declaration_tache	= DateHeureSys()
+      	Déclarationtache.tpsEstime				= duReCreation
+      	Déclarationtache.DateFinestimee			= dhDateFini
+      	Déclarationtache.dateFinreelle			= Null
+      	Déclarationtache.Temps_cumulé			= Null
+      	Déclarationtache.IDProjet				= nIdProjet
+      	Déclarationtache.Commentaire			= sCom
+      	Déclarationtache.Login					= Null
+      	Déclarationtache.IDEmploye				= nIdEmploye
+      	Déclarationtache.Date_debut				= dhDAteDebute
+      	Déclarationtache.IDFonctionnalité		= nIdFonctionnalite
+      	
+      	
+      	HAjoute(Déclarationtache)
+      
+      TableAffiche(FEN_declaration_activite.TABLE_REQ_select_Euro_Teams_no_cloturer)
+      		
+      		
+      
+      
+      	
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x102f72c50762ccc0
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

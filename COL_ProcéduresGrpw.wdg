@@ -1,0 +1,489 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_ProcéduresGrpw
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1fd0961c00032898
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+     type : 720896
+  procedures :
+   -
+     name : ConnexionGroupware
+     procedure_id : 2292504971096461414
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // ConnexionGroupware ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE ConnexionGroupware()
+      
+      hfermeconnexion(CS_NOM_CONNEXION)
+      //Ouvre une connexion à une base de données spécifique Client/Serveur pour gérer les fichiers du groupware utilisateur en mode Client/Serveur. La connexion reste ouverte jusqu'à la fin de l'application.
+      si gpwOuvreConnexion(CS_NOM_CONNEXION,gsUtilisateur,gsMotDePasse,gsServeur+":"+gSPort,gsNomBase,hAccèsHFClientServeur, hOLectureEcriture) alors 
+      	gpwUtilisateur,GPWUTILISATEURGROUPE,GPWGroupe,GpwUtilisateurMDP,GPWUtilisateurWeb est une Source de Données
+      	
+      	HPasse(gpwUtilisateur,"PCSGPW2001")
+      	HPasse(GPWUTILISATEURGROUPE,"PCSGPW2001")
+      	HPasse(GPWGroupe,"PCSGPW2001")
+      	HPasse(GpwUtilisateurMDP,"PCSGPW2001")
+      	HPasse(GPWUtilisateurWeb,"PCSGPW2001")
+      	
+      	
+      	
+      	SI gpwInitAnalyse() = Faux ALORS 
+      		Erreur(ErreurInfo())
+      	fin
+      	
+      	HDéclareExterne(".\Gpw_fichiers" + "\GPU_Utilisateur.FIC",gpwUtilisateur,CS_NOM_CONNEXION)
+      	HDéclareExterne(".\Gpw_fichiers" +  "\GPU_Utilisateur_Groupe.FIC",GPWUTILISATEURGROUPE,CS_NOM_CONNEXION)
+      	HDéclareExterne(".\Gpw_fichiers" +  "\GPU_Groupe.fic",GPWGroupe,CS_NOM_CONNEXION)
+      	HDéclareExterne(".\Gpw_fichiers" + "\GPU_UtilisateurMDP.FIC",GpwUtilisateurMDP,CS_NOM_CONNEXION)
+      	HDéclareExterne(".\Gpw_fichiers" +  "\GPU_UtilisateurWeb.FIC",GPWUtilisateurWeb,CS_NOM_CONNEXION)
+      
+      	HLitRecherchePremier(gpwUtilisateur,"Login","Enzo")  
+      	SI HTrouve()= Faux ALORS
+      		
+      		//Ajout de l'utilisateur
+      		gpwUtilisateur.Login			= "Enzo"
+      		gpwUtilisateur.Nom				= "Euro team"
+      		gpwUtilisateur.Prenom			= "Enzo"
+      		gpwUtilisateur.Superviseur		= Faux
+      		gpwUtilisateur.MotPasseASaisir	= Vrai
+      		HAjoute(gpwUtilisateur)
+      		
+      		//Ajout de la relation Utilisateur et Groupe
+      		GPWUTILISATEURGROUPE.IDGroupe		= 1
+      		GPWUTILISATEURGROUPE.IDUtilisateur	= gpwUtilisateur.IdUtilisateur
+      		HAjoute(GPWUTILISATEURGROUPE)
+      		
+      		//Ajout du mot de passe crypté
+      		GpwUtilisateurMDP.MotPasseCrypte	= gpwCrypteMotDePasse("Enzo")
+      		GpwUtilisateurMDP.IDUtilisateur		= gpwUtilisateur.IdUtilisateur
+      		HAjoute(GpwUtilisateurMDP)
+      	FIN	
+      		//	HLitRecherchePremier(gpwUtilisateur,"Login","Bureau")
+      			
+      		//	SI HTrouve() = Faux ALORS
+      		//		
+      		//		//Ajout de l'utilisateur
+      		//		gpwUtilisateur.Login			= "Bureau"
+      		//		gpwUtilisateur.Nom				= "Euronex Solutions"
+      		//		gpwUtilisateur.Prenom			= "Bureau "
+      		//		gpwUtilisateur.Superviseur		= Faux
+      		//		gpwUtilisateur.MotPasseASaisir	= Vrai
+      		//		HAjoute(gpwUtilisateur)
+      		//		
+      		//		//Ajout de la relation Utilisateur et Groupe
+      		//		GPWUTILISATEURGROUPE.IDGroupe		= 1
+      		//		GPWUTILISATEURGROUPE.IDUtilisateur	= gpwUtilisateur.IdUtilisateur
+      		//		HAjoute(GPWUTILISATEURGROUPE)
+      		//		
+      		//		//Ajout du mot de passe crypté
+      		//		GpwUtilisateurMDP.MotPasseCrypte	= gpwCrypteMotDePasse("euronex33%")
+      		//		GpwUtilisateurMDP.IDUtilisateur		= gpwUtilisateur.IdUtilisateur
+      		//		HAjoute(GpwUtilisateurMDP)
+      		//	FIN
+      	
+      	
+      	HFermeConnexion(CS_NOM_CONNEXION)
+      FIN
+      
+      CAS ERREUR:
+      HFermeConnexion(CS_NOM_CONNEXION)
+      //Info("la connexion est déjà décrite")
+     type : 458752
+   -
+     name : Récupèreparamètres
+     procedure_id : 2292522125195903478
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Récupèreparamètres ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Récupèreparamètres()
+      
+      
+      gsUtilisateur	= ChargeParamètre(CS_UTILISATEUR, "") 
+      gsServeur		= ChargeParamètre(CS_SERVEUR, "")
+      gSPort			= ChargeParamètre(CS_PORT, "")
+      gsNomBase		= ChargeParamètre(CS_BASE, "")
+      gsMotDePasse	= Décrypte(ChargeParamètre(CS_PASSWORD_DB, ""), CS_MOTDEPASSE, crypteSécurisé)
+      
+      user			= ChargeParamètre("utilisateur")
+      Mdp				= Décrypte(ChargeParamètre("mdp",""), CS_MOTDEPASSE, crypteSécurisé)
+      Server			= ChargeParamètre("serveur")
+      Port			= ChargeParamètre("port")
+      Bdd				= ChargeParamètre("bdd")
+      
+      
+     type : 458752
+   -
+     name : Sauveparamètres
+     procedure_id : 2292523722923847525
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Sauveparamètres ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Sauveparamètres()
+      
+      SauveParamètre("utilisateur",user)
+      SauveParamètre("mdp", Crypte(Mdp, CS_MOTDEPASSE, crypteSécurisé))
+      SauveParamètre("serveur",Server)
+      SauveParamètre("port" ,Port)
+      SauveParamètre("bdd",Bdd)
+      
+      // Sauvegarde des paramètres de connexion groupware
+      SauveParamètre(CS_UTILISATEUR, gsUtilisateur)
+      SauveParamètre(CS_BASE, gsNomBase)
+      SauveParamètre(CS_SERVEUR, gsServeur)
+      SauveParamètre(CS_PASSWORD_DB, Crypte(gsMotDePasse, CS_MOTDEPASSE, crypteSécurisé))
+     type : 458752
+   -
+     name : InitGroupware
+     procedure_id : 2292527450955739113
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // InitGroupware ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE InitGroupware()
+      // Ouverture de la connexion pour le groupware
+      SI gpwOuvreConnexion(CS_NOM_CONNEXION, gsUtilisateur, gsMotDePasse, gsServeur+":"+gSPort, gsNomBase,hAccèsHFClientServeur) = Faux ALORS
+      	
+      	Erreur(<§@1fd0960e0001f5240001§>, <§@1fd0960e0001f5240002§>, herreurinfo(herrcomplet))
+      	Ouvre(FEN_Initialisation)
+      	FinProgramme()
+      FIN
+     type : 458752
+   -
+     name : LoginGroupware
+     procedure_id : 2292560041167632583
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] LoginGroupware ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE LoginGroupware()
+      
+      // Ouverture de la fenêtre de login
+      // 2 utilisateurs définis : 
+      // 		SUPERVISEUR : password = SUPERVISEUR
+      // 		USER1 : password = USER1
+      SELON gpwOuvre()
+      
+      	CAS gpwErreur : 
+      		Erreur(<§@1fd0960e0001f5240003§>)
+      		RENVOYER Faux
+      		
+      	CAS gpwUtilisateurInconnu : 
+      		Erreur(<§@1fd0960e0001f5240004§>)
+      		RENVOYER Faux
+      		
+      	CAS gpwMotPasseInvalide : 
+      		Erreur(<§@1fd0960e0001f5240005§>)
+      		RENVOYER Faux
+      		
+      	CAS gpwAnnulation
+      		RENVOYER Faux
+      		
+      	CAS gpwOk
+      		Logingpw = gpwRecupInfoUtilisateur(gpwInfoLogin)
+      		HLitRecherche(Employe,Login,Logingpw)
+      		gnIduser = Employe.IDEmploye
+      		
+      		
+      		RENVOYER Vrai
+      		
+      	AUTRES CAS 
+      		RENVOYER Faux
+      FIN
+     type : 458752
+   -
+     name : Connexion_client_serveur
+     internal_properties : BQAAAAUAAAAw3HfDLKaO16bO84SHw7HYfjnkF0BrV+qtyTxzF8aPP3m7vXB/USfCelFvg24tCfn+MUZ/kDXd/bg8l6hAqZQf3FoxJ0Ge5O/nd9ALTmO6eLyAo4LghDOdqHjfpQeuLoKtK4d0kzcrzRJsWyoUVLOFa3hZ8c1pCHYsMsU/c0M7udA3vEkwlqX3opK46jaF3Av9cEMJClSj
+     procedure_id : 2292560736952430671
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Connexion_client_serveur ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Connexion_client_serveur()
+      
+      nombre	est un entier	= 1
+      
+      user		= ChargeParamètre("utilisateur")
+      Mdp			= Décrypte( ChargeParamètre("mdp"),CS_MOTDEPASSE,crypteSécurisé)
+      Server		= ChargeParamètre("serveur")
+      Port		= ChargeParamètre("port")
+      Bdd			= ChargeParamètre("bdd")
+      
+      
+      HFermeConnexion(CS_NOM_CONNEXION)
+      TANTQUE HOuvreConnexion(CS_NOM_CONNEXION, user, Mdp, Server + ":" + Port, Bdd, hAccèsHFClientServeur) = Faux 
+      	SI nombre > 3 ALORS
+      		Ouvre(FEN_Initialisation  )
+      		RelanceProgramme()
+      	FIN
+      	nombre ++
+      	Temporisation(100)
+      FIN
+      
+      HChangeConnexion("*", CS_NOM_CONNEXION)
+      
+      sListeDesErreurs est une chaîne
+      // Vérification stricte de la structure de fichiers
+      HVérifieStructure("*", hIdentique)
+      // Pour tous les fichiers
+      POUR TOUTE CHAÎNE sNomUnFichier DE HListeFichier() SÉPARÉE PAR RC
+      	QUAND EXCEPTION DANS
+      		// Ouverture ou création du fichier de données
+      		HCréationSiInexistant(sNomUnFichier)
+      	FAIRE
+      		// Problème
+      		// Il y a une différence de structure ?
+      		SI HErreur(hErrEnCours) = 70016 ALORS
+      			// Erreur 70016: LE FICHIER NE CORRESPOND PAS A SA DESCRIPTION
+      			ToastAffiche("Mise à jour de la structure du fichier <" + ...
+      			sNomUnFichier + "> en cours...", toastCourt, cvMilieu, chCentre)
+      			// On met à jour la structure du fichier
+      
+      			SI PAS HModifieStructure(sNomUnFichier) ALORS
+      				// Echec de la mise à jour de la structure du fichier
+      				sListeDesErreurs += [RC] + ...
+      				"- Erreur de modification de structure pour le fichier <" + ...
+      				sNomUnFichier + "> : " + HErreurInfo()
+      			FIN
+      		SINON
+      			// Autres erreurs qu'une différence de structure
+      			sListeDesErreurs += [RC] + "- Erreur d'accès au fichier <" + ...
+      			sNomUnFichier + "> : " + HErreurInfo()
+      		FIN
+      	FIN
+      FIN
+      
+      // Vérification compatible de la structure de fichier
+      // Ainsi les modifications "les plus courantes" permettent
+      // quand même l'utilisation de l'application (voir HVérifieStructure)
+      HVérifieStructure("*", hCompatible)
+     type : 458752
+   -
+     name : VérifParamètres
+     procedure_id : 2292578642672897446
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // VérifParamètres ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE VérifParamètres()
+      
+      // Vérification du serveur, si celui-ci est vide, on ouvre la fenêtre de connexion
+      SI (gsServeur ~= "") OR (gsUtilisateur ~= "") ALORS
+      	// Ouvre la fenêtre de connexion
+      	SI Ouvre(FEN_Initialisation) = Faux ALORS
+      		
+      		
+      		// L'utilisateur a fermé ou cliqué sur le bouton annuler
+      		Erreur(<§@1fd0960e0001f5240006§>)
+      		FinProgramme()
+      		
+      	FIN
+      	
+      	// Sauvegarde des paramètres
+      	SauveParamètres()
+      	
+      	
+      
+      	
+      	
+      	// Message pour rappeler les utilisateurs disponibles
+      	//	Info(<§@1fd0960e0001f5240007§>, <§@1fd0960e0001f5240008§>, <§@1fd0960e0001f5240009§>, <§@1fd0960e0001f524000a§>)
+      	
+      FIN
+     type : 458752
+   -
+     name : EnregUserGpw
+     procedure_id : 2302609714897903089
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //EnregUserGpw (<nbenreg> est entier sur 8 octets)
+      //
+      // Paramètres :
+      //	nbenreg (entier sur 8 octets) : <indiquez ici le rôle de nbenreg>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      
+      PROCEDURE EnregUserGpw(nbenreg est un entier sur 8 octets)
+      
+      gpwUtilisateur	est un gpwUtilisateur
+      nbenreg = Employe.IDEmploye
+      
+      //  gpwOuvreConnexion(CS_NOM_CONNEXION,gsUtilisateur,gsMotDePasse,gsServeur+":"+gSPort,gsNomBase,hAccèsHFClientServeur, hOLectureEcriture) 
+      //	
+      //	
+      //HDéclareExterne(".\Gpw_fichiers" + "\GPU_Utilisateur.FIC",gpwUtilisateur,CS_NOM_CONNEXION)
+      //	HPasse(gpwUtilisateur,"PCSGPW2001")
+      
+      gpwUtilisateur..Email		= FEN_Parametre_Generaux.SAI_Email
+      gpwUtilisateur..Login		= FEN_Parametre_Generaux.SAI_Prénom+33
+      gpwUtilisateur..MotDePasse	= FEN_Parametre_Generaux.SAI_Mot_de_passe
+      gpwUtilisateur..Nom			= FEN_Parametre_Generaux.SAI_Nom
+      gpwUtilisateur..Prénom		= FEN_Parametre_Generaux.SAI_Prénom
+      gpwUtilisateur..Téléphone	= FEN_Parametre_Generaux.SAI_Téléphone
+      gpwUtilisateur.IDExterne	= nbenreg
+      
+      
+      	
+      gpwAjouteUtilisateur(gpwUtilisateur)
+      
+      	SI gpwAjouteUtilisateur(gpwUtilisateur) = Faux ALORS
+      		Info("Impossible d'ajouter l'utilisateur.")
+      	fin 		
+      //FIN
+      
+      
+      
+      
+      
+      HFermeConnexion(CS_NOM_CONNEXION)
+      
+      
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fd0960e0001f524
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : Vous ne pouvez pas utiliser ce programme si les paramètres de connexion ne sont pas renseignés
+     index : 0
+   -
+     text :
+      fr-FR : "Impossible d'établir la connexion avec le serveur GroupWare "
+     index : 1
+   -
+     text :
+      fr-FR : Cette application ne peut pas fonctionner
+     index : 2
+   -
+     text :
+      fr-FR : Erreur à l'initialisation du groupware.
+     index : 3
+   -
+     text :
+      fr-FR : Utilisateur inconnu.
+     index : 4
+   -
+     text :
+      fr-FR : Mot de passe invalide.
+     index : 5
+   -
+     text :
+      fr-FR : Vous ne pouvez pas utiliser ce programme si les paramètres de connexion ne sont pas renseignés
+     index : 6
+   -
+     text :
+      fr-FR : "Rappel :"
+     index : 7
+   -
+     text :
+      fr-FR : Deux profils sont disponibles pour utiliser cet exemple
+     index : 8
+   -
+     text :
+      fr-FR : " - SUPERVISEUR (mot de passe : SUPERVISEUR)"
+     index : 9
+   -
+     text :
+      fr-FR : " - USER1 (mot de passe : USER1)"
+     index : 10
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

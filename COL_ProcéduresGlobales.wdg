@@ -1,0 +1,89 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_ProcéduresGlobales
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1049dff72b4771e1
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : DecalageTache
+     procedure_id : 1173715589496635337
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //DecalageTache (<nIdEmploye> est entier sur 8 octets, <dAte> est date [, <nIdTache> est entier sur 8 octets])
+      //
+      // Paramètres :
+      //	nIdEmploye (entier sur 8 octets) : <indiquez ici le rôle de nIdEmploye>
+      //	dAte (date) : <indiquez ici le rôle de dAte>
+      // 	nIdTache (entier sur 8 octets - valeur par défaut=0) : <indiquez ici le rôle de nIdTache>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure DecalageTache(nIdEmploye est un entier sur 8 octets, dAte est une date, nIdTache est un entier sur 8 octets = 0)
+      dAteTemp est une date
+      REQ_selectTacheEmployeJour.ParamIDEmploye = nIdEmploye
+      dhDateheure est une dateheure
+      dhDateheure..PartieDate = dAte
+      dhDateheure..Heure = 00
+      dhDateheure..Minute = 00
+      dhDateheure..Seconde = 00
+      REQ_selectTacheEmployeJour.ParamDate_debut = dhDateheure
+      dhDateheure..Heure		= 23
+      dhDateheure..Minute		= 59
+      dhDateheure..Seconde	= 59
+      REQ_selectTacheEmployeJour.ParamDate_debut1 = dhDateheure
+      
+      HExécuteRequête(REQ_selectTacheEmployeJour)
+      pour tout REQ_selectTacheEmployeJour
+      	HLitRecherchePremier(Déclarationtache, IDtestDéclaration, REQ_selectTacheEmployeJour.IDtestDéclaration)
+      	si nIdTache <> 0 ALORS
+      		si nIdTache <> Déclarationtache.IDtestDéclaration ALORS
+      			SI HTrouve(Déclarationtache) ALORS
+      				Déclarationtache.Date_debut..Jour ++
+      				Déclarationtache.DateFinestimee..Jour ++
+      				
+      				HModifie(Déclarationtache)
+      				dAteTemp = Déclarationtache.Date_debut..PartieDate
+      				DecalageTache(nIdEmploye, dAteTemp, Déclarationtache.IDtestDéclaration)
+      			FIN
+      		FIN
+      	sinon
+      		SI HTrouve(Déclarationtache) ALORS
+      //			Déclarationtache.Date_debut..Heure	= Déclarationtache.DateFinestimee.Heure
+      //			Déclarationtache.Date_debut..Minute =  Déclarationtache.DateFinestimee..Minute + 10
+      			//Déclarationtache.DateFinestimee..Jour ++
+      			Déclarationtache.Date_debut..Jour ++
+      			Déclarationtache.DateFinestimee..Jour ++
+      			
+      			HModifie(Déclarationtache)
+      			dAteTemp = Déclarationtache.Date_debut..PartieDate
+      			DecalageTache(nIdEmploye, dAteTemp, Déclarationtache.IDtestDéclaration)
+      		FIN
+      	FIN
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1049dff72b4671e1
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

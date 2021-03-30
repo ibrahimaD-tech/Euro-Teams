@@ -1,0 +1,85 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_Remplissage
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x102697f2089f09c3
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : Pre_remplissage_champs
+     procedure_id : 1163784744058518345
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Pre_remplissage_champs ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure Pre_remplissage_champs()
+      
+      
+     type : 458752
+   -
+     name : Proc_Index_user
+     procedure_id : 1167482053645186581
+     type_code : 15
+     code : |1-
+      procédure Proc_Index_user(LIB_user)
+      
+      hMonheure	est une heure
+      heuReap		est une heure 
+      hMadate		est une heure	= HeureSys()
+      hMonheure..Heure	= 12
+      heuReap..Heure		= 17
+      hMadate..Heure		= hMadate..Heure
+      
+      SI hMadate < hMonheure  ALORS 
+      	LIB_user..CouleurFond	= Blanc
+      	LIB_user..Couleur		= BleuClair
+      	LIB_user				=  Majuscule("Bonjour " + RC + " " + Logingpw)
+      SINON SI hMadate > hMonheure ALORS
+      	
+      	SI  heuReap < hMadate 
+      		LIB_user..CouleurFond	= Blanc
+      		LIB_user..Couleur		= BleuClair
+      		LIB_user				=  Majuscule("Bonne soirée à demain " + RC + " " +Logingpw)
+      		
+      	SINON
+      		
+      		LIB_user..CouleurFond	= Blanc
+      		LIB_user..Couleur		= BleuClair
+      		LIB_user				=  Majuscule("Bon après-midi " + RC + " " +Logingpw)
+      	FIN
+      	
+      	
+      FIN 
+      
+      renvoyer LIB_user
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x102697e8089de1b9
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

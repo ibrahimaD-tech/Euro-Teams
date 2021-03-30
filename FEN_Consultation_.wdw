@@ -1,0 +1,936 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Consultation_
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Consultation_
+ identifier : 0x2ff5ce2217ab933d
+ internal_properties : BQAAAAUAAAA3FMVsq63L46Njes9TA3597/rPViRMwVncVb6NeFYIIpX9p5FPP/Zs3D0vYdzzBdsGPaeOtmG9qHjNIYh7zrq2N30fotd14XqW9lCqjv5R5TZ2j1U+i3gGqx/uX5mSyWf/a3i6JFQXjyUg6XITspNByfI/KjTdZMH7RW9jETiAU60ZMs4Y4GeOY1wHKJhRmk1LWTSwpK1Y/EeWcTAuJ4itsVrJR3SfMhtGD6T8JtIGavnTXYNb/S5wV8B4tutyEXFTFX7xJu4KpMa6VmK3tsne6nP6iYLAUwBtJB2Rrty68+PxTG/uvdQkU2CaJ8Owd7628z4omWFqrz9qWNqsehi1vNAnmvDnhOfsm4FAyytC2XFjqM6HW0U5kF1O+HdXsOMMPm10X//NdeJ/0UY78f1MyqAtIan75sfp+CnKoqHWq04TzPwBwiRa84RzH0C8F0DSpQvdh0Suo/qDZjt7LLjywtnQdze663LgHNr7csZEQx7PaVbgssdtRGFshTlkPcgdk4v6mFxGbxq0ZQQDwNRHuUaXczagHvqsctqHgfGXcm7J55Un0g6x3GVNXje/bbVDuZtvAOIjPzZREDG5qBShirU+L2esTLLPXUVaUIoJufTLmsqqy7u5+N1cm/AepflRkcFPuOYtPRgr3518cDUSvEnHGXi3bhZ9pdIAR0G/dmycSI3FK6v1u7ENsFN6fGDSXY7T6ygCNS7DIyhj4qy/yTgGk0rgBqwzArMMqlA+xmVJSRXE2CSkrcv5NBLwmTEzXK2DniKn8f8eeX1PtPUXHmn7uEf7QnEPEBYymR09Rjwc5kOmUaMPAjGSsrfAnIkhR3/jtekDjg57yH4oBd8Ba6DOWpbrBBn4UzmBNHdDu7tL/fmq8N6jxdcgvLLPkLMNIld4iAdCTZyRT3qfSKazxiskO+pzOp2DbmkEAs1XLZC0+6vi4Mq6nLiTewzkZIXySSaZ0iZb/HlXKJmgRXsdGfqOWyfdEwdrN0nDK4Z+vyLjW7C3vBtwpOJxcgnek807EkkFdC5LIirIL/lo/LsPA3lQ3UJimIvnY+JvWLNmwqfeYqdaTuytRE00B3etedgiZxNgGV352tfHeOVEJAJATSyoe7YBBIL8uScZv8YMgtl0E0nJFj4CXGd1nfmFdgfIPQFBZ5LGT/TReClIyIJ9SsLJ/aAx2fae3dtl09iMyy0jQuSmLsfaacBsCZiiigro7sD6VmNJr/BGRklXe7dHmWAmsC5xJNGk8+iE7rInaWe9Jv3dGYnz7Q9YTaE0n57ktwyR0+QisJutKIxWoYG0ilqstXZLKSUoEUX5DCpbEbw8FrtWEVlzvnCd9GHZV5i+bUTP8HuX8MVfRlOra3EL/j8q0ipCFV+FQczrasYreCl4ajEqSADHOujW2KdZqPTfz700hgL4tlmif/BEN8wmJw==
+ controls :
+  -
+    name : STC_CompanyName
+    identifier : 0x2ff5ce2217b4933d
+    internal_properties : BQAAAAUAAAC6AeGuWfFJ6VJ+tGjS0KS64bqlLEd7qNBLgPeEiGrGhjDi0LEl7+yBTerIE8mHbzRgatI768fz9mr06Fd82V9qfiLh3vPGXyybAc6xaH5GBlcYNZXrrNwHMShIK3MyswaO8rUsvcERc0bzElnEZjAWBpC43ZFSDQI4yCmMl1r/sdkaP3azKlKPvySvtSqbpb0pOCInrRj6r7CsD16xBtBHAPNuc4YjNAzMdr0LYu2u6cKOPneFVFEGtWJU4zUVJvIJS3NhBsK1KXpwqdLwKy4a1UcHnz+X6AIdvNkMxvc9gK/y/qETWjY/pma4u38fD2PBNmxspfK6l5OEigsI91eqRdhAltXGVg1axUXPa4hXD9Q6d8WiCsce/91FNg1gSasP1JsO3MW4PgHHyxVICmTNfGCjgV2CPVdL/KA7UaR1p7BHl+s9nBpJ/UigS5ZzMVVDq04cp2kKGGpms+Z+C9cxvI/hT7laRrbpLOGsZdLCmgBX2Fefu+S1LokJiWMthzvoFXNFYlddaK+DPfU7v7c355lks4cpjzhcsaFDU+Hx9gso8/Ezt2LYFCeI+kgHdpeyvuFZgBSNEb8+fmwnjA==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         //Exécute le traitement défini dans le modèle
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : STC_Slogan
+    identifier : 0x2ff5ce2217b5933d
+    internal_properties : BQAAAAUAAAC4657/0e2v07Nvy2WEOq+gA+w0xCe+0u3oBmHj5sq8inl7e82m+mhqJ5yRHycBoKNlfHy5BKN/BhbDnJia9op5OCS5dtYAP7Ea35oWuOEVgIlgR6nH5IfXQOZL84EnugakvgcUFgsQxUk3poiG/nXPqVJmEyHV6gtef9gmbq1JHgMBbx33lE8TCObueKwZ2GNdzUQ75QkeAv2t78SR7ZyEv6MZ/HKdnGFCuT/VrvEj/+JtdObqmrWmDp0Q5uvasZeefhzlBei4CAmJVyBtY+QNFpDDaOfy7QH8NwMxDemLT6lKWccyOswmZVDRD0vno7rSoMZYc4fI+XKdcYPt+uxYmr5ZM0McDBoAfPmB64apkJU04XjY4WWuYq5kUoXaCEuxDI8wAo2yWyZbcyTA2XVS8k4dqL5ZWuvjciHKgm3vksdfSUeDRfYdLL/C+B0Oz8B5z83ulQ63EiuHVI4oi5gBt1TdvHhMlpk70mzlM6lsMSa6Rnofxq7QruKNHKY+aargZtoEbnWb/0aAV2gVkCtsK5Pq3W2tMbwa51zbA3tXPvYrZtYq8Wod0hVpiKDZUy7Zo08TFw==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         //Exécute le traitement défini dans le modèle
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Bienvenue_sur_Euro_Teams
+    identifier : 0x2ff5ce2217b6933d
+    internal_properties : BQAAAAUAAADcwWXRfPGmHuSucxvDX61ihSDUTEcB5KZZ51w+PZ1vhHr5Z8lq7kl5/YAZNUGz6xd9XuIsMsuDr1pFPtT0TTIDCygTS1qvba9OniAVQVnNBEouiSZttuVnND5GztDJe6UDjuEAzEXCXajZJfmnHYpvnLQ0GOWaZ9uc1eRQePGgZ9ZfWGfE9fl/JW/h4mKaprG1MApen+3A98PlCnHWdt5LdEnnk5q8y8+NFTWhHUTEwHAyb8lQ+1LW3deW4W0ey3reRQw1BIo1gkE28iZf1S7Nj4qYHP3gEe2QWMNZFh2+2TL02gsrE1XvLzspX6GfrAspc5wV7zGJZ6wpEBTMMvTUkZPzOrD2i5d92Lh1PUhLx5VC0CT+LRU75hmvVXSClJP48u0U2bKbAs/n9hYEtxpz/RlfIVWahYukifiJaK5PDswuNn4Fxa+WB5OuIQCxf68zsJAKmL4LlqvdGoj1HVlEIthdg8ojdVJ/CQNA08vJXOCsqKAxuezPy6bd4sYX1wsYJltllz3g9pnYEts4+w9sYOCPdZYzd791xfD7xgl29+3iDCRHHPuDDiy6GPeBdHkskitQnEHyRVf8FiEKd7AmKmzffp7LNCf8n+7zb9qgRX7w6TeCQzsb7vUcduGP1mAO/AcWoQl2S9/1cVvdqQG4gUOUa8WER9XvdyHmUeFtcDlpkpp3OisujwkUjcrMOasNPJ+xPD3PIwSfqq8afDpAkqLQkLA9cGMXWJF7WEuRPL6hcmgMz+0JGbHceLD69Gh87aI1MUuXLN+/2QhmWWTDC3poGu6Rfnnq0aW1mckj
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_back_consulation
+    identifier : 0x2ff5ce6a1891aa99
+    internal_properties : BQAAAAUAAAC9smYuocui9r/eO7UOkViyOAhFSO+6lJKiGtjz+aw3xMWP+sZ1hpX/LRTaqMHpsv7l98iQowfSKssMgiPmB0Oe5M8W0sub0vUpTM6iJSp7RXzUXpzE+ZVttehzNrNDgiPOkAAexzIU7L3M24JTooNvf7HvO+C0gxSGxTlMgXjEDSWoCpwxLo4y7cU3Vs6mBSYfqWUb4//8i/8UN0R9cbiR37YV2jD8q00j54HsiVDzFTSOoiV0KbcaYOgawcRC2O7DVOBSvOEq1A5Y759RdqRxBpv2eJRzLAwlhYLHCSQcM8LR/6eJVPtpJckun7ogurptsUktncCABIL8y0kPLgYG8DYDpLuaKE1tdXG3PFvPgiiqtjzs7A5J9iCYPa6iTzv+ZXQf6aBaCouBQ+9aIXImaXnncP1E669Zb8N7LtU9j8er2jx61t+fEyWlkjwRck01yvm0TTB8FPOOI2fPuknTVKT+03dZmMLB1p4a2ef6ZAmEQdhDbm3Cj/SytR7oFdvGLQEOa+RKMR2VVLOsfp4ss5dO8tPRUw40oxF7A28fVTHApyegaviZGi16YEA4nStaHmep/aCrflWrLjfIRbdNJidL9T+3cnMohijPMJO1skVl7ZAOFdRJxOnJ5TeXU99z4QUvFXK1dVSzNZ/o2GshdfMIbcxr7sF8Xamr9El2X3hpHBn2uZrgiWGx273qaTELiz19f8bVLkQwxI9asqudQ2lHprGclJ3BEjYRmpn8WiaFnvwlYNF7mjdfhTjgwT6WVs+1cmeW0+4TGWIYfI0tsk1O8ktl6VTx3vSnYbFvNYhXG6mpKHqyRI2geRn5I3ls2XWewkgSPRsrRvRgGzpmXXYAkf+rFW0ZCyU+EntuBhDGDO9qhYz74pluOFm0TtXuW+ibpMtAmoj5kUmvzmMJdx4EreDIWfCRfXlKNwxzEhrU+hse/VHFGC3gWYzG4z7wT5b77QqhYX6qWEEKMZwk5gmnld/KFfo2WaYqdWM7zgROCVI36c+t7voWg0kakb6JDjj4zy0cd+VlPsCfuYEhgIVwP/2HQ4Ai+9wAoLAwV/pXI4Mp3Zw9GDXgMw2YvhvNuegNvIZ2vjcohV0ltPHH7LapuTPMdiwoEHsQItXh0Xuaz7UOp07kaG/swMaT3tDzRv6AkfxxdsO0vA==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Utilise(FEN_Principale)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PLN_Consulting
+    identifier : 0x2ff5d6ca20f361c7
+    internal_properties : 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
+    type : 80
+    code_elements :
+     type_code : 112
+     p_codes :
+      -
+        code : |1-
+         // Ce code permet d'exécuter le code de changement de période à la fin de l'initialisation de la fenêtre
+         // Les différents champs de la barre de navigation ont ajouté des traitements pour se mettre à jour
+         // Le code de changement de période provoquera la mise à jour de l'état de ces champs de navigation
+         	Procédure interne MAJPremierAffichage()
+         		ExécuteTraitement(PLN_Consulting, trtChangementPériodePlanning)
+         	fin
+         	MaFenetre..Traitement[trtInit] += MAJPremierAffichage
+         	Affiche_Consultation()
+         	
+         	
+         
+         	
+         	
+         	
+         	
+         	
+         	
+         	
+         	
+         	
+         	
+         	
+         	
+        type : 14
+      -
+        code : |1+
+         PROCEDURE AvantCréation(rdvCréé est un RendezVous)
+        type : 135
+      -
+        code : |1+
+         PROCEDURE EntréeEnSaisie(rdvEdité est un RendezVous)
+        type : 136
+      -
+        code : |1+
+         PROCEDURE SortieDeSaisie(rdvModifié est un RendezVous)
+        type : 137
+      -
+        code : |1+
+         PROCEDURE Sélection(gRdvSélectionné)                    
+         gnIdRdvMenu = gRdvSélectionné.ID
+         HLitRecherche(Déclarationtache,IDtestDéclaration,gnIdRdvMenu)
+         si HTrouve(Déclarationtache) alors
+         	
+         	HLitRecherche(Status,IDStatus,Déclarationtache.IDStatus)
+         	si HTrouve(Status) alors
+         
+         	selon Status.libelle_status
+         		cas "En attente" 
+         			MENU_Consulting.OPT_En_attente_Pause..Visible=faux
+         			MENU_Consulting.OPT_Reprendre..Visible= vrai
+         		cas "En cours"	
+         			MENU_Consulting.OPT_En_attente_Pause..Visible= vrai
+         			MENU_Consulting.OPT_Reprendre..Visible= vrai
+         			MENU_Consulting.OPT_Clôturer..Visible = vrai
+         		cas "Pause dejeuner"
+         			MENU_Consulting.OPT_En_attente_Pause..Visible= faux	
+         		cas "Besoin Aide"
+         			MENU_Consulting.OPT_En_attente_Pause..Visible= vrai
+         		cas "Cloturé"
+         			MENU_Consulting.OPT_Clôturer..Visible=faux
+         			MENU_Consulting.OPT_En_attente_Pause..Visible=faux
+         			MENU_Consulting.OPT_HELP!..Visible = faux
+         		cas "Reprendre"
+         			MENU_Consulting.OPT_En_attente_Pause..Visible= Vrai	
+         			
+         				
+         		AUTRE CAS
+         		fin	
+         	FIN
+         	HLitRecherche(Fonctionnalité,IDFonctionnalité,Déclarationtache.IDFonctionnalité)
+         	si HTrouve(Fonctionnalité) alors
+         		si Fonctionnalité.Libelle_fonctionnalité = "Congés" ou Fonctionnalité.Libelle_fonctionnalité = "Arrêt de travail" alors
+         			MENU_Consulting.OPT_En_attente_Pause..Visible	= faux
+         			MENU_Consulting.OPT_Reprendre..Visible			= faux
+         			MENU_Consulting.OPT_Clôturer..Visible			= faux
+         			MENU_Consulting.OPT_HELP!..Visible 				= Faux
+         		FIN
+         	FIN
+         FIN
+         
+         
+          OuvreMenuContextuel(MENU_Consulting)
+         
+         
+         	
+         
+         
+        type : 130
+      -
+        code : |1+
+         PROCEDURE Déplacement(rdvDéplacé est un RendezVous)
+        type : 131
+      -
+        code : |1+
+         PROCEDURE Redimensionnement(rdvRedimensionné est un RendezVous)
+        type : 132
+      -
+        code : |1+
+         PROCEDURE Suppression(rdvSupprimé est un RendezVous)
+        type : 134
+      -
+        code : |1+
+         PROCEDURE DéplacementRessource(rdvRessourceDéplacé est un RendezVous)
+        type : 139
+      -
+        type : 66052
+  -
+    name : BTN_PeriodePrecedente
+    identifier : 0x2ff5d6ca21136235
+    internal_properties : BQAAAAUAAABFiupnZlpWKuYx0soHzSkTzyXs9BnS9fYxTEIJnajST4K3s+ujQWniZOLeUdpvPRRi2zv93LMx9VKvAVjsKe3kNtIvBGcHLIr4+4i5n6i54wFMCbZX747VuvO/3uU0us3G+zzbm7csnecKivy2UdLfKOSeQX/lgL/y4my5RfAZKibqYFDU1265MnTF+hpAAbQ43A/qYBYP+Zhqs8OEkVc1W533QwjlUspCRnmNTEFPNkPyk9/k6kieqejhBfYHZQKZYg4i6I9S8tRrJ9YbAeGAjT0xBvBGWqTts87ve6pO0g3G3FCBs8bqvbLv0VsmyAC6AFH1QqYw/22wms5o055oWchMbxRBvj+NSKgQlGpUn0/stmTW9qbYAisnyp6OIsvsFgZFjHXMbloWF1loVWeVAEi3en9wbpageT+BPklv0haMTESwMHRjuVaZ9/U6ScNNfHodoU+sawvJeehy98iSaRpQaYIWb0ywjpWKeakW9aSTy4nd6BgvnVPZN+yMc+jHQz8JBgQQaUMT5ubLZlIkgmuNf0gW1t+WDzjavJ82/sRjFZ29gtCnZXr5na3cCuJEHX7B9wXnzimeDrhDRPTd7IdzzOHH/86nmuzpho57eHNk8MoSdolRK+RMBNJ8ID+Q4mxppK0o7ZJmuHaKVh0aO75TLVgcRuF3At6xcZqhuW7NhsKMrSWn8dMI2glrlFIhqlo04MpOdQsZetpEuzgTCOMUVBSQ28+AD+XEdz0NdovVNepBQ0jkes9NbftdLm2/l6BlwwuIEPbuJcLntXt01MN3l8yyu8VcG9Et7ePDE9OrsAqLuqe0YRSxmUQXaaltVv0Kc5MDh4sBX7gvEIMjIfONAtPYfHqtixUwrrU1yP8SktAdQbNbtu6qOSwy9q+YgovLFnIyqXJ1yrgZWZRIF8svMWz235n/Fg4rzX8BaJaXGLqSXUylUoDJz76fWkao4s68Gi6XYkAuUKU6EN4LufcnRraW9KIroG6y5kwMVnkodWuFg4bE1+Er+hexEpCsoPl9/p/I08ePcg1R/d5F2ywhy7aBnHw8SAUB1v8eOFMkBrQ7qk14HyfjrFlm6I96QTphxUf3AFHOhecDpymWBvdktBONco7RtsODaRPutog65ZzLLoAcdUP/ps86g9FzMTyiWbb0m8TTRC3gxBNg8ndpV9MQqTssDNGmSM9Axw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         PlanningAffichePériodePrecedente(PLN_Consulting)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_PeriodeSuivante
+    identifier : 0x2ff5d6ca21156235
+    internal_properties : BQAAAAUAAACDP1NFlsZtzZWi96JBfqvcsDPSYbm0ZBhVReI2rgB8WoylvDqa9aMkwC4CpmHdbQdcdsBPdbojxRcyV/dbmtkWtyZbP56KEEERWdvKb6nnE3QOjpzT9LqA4tOiU22/2rPHXHJxvy+VYjlMY2Q9OjQ76a8JmuBi92MmyKCfvCA2I20SGMiK4n5LGQDm4rjwQj27sQMpTne287ONDEierTn0cEM75sxAB/JAhmusfWj0+BwoTv8plsyDHJyICc17nU99WJOXDbXY5DYnABIXcuXbtYpG1GcVagbuuvOsLoOmFNcq5yLc9G/7d84kVL72NBtdhUejY94krCgMqH3OD9MH0VMQSEY81IklxLVwBw5pRxBvomjPq49hV5P26hWuXnqjDwU8+qJLtY5w5KoY023EcDqPExT1Mo+hzXvY1AUgUYRPT0qYWFSM664g1Ju9oc3duOojf9KJUZtOLcttYgcR8VFs445c0ZrLxVPKAaKik2LtwVs8Sdc86mIK20DWXwoOfMf+kFaSyn9qk5ggXUEFXP+5qHqonnyyNXdxzFaDHACct/zhJlaRCx6+K7qmOT5tYCTOMylcSo2oSQX5p3TMe6DqKZBa1cG7lLiqAgeyOE6ReVgRxT02a7F4DEZqvRsNOvuQK82r+LPzW6/eQ81TF/VsTrjh+g7kBDBeyYKyfwgBtLiEkaLCkOHKt8GDhsa40n4D2hj2eqPMSB+bZi7dcdvGR/0ntrGdxmq+R7lyYoieT6MXM+th7furrOlLXKHD4eAkVT4VuvyrRB/HJz0Bpu6NKCL6CAxWCQBDaqnn0+T0ajfLIlRjMhM0x03ysSFHVl9boBDDUJVDnm2gLAGBmFU9vyJoWdoPyFOdsemf96mHQCHUrHOcfnPFVdBlx1mdcqCT74g0J6GQie2oVvayZmBZdePvRjZiYaKrcTD+Wzp+tDRwPFI6CHQT28O0T/hgyX4HRuhonZHDryyYXEIbSNbesVmak3L0KsJTtcjCq66o9RddY6+EQF6phRpCtiza1dMPvD56pqKBwz1r7eejKVNa4kKn1ubChisINE/rHFTDblydv002gbLT+XStUiThXACSg+202GMLDQ1I0crkPl0wPXccIyiXMJrx5ka90FnQ1fDUepHQCPSmBdF036jdZP/pf85XDyhOpc3/fEvcfoo=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         PlanningAffichePériodeSuivante(PLN_Consulting)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Mois
+    identifier : 0x2ff5d6ca21176235
+    internal_properties : BQAAAAUAAABVLBy9NBA3NIyM9ZgaHxIyrVEQWdcmVxZAlbUz2z1e1cYiNMM7gof36Enwqezn9nX+4VG57gPjSTtpLfJp7+fWSURTs2STr5o/HCflfZ1p1TwB2csPvmGso15av7T6KIaVE5ooqCXnLWHZAq2PdDxU3EcEP+rJQX467CPDR2d1EID+D7RSvLq/hGNzQbBhQvtC2mkK7aZUqvRgIiuwQosVfzz/9zebHPEVstbJ6noLlbjo9KtUvBWEnFF6C/ZUKbsBhF/bF3iAVLsuKIZaP9AIuXu4tuoXXxyfEbgnTRH+L0pSrJ1y/IfeCJyD2n9GGgDnhAanNOAbF7wjwLe0vd2M0ug5zdgL2j/aGjVgzzA4OKHtJ4EqPzXRCnVU+7jPBp+DXPCB40U9ppy42+X3UocWkY2LQDCnANH9geX1ZFmIvmOguYb6iE6BlpNkvMP7N82OrLJYes5XucuoMmlsi9l1/WLt78LGgILMsHS9Cifwy9P6Y04UMp1v0bA8Cjw4kBYprY6YV5BdTeiEC+GqiXBkQDMIxChsdI9MQx3Yxa09WnaYBOxY277+FJGIWtHMqZA7UnhuBpn9zEsS1C5tVQE8b/S83RhD/mTjVGyaHcTBSVJ2cly7L5YrmMLk35Sq3FPZLKl+Y9KqpGW8yoBKjTvlVDPEW5hlAJ/w22f6u+aORim8QKrS54Rjn/04efTf
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         	Procédure interne MAJLibMois()
+         		LIB_Mois=PLN_Consulting..DébutEtendueVisible
+         	fin
+         	PLN_Consulting..Traitement[trtChangementPériodePlanning]+=MAJLibMois
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Semaine
+    identifier : 0x2ff5d6ca21196235
+    internal_properties : BQAAAAUAAAAXttdG3i5/OIqi2JoVovlCdt2rAj4WzOB96VT4cgpgG95ISXjFoHetBxW2jAkwVaf8GkSbnk+HyOJuTudIUuDdhiTPrJGv/nOgemJ9NFqsPwWZP+yyrzDu2J1mA/4tMjb1jmKr6K1My+ft0vYI4NffC0gSUVfS1hIcemUFHzMOfkzIetrVj+E24jk9KX8mFIZ6lhPExi+++xcaclabPL/pydYX/uuwvK9AF1I7ASJUqtUVMdlatLl0aJ89Q7Sy0ECVrcj8G8dyp3Fzw6Ca97oc81c3ZZSOL9Y/Ja6ed2S/K6G1WCMyFZXjA2bfHMy3pfDJdC0JYtzLuGJ1wAxYx9/74f5WJqxmGM1yTgCprReCbJh4rma9IMSFFg+yn9Y7+a7dO4BcsK/kc98I9maMS2WKnh9+KX5LIWk5H1jp/SwNzp5/1OXliv1GAR8IKRDv4pFYlcCTSf1uNbQEm3v/hhAbSuUaTGOrC35YC7650zgPIn6WCBEYfFiQpMTNp+JA3c1NCJSGUO9gSrtUFQCDDJau5zpuPBpXpWBfY/s/ni9m/qgCsY6NagyPkky5DU1CFOME+bRU4AsyY6XSYBa7OCo0f/7UvP6Ee9KBloWerrkK0F2e08hbj2+C4o3tUIQ=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         	PROCÉDURE INTERNE MAJLibSemaine()
+         		d est une date = PLN_Consulting..DébutEtendueVisible
+         		LIB_Semaine=ChaîneConstruit(<§$000d§>, DateVersNuméroDeSemaine(d))
+         	FIN
+         PLN_Consulting..Traitement[trtChangementPériodePlanning]+=MAJLibSemaine
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_Jour
+    identifier : 0x2ff5d6ca211b6235
+    internal_properties : BQAAAAUAAAD44lxXiRTXIGl5gBOedt0eoNO6LpE2XedG5ODtNM2WCL5HARAUYpc+M+Bf/7nzdkkIHzOSqj7hapnzHqsX2xJTzVjdXe+zX9mCwJ6y9nmDLPUp6mcbPfR4qNzIVkhN4q5jwFf1AYzHposQMz3kgC7dv+hmvbIjTzAonL/FuEGQ28YoKp/dG4BI16mLkRI1OEFfVQeW85W5xUWAbfD8WuQ5qCmSpntp/k0cLEWtS4tpwohAQMvc/IpkuKBTEnEwvCfr/nO8JCCLnLUniw6Sb7ek91Rq7YOftyzVSxqJBkppnz0yOgD4XacNYfR0/RmfJGdHAdK0aCmx+Mhu/usmDSVA0RxR5dVWrKDk337TqqIDJgYLdQWRXgAHDVcTdxSUIxUxa1arY0RA1FrwIN0YgMUWMTPkGJVQMFP9g3GXd8JNk6t0bM3egqljKfd5UWYWs562mVgZETlpqxqFLmDwJkcuXEF/vjh9gXKNSB3n5365iRcPd5quQ1cCQIaEKlgEk2cPQwgH5HTuN1TXGLb9a8Gq9n2xFsUDfGWLxiCTGZicJ5erH4lnARvkj7bMikGECF4y9+YJiKaWbfi5mvz6KbY6LE83//AI2V2Wn/dUG8CTfHufbbh+ititALJfQV82DsTQS1FHta4v2WVCNHDa0R2LiyWRTygpwvYG35/iD0NBYTHV1wRkZfTMDPW3IvBwI0P/AwV1tqqejNtionTuU/PlVyg7KSi77GG8f7Jt3qJSJAASDMuF/eTrXWb5wgdbGenbfsbrY65epIfdjIlJY4b2ruNlq386WMgtsf7/RtV87TNbB96xyltmecceysM8NAQVWPYGlwvdqwjHXsvoE6BCR/Sovr+sdOsbZ+FRxUilF6HCUXgKeOoEBMGU8Ff3tgA2ce6fg+RHBORwHF3vDxSMl9iw53tHqBvUfA2pJbvgQt0sq2AyMxRSHDoSD0tRfr1AfYfQcgRVyNxCrZznZUWB7OE0BnEzCG9BNrKQjxZQyKh+cUBIT8UGjC3K0eqqWreHLxGGVp0He4H8V3nd5YMtymHUd+0cohcmjUQx8FE+0/X/aj0gW/cfjzugWDzTIGQmes6iiwFssQ6cCbJv7d3nVGAXC3dsC/oVrKU0nTPiCCyc4oo/3kCbAN1pn64NikZ1fagIkTpYyJjQqm5C19I14bR7K65gU7E1DRy3
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // ajoute la procédure de MAJ du bouton "Jour"
+         PROCÉDURE INTERNE MAJBtn_Jour()
+         	BTN_Jour..Enfoncé=PlanningMode(PLN_Consulting)=plnModeJournée
+         FIN
+         PLN_Consulting..Traitement[trtChangementPériodePlanning]+=MAJBtn_Jour
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_Consulting,plnModeJournée)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Semaine
+    identifier : 0x2ff5d6ca211d6235
+    internal_properties : BQAAAAUAAAAMFjkJc2BHWBLfcMcHhS/bKhC2J3dhSQcKOQq/AlmECO5G5INTxSJvgSHhb9VeG9LnfX/St9O78r2TMS7imXlkuNC4mIXSudfmyFWfeetCZ1e0P08VFN1P67LOjkGqXTYJD6/Ot4gnuMAsbyJk5FAPbhk9dK56y4cvziGAgBNWa/DK21pqMs1sP76FGO08iqbC+foeFyxWDQEIvdQX2UjkDRTk2iy5SEmH0OHZq8LGvc0j7SKoSHzBF/HTI0fJ1Twysg4x7Fc5coEesPV+KckR0vytIDKpzQMCUkxODof2DsLXe0f1QDYiAZtkyOi0/NmeZvk7uPGkp0IP75iQ44fLVw5xdEMmB9zWe78ld7DWQa6kaG8TPqxkFQVShYTVWtXWf45z0RI2ge5fJW4PNlYMzjOpropx4E1UDpXerPkHznDnMsmZxzJgDgSxQeQP0jVZORc+gDQZRSnIOQdZD2Ti4M1i2KADiPlMIFHr2CGdc6G5Mjm6pwRHmEzrukYW/F43cTsX36omnEbSjLSbNG/XKkLLH+ieGrR4e/oM+lLzm7UDO+XJS7WHpuSFu58kVe6MuZHBFozPtkaRPREtx20sinDXvxahX4KMIF3uRQyUf93hZLdgHW5K4u5tCJJP6z/Jp3CQ15+BQ+Pt2DdD74H3MBriFbSMuQCNm1S4NN0vdFxF3ldcstmQ8RwySmBn5Iln8Z+pwuIqXTtPAQXKNOO8nCpsFfWtXrpvTv2h8RQ63bGDERUUeDWkFJjewhlpHQ7i9LoSDXkGlgOLK1ghSuOicwMF6FT6mWL2QI3qSGqQWGDPIPmMDOo2G7EGSlhsZFfSzuo2pLK6ljmpXmHfpzknYUMnEAOAfXLIbs0n4VduWiCuOcWUvqMOc1QBsmNMcMtSOV3b0hgkIs+YTN3TXQafuumKu+w3e45GM0MompIitJ65O8rBLmWIRrLZOVLQU9xYUyXhb0GKO3vCP7caX67JRGYR6z31mF2rgkTA0EByCN1ysJCun/BA0buGoKqVTV9v7uVBBmk+Jxwiy6kexdRDP3ff4XAtkw2iBahAf+GX0B5xdEiOeGhLYsmnUBRt+Cor8Q91kUE9QtEYg9ICmKxh4t5K5nSkywrWkqpNRXnthF/+lK5IT5mJobvI8cyO+1LpmvDjm1q2zVAM6NnAfjlTIFQ9hpQ4jw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         	
+         	PROCÉDURE INTERNE MAJBtnSemaine()
+         		BTN_Semaine..Enfoncé=PlanningMode(PLN_Consulting)=plnModeSemaine
+         	FIN
+         
+         PLN_Consulting..Traitement[trtChangementPériodePlanning]+=MAJBtnSemaine
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_Consulting,plnModeSemaine,7)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Mois
+    identifier : 0x2ff5d6ca211f6244
+    internal_properties : BQAAAAUAAAAoX3QwcFD3jN6ZistOag6n77PoaYCrHCxiQlphy9OvcxMtHJIuXxtwND6MQ4Tv8AWoYq0LXZFIx+gLypvb4cpydKDeZyEFs/CqYDvwTg9umta7LBCMuqE2L5HKxReHILDhsvvSoI3KDzAEm8O5vJAn6+rvzQE/gbTeNYy/D42Fgi90CHpbQb4zP+2enABgYzQgGL3ZqZ4E/i3GObvPfXYCYX3Oib+rCHxun+HmwUCogMSbMpJj2r1svjUIaF+MHhXYsYA5uDrIfYw/GSgl5/JdTn4wGTQpCXcMJ5WnSOAbgt2bEkThcRr/xp/FxJjtfkSJonwKBlRxsHA6/aa6lMkNtH+5eEtRYqeHg+7Hewz4M8e0juQj4QOv48N+wdTX0LDOqqAX6v7N1HprKPvVqoWT5bNTF0qOLKNRDfNzumRDPsSvp85UEKy6o3YjoEY15bauEFCnJ4E/+1zxPX0fuX0snvHsIZPZ36cEtzQi8Y6kZ9CteX8+CPBxbT1a20t+G4cBsxDUAbW89pzRnx7WLeK69yD5kLUNgVrKcNiUZvYUpCU4My3e+TxjzTYw29ARLRZNbSrhsikf2hbDi92x6i/R0EEA7nx56OI2Yi/2ajVpB1tD+wqtcBd/F2PyH+74QV8IsPb/8jPkXBtkP+G1ydyEYaVyztOALhW/uteBlJEREOrxZ00gbsHYeozF65Txxw9DglRJaK5ZuTXq8v6AlK4xWLO4oY/ZbKnYgNcmtiV1hFmC0i4LPofeHWrdbS0KxFl6dLaXCvh9Zq6fc1xCw+yjLd4M0oBtqfxGwsUEjalVOz90weKDJrj8bAZuOHmAVfZvVwLQJA/b1SZ2f/IWIsj0P6t4+GBGYP1cEMoUIUuZ0gNa0qoh43L/YRFhHK8R88X8ZLqA1TF9CAvL51HBNyirG7IK06CK6PA6M+VfLHnxn7br6dmTeQdsJDoTZQVTbiki7wt7j/A3WOsf2Oy21xzQ4mlZYOjJSKDbw8E5EcXVxHBpfquXzRojIfpRp8gJBc58smQ56BwvE0t0kVWnKFf7yB/Claaqyr9Rqyrk+IDDzGub+eIoCUOtcvKOneLeI1zs/TiLfVpyQgYkyxQ8ekoaobih6GGO8V6w/wvCF0WDiT9PmKFFseHqdWMNjEcZMbPJZ7rBj4lzme3OvgnDCXGWu9hsEs3K
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         	PROCÉDURE INTERNE MAJBtnMois()
+         		BTN_Mois..Enfoncé=PlanningMode(PLN_Consulting)=plnModeMois
+         	FIN
+         PLN_Consulting..Traitement[trtChangementPériodePlanning]+=MAJBtnMois
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_Consulting,plnModeMois)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Aujourd_hui
+    identifier : 0x2ff5d6ca21216244
+    internal_properties : BQAAAAUAAAArHHywRt/Ki6N3lzd3YjMhfgRw6Mp/AsmxrH1FsArQ8xFbeV1MWzAYdsq2JtSyaeiF3cA7qGZlBEg66nZu8tPtZbxb3cFTMgUp01zINR2lKX6NO7I4mYKYsr+h6RMqZ5sBRgavmwOh10LL9AWDda3i8Gigar0lD4UVzOldi5SXbxW1GUwtqZF0xr7nbMGXk4yHhS/yRKlhkpdvox8he+z3GgZm1coDfKXTqsONz79UsxW1WAKJWnbIYlaquNRAelJTpSReh2CPUQvaART4tZBnMxeKE4rywZXtJRGfhsfMg2FNFE638rdol0XH0GdNgugskojZInVNwFmhqDuDK7GVSoPMDXsYh6UpbBPAwjEpdSSGficMQDRXePGHHS1g7RV6BS9dsW87pyBP3V/ZionlgVPBqE8dMf8qggL7rx2ZCUxoXhZTtz44gF3fLCkxoCofLxhp1w4G1LFmSDHTAE1GQaWLsFgZx01uB/BI8iKthoHYShOnik18xitJ+r8eFfsP8nt0P4S/ET/9F96yeENEJ31OtRDLp7T/Ik+UNdAoGdeTWSc0YznExfXOZaJZ3MMvAwaM/x/EZhP0kX0xDzg/qiGmQ15It4CAu7BbXf/uWedbQlhjdB+BAQsmz7SvRKnPDWYhw5ylTPEeq2FmKnps9zmeVmCw6gzvPt1EsSZLknHP8BYcxG57VILhNHX8NNbsqfgDmdOYU69w6XRkyKx8yaFtNiIts8d9uOvwX8wKLUGjXaY82RG6jI9g/OVZHmXwKAbxa5WbHL/cDFT9pq1Cp7jFGn2U7t4uxuJCjCcsFTVjH8BFxmlWwuPfHDVWgUmsHg2oNTyPGsA/xHd80UtP3eaUTqQa+eVWrRV0HlNw4b/yDSO/JjXt/gpLZxC58uf8fgoHkvocSlh465oBGh+k6qprMRgvSIH++KEiak+yP1FJZ+EkpFJO/r3indP9uQ1hiOaHCPUL4d/PEpbiWbtcAbkYW7NTah0xbA3QY6fc/FyF75sLylp+n+xUhVYFYnVgewb2CZxNpF9u2/9F78gpTBDkQ2mY1FIu+KrDDvVdOX9pUwgnIfJqpMqxAeNiTJWxkNTbLAslGWn9ejUbbx88MOQMLzUJBTPqJGkXEIZOEoUqDIv/QhXxHWWFBmEXAY9y1f48CxH80VuEfiONxt/AuZPiuIw=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         PlanningPositionDateHeure(PLN_Consulting, DateDuJour())
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : GRF_Visuel
+    identifier : 0x201404a61c371746
+    internal_properties : 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
+    type : 33
+    code_elements :
+     type_code : 72
+     p_codes :
+      -
+        code : |1+
+         //gestion  des couleur dans la légende 
+         grCouleurSérie(GRF_Visuel,1,VertClair)
+         
+         grCouleurSérie(GRF_Visuel,2,JauneFoncé)
+         
+         grCouleurSérie(GRF_Visuel,3,RougeFoncé)
+         
+         grCouleurSérie(GRF_Visuel,4,Blanc)
+         
+         grCouleurSérie(GRF_Visuel,5,MagentaClair)
+         
+         grCouleurSérie(GRF_Visuel,6,OrangeClair)
+         
+         grCouleurSérie(GRF_Visuel,7,BleuClair)
+         
+         
+         //ajouter le titre à la légende
+         grEtiquetteSérie(GRF_Visuel, 1, "Centre de formation")
+         
+         grEtiquetteSérie(GRF_Visuel, 2, "En attente")
+         
+         grEtiquetteSérie(GRF_Visuel, 3, "En cours")
+         
+         grEtiquetteSérie(GRF_Visuel, 4, "Pause déjeuner")
+         
+         grEtiquetteSérie(GRF_Visuel, 5, "Besoin d'aide")
+         
+         grEtiquetteSérie(GRF_Visuel, 6, "Clôture")
+         
+         grEtiquetteSérie(GRF_Visuel, 7, "Malade")
+         
+         //bulle d'aide
+         grBulle(GRF_Visuel,1, "Euro-Teams Gestion d'activité affiché par la couleur du Status")
+         
+         
+         //	GRF_Legende.Bulle(grBulleActive,"Priorité 1")
+         //	grBulle(GRF_Legende, grBulleActive, Vrai)
+         //	
+         //	grBulle(GRF_Legende,2, "Priorité 2")
+         //	
+         //	GRF_Legende.Bulle(grBulleActive,"Priorité 2")
+         //	grBulle(GRF_Legende, grBulleActive, Vrai)
+         //	
+         //	grBulle(GRF_Legende,3, "Priorité 3")
+         //	
+         //	GRF_Legende.Bulle(grBulleActive,"Priorité 3")
+         //	grBulle(GRF_Legende, grBulleActive, Vrai)
+         //	
+         //	grBulle(GRF_Legende,4, "Priorité 4")
+         //	
+         //	GRF_Legende.Bulle(grBulleActive,"Priorité 4")
+         //	grBulle(GRF_Legende, grBulleActive, Vrai)
+         //	
+         ////dessiner le graphe
+         //	grDessine(GRF_Legende)
+         
+         GRF_Visuel.Visible = True
+         
+         
+         
+         
+         
+        type : 14
+  -
+    name : LIB_user
+    identifier : 0x2033bcda1f5373d2
+    internal_properties : BQAAAAUAAADKCGhESmn+gryXUQUrETpnQOjbT7i7MT92HJ3UK65ku5KkinBw1Qb2VUEiV1L/qIZW+km1S13bOaKs5vKO2AabDfeLYibBFvL+cNaV+lj2zdWWiBhnKxz9/vGiguJLU5iCbrp1a+7Or50cCJW64Sz25pgEjU93jMLn6AOq3lSEDA7PP2Og3Kw+9gd1SB71pUDIZpizMwWGqtRGY3CwBP9x4GZ2v9UkxgCBiZTQ7X0BpaTpWfv4xbn/7HHXEWOijtTd3hba669qq7znqSgilYt8iqi3a/Rf+tGlRYoXQ8VVZe6JshyAqB4UXWY2ZeLu5wDaHrIErqzX0UtXwdHsfxCZ736xh56/5kpZpfIapcRDtASNtqfh4k+bdhBFCMWC/Zi9DXjZOV4ZD3NMZ8AHtTJ8Ydwf1ZHxC5bTKZoxc+mpsTibAQoFSjCD5gYfsCNV4uY3Xqng7WJoIWsnX1G094JHAPIPHGATp4xnWRyv4j2W3eE7hDsZ1iAI45f4z5irSSRJVr0WXugRVSdxTpRcBvYCXNmWRYOc88PasJhp7qHIzsU3wKXA/Id2/gPFMkYFj+FgpZDkQ0j45c9hQN4jg8QqNJHBcLoxF6lAOGv2Fg/N3SSZ3an4B2jMXaM7uSzB4OeEltD5AdVxPjFOneob8C7HRg==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         Proc_Index_user(LIB_user)
+        type : 14
+      -
+        type : 18
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAAD/picDxgpEolagkn5o6grbQaBDejqOnvzNhPmMRdBYNojncuOCscHolSfv5ejIP47k5ENCMCa/jkOud7wq24kd2lr4BUMu9PAuLdLJNMB5BjGazznZyvU86wwt10lH5IQlaiIjwsXpu2uxUqWLcZtS8+24Ayca4vW17lx8jNDw3xC6c7PRsBOlEryvIyA36w6csqQtX8raw46N+6OlAH4omdVepARK/y/Aqr/ppUCLN+ciqPI55dWEADKB1SyL
+  options : []
+ popup_menus :
+  -
+    name : CTXMenu
+    identifier : 0x2ff5ce2217c7933d
+    internal_properties : BQAAAAUAAAASOsnWWOaapE61Xvb16/ak3OjLTB3Zj24MkRSMQZyP5UZk3gRc9g6d8TXesaBihUz0pDyreKfzqPgTznITSfrVOLvVDWNvcUPuXzYXlmbZhVnkMMgd4fZXTrtfPccR8WCNlMQaKs9mjRgoAAXNG1m+/3YqrJjJQKC+jZ41QNMerctmnCY0q0iJaWrD90TTkG7+cl1mWtAzuGh/xzfbLG36LxmTPvA8Z7cI15om/lcmBGuqMQWLrrSPOx2o78JTGADAKZ8pMQzhEyg0CjsQuYPCwtkLObSb0IG4SqKVeCuFwcZKFvtUYwCCkfABEIAl
+    options :
+     -
+       name : Option1
+       identifier : 0x2ff5ce2217c8933d
+       internal_properties : BQAAAAUAAACvJgJqYSvBZ5aioxio6/iYUPhbZy8o69Q5KrDFu9E6RYDto9/y9WTf/5Zhl7emj00ujaSpDqZE5XWOSwaSFAlmJMVk1tIaVEloUsZ5Lij6WIDTD4Kkrj9qfruGKiZnBNIvQJBEfdOgosGP/FfgyrgrniuLzhu3XfnXv2sl26hzfwj3xlz2piZ0gDG0eieVzWSjfPDCOBO0SE4lFhjP6kehujGIJ9Od8Qd5TQrcvD9l/BpCcaMiak5CaQl7P4dhT8gHOBCFooAd6wC7qJdxbf/iqvulAnyPU3QCrtKDJeHkIF8Mv3N+XSyHSf+O7MiYK2fW1hdLMeuYRyvzlRB0
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            // à faire : insérer votre code ici
+           type : 32
+     -
+       name : Option2
+       identifier : 0x2ff5ce2217c9933d
+       internal_properties : BQAAAAUAAACZMDTYW3G72hhxGSpyPeqKIrItxfZmV6DZuG6d64G61xADaAU0FCgvo1Sbq8sM112289ztq7OQiJsAS65WFqCekglVyk4k+JPR7b1bPwy6KxdybZcvzvpoEIG5oZnYHdwrSmBqBc2UdinVevdYcml5ohVHqK+lrSnzmVWpV3gUsJvSXbODK+k/r+rFrTB6VuUiY+NlmYQrz8HSizsAxxt0aCZ+HUljgvJbrmOAOX8N2Pcx01B4fm4k3/8YwvTWQzLtzvqNcP2M2T0gHa6u5JJLPSZcxaWgivBeSre6qkpdSSYb4l6HnrN6Y9k46v6SIUn4IJm25t2W1V2lxyZC
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            // à faire : insérer votre code ici
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MenuDatePrédéfinieEx
+    identifier : 0x2ff5ce2217ca933d
+    internal_properties : BQAAAAUAAAB3lF37qjhmxRnrefwfjsMzT++dw3wM8SDH33YkuEj0xhFNdPWxtiAZtRqSIJnEucPvwY2IvoikVuJU/DBP3l8XiDd7JKKaIq4tlSaeb2FtmLT58TpsB7qYVMyTGQxbEX9wJebgBSQuNmW1LpEcXSOlS/S7RixBKUBLkIsj4E/RwotX/FmhzBQ8XxHWydjzG7vgpZgY9fHZBNl1ApFXyFTDpGhqNJnv51AYRdHrsxsdAlNX5q9KkCe/SkoskHjMwvb9haZoYXMXmEz+8JBLig23iV431p+jJjB5viutbSSZJatQQ+tluJVIIT42
+    options :
+     -
+       name : OPT_Séparateur2
+       identifier : 0x2ff5ce2217cb933d
+       internal_properties : BQAAAAUAAAB6q3ty7KrnM6xxyXlA3O113/5v5yxy+IWATOpdgG1h7sSqf7hg4o8G2JHWkjcHmlhVWERijwX4gB14oDSKUCPAmNR6JZFtbzUpWs21YAS2MJyLL+naOJUhaLZ/MMlZOgTG7UZ3T+QF+Kmuukj73htPB2WBV8a4uzkkiTY/pipfFoYygREFJ0zEzHf+pyaku7L/zrkOgNwctscWl2s2tVZX74F2Oh1p2XaVkOsF89T8j4gU6xYMRfHPZjF5oOD0bZ/MLC5OkGLS8ir+JMFJ52cIPlxiUrYStDreVAIcXP+dWdP0N2lwIzXiYY3u1zu/cRolLeexCxVe1Rip6Ri5JHreo5ULyT0=
+       code_elements :
+        type_code : 26
+        p_codes : []
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MENU_Consulting
+    identifier : 0x2ff730654d966aba
+    internal_properties : BQAAAAUAAACQZsRdBzrSbMATZN8AIF1IQ147kxOVcDmcZSQiG8rSFHEGBs6p56JF7igNFdygSEKQEe6CqXr9iH/NvI/o5mRe0mnoZfifeJ1YspW/8tfUEmE5fr9ZfvVtLTUYNdayG5f3EPzMXuBJpFFW5r3YtLvIO9GIZfX3yRZdpUJAqGqgDiDOwVNnSpi45BR1j77WJtTURPhRuJLFTdz7QEzvwS9IUO3u5hK0Nmis7rExa4ICf9RHxlSQ5Mt8kte+EKAPpxHx1PWGgX5IRdsOnOIvFUNnrhpuUQCrCYKx+anfS2pyhfKHlRsl2iCeF9Nl6HVErTEofKNb2laLywOt8TzL/Ooq3F2Ui3sepS80CVl9vzROBzBZSSoAkkBSOA==
+    options :
+     -
+       name : OPT_Clôturer
+       identifier : 0x2ff730654d976aba
+       internal_properties : BQAAAAUAAADjBLDPPx0doFaxYSA+dkv5+wy4XVqAmgqelbu4e+B2QvNCL4tH/+2sBDbS+3MwkBUm+Mt/qo991e9FUE9rTBZZkGjBR/F04+iWTeZDLdcSzZpQprrJt8NQMWZkNmz36YouTmlT55T3gkdp2qiE0d8RJ5BWvyjH+8hBP7t7Re5X3QtRkAb4F9KNqDxeH0HNdXS5JcAMtMUE56+Grac6igWrkEoe9nSJy6CYIaaidozLeACI96lk4L0r1Wf5f486SRDmrCDqJ+2Icbfv49gbpxE92gSsbBG6/5LTtGlUTUKLJJlnJBbFcv0bu295HJnANpEHF/IeY26Hq7CmiufqYPy4SdFhOyafTKmKakkj+f3mx7tt/WdysKqr
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            HLitRecherche(Déclarationtache,Déclarationtache.IDtestDéclaration,gnIdRdvMenu)
+            
+            
+            SI HTrouve(Déclarationtache) ALORS
+            	Déclarationtache.DateFinestimee	= DateHeureSys()
+            	Déclarationtache.dateFinreelle  = dateheuresys()
+            	Déclarationtache.IDStatus		= CS_ID_CLOTUR
+            	Déclarationtache.Temps_cumulé	= Déclarationtache.dateFinreelle - Déclarationtache.Date_debut
+            	HModifie(Déclarationtache)
+            	Info("vous avez travaillés "+Déclarationtache.Temps_cumulé+" sur la tâche : "+REQ_Consulting.Libelle_fonctionnalité)
+            	Info("Tâche clôturé")
+            	nMonIdTest  = Déclarationtache.IDFonctionnalité
+            	gdhMadatefin = Déclarationtache.DateFinestimee
+            	
+            	
+            FIN
+            
+            pour TOUT Déclarationtache 
+            	si  Déclarationtache.IDFonctionnalité = nMonIdTest et Déclarationtache.Date_debut > gdhMadatefin ALORS
+            		
+            		HSupprime()
+            	FIN
+            FIN
+            
+            Affiche_Consultation()
+            
+            
+           type : 32
+     -
+       name : OPT_Modifier_activité
+       identifier : 0x2ff731524da80834
+       internal_properties : BQAAAAUAAABz9g7MTyKJ8mX8ftpxfrMuMFLJqgrT3U9mBId09RAb/dF58yvU4zb3RG4nByU0Ypok8ZSVZ4cNt+B6O1zRHmPFqVDKsiObTBCKxYcb9VDUZ3u5VMIRUDh5lzZ8qbWN9bzz9smptAxcVXrPNm/EN+jC8bit0Bi1t1rr3uDBIuP860WBHt9q97BniwwQNAinJd4eQO/nVR9GJ7eK5O2tq0YVO4tklp8uSEtcX4MWilqDvP9R3y6x4aX2Z/0+NnGvTu82FP6EZwVLs5WtWKUKeOA5MuRBKFWF3y2+1m6qhEFCbHGJ190hlfdCQVZW7NdUdteSJwqWM033irLJTkd0rzZLPjGp9BBUzmy5QVEWC+/BuuZab6rSWdsmepelMg==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            HLitRecherche(Déclarationtache,Déclarationtache.IDtestDéclaration,gnIdRdvMenu)
+            
+            
+            SI HTrouve(Déclarationtache) ALORS
+            	
+            	gnMonemploye = Déclarationtache.IDEmploye
+            	gsMonProjet	 = Déclarationtache.IDProjet	
+            	gsMafonctionnalité	= Déclarationtache.IDFonctionnalité
+            	gnMonstatut      = Déclarationtache.IDStatus
+            	gnIdDeSuivi = 2
+            Ouvre(FEN_declaration_activite)
+            
+            FIN
+            
+            Affiche_Consultation()
+            
+            
+           type : 32
+     -
+       name : OPT_En_attente_Pause
+       identifier : 0x2ff731144da313b2
+       internal_properties : BQAAAAUAAACEWRW0wm0hyF9BUfCelguls0wXVUh4DkxQb/BpNKMNMU6ZCG3bFF7n8X+5/Rh0yQDSYy4m0ZOUuLwKmbDQJ/Ck2lTbqd2Qxpu4z+UrcS+hoZLskhlG+cogoyPuB6QzEDgIhl0SxTXb2ec10TLH6BR9GrazcrTrydH7vRu9K7mt74YVoOCBskhvq4/+NuKCX0aPK0Pf9QRNYgFLXjr4RwQQqdAayHwNMGRBjhNIo1+cHNbl+MZQ3c4YyCmxZ47tQ9b6r+2swPif2tAjMQRFdqT+IlErHdw3xlHSNNeaQ6znorUzVUMe+V57OW1jsdDFG4DYYEdIvtHoKpMp0VjrmzkZCupUyJFDAO3CIvF7IdUOiDrkGkqdTU3M
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            //1 : Pause 
+            //2 : Autre activité
+            dhfinestime est une dateheure
+            tpsEstime est une durée = 10 min 0s 
+            duTpsEstime2 est une durée = 01 h 30 min 0s
+            dhNvsTemps2		est une dateheure
+            SELON Dialogue(<§?1FF81D0F015DE115§>)
+            	// Pause 
+            	CAS 1
+            		HLitRecherche(Déclarationtache,Déclarationtache.IDtestDéclaration,gnIdRdvMenu)
+            		SI HTrouve(Déclarationtache) ALORS
+            			Déclarationtache.DateFinestimee	= DateHeureSys()
+            			HModifie(Déclarationtache)
+            			gdhHeureAttente = DateHeureSys()
+            			duDifference est une durée = DateHeureDifférence(Déclarationtache.Date_debut,Déclarationtache.DateFinestimee)
+            			duTpsAajouter = Déclarationtache.tpsEstime - duDifference
+            		fin	
+            		HLitRecherche(Projet,LibelleProjet,"Vrac")
+            		si HTrouve(Projet) alors
+            		Déclarationtache.IDProjet				= projet.IDProjet
+            			
+            		FIN
+            		Déclarationtache.IDEmploye				= gnIduser
+            		Déclarationtache.IDActivite				= CS_ID_ACTIV
+            		Déclarationtache.IDStatus				= CS_ID_STATUT
+            		Déclarationtache.Date_declaration_tache	= DateHeureSys()
+            		Déclarationtache.tpsEstime				= tpsEstime
+            		dhfinestime								= DateHeureSys() + tpsEstime
+            		Déclarationtache.DateFinestimee			= dhfinestime
+            		Déclarationtache.IDFonctionnalité		= CS_ID_PAUSEC
+            		Déclarationtache.Commentaire			= "Pause"
+            		Déclarationtache.Date_debut				= DateHeureSys()
+            		
+            		HAjoute(Déclarationtache)
+            		
+            		HLitRecherche(Déclarationtache,Déclarationtache.IDtestDéclaration,gnIdRdvMenu)
+            		
+            		SI HTrouve(Déclarationtache) ALORS
+            			Déclarationtache.IDStatus		= 17
+            			dhNvsTemps2						= DateHeureSys()
+            			si HeureSys() + duTpsAajouter > 18 h alors
+            				Déclarationtache.DateFinestimee.PartieHeure.Heure = 18
+            				Déclarationtache.DateFinestimee.PartieHeure.Minute =0 
+            				Déclarationtache.DateFinestimee.PartieHeure.Seconde = 0
+            			sinon	
+            			Déclarationtache.DateFinestimee	= DateHeureSys() + duTpsAajouter
+            			FIN
+            	  
+            			Déclarationtache.Date_debut		= dhNvsTemps2+ 10 min 0s
+            			HAjoute(Déclarationtache,hNumEnrEnCours)
+            			
+            		FIN
+            	// Autre activité
+            	CAS 2
+            		
+            			HLitRecherche(Déclarationtache,Déclarationtache.IDtestDéclaration,gnIdRdvMenu)
+            			
+            			
+            			SI HTrouve(Déclarationtache) ALORS
+            				Déclarationtache.IDStatus		= CS_ID_STATUTACTIF
+            				Déclarationtache.DateFinestimee =DateHeureSys()
+            				HModifie(Déclarationtache)
+            				gdhHeureAttente = DateHeureSys()
+            			SELON Dialogue(<§?1006A00500651AF3§>)
+            				CAS 1 
+            					Ouvre(FEN_declaration_activite)
+            				CAS 2
+            			FIN		
+            				Info("Tâche en attente")
+            			FIN
+            	cas 3
+            		HLitRecherche(Déclarationtache,Déclarationtache.IDtestDéclaration,gnIdRdvMenu)
+            		
+            		
+            		SI HTrouve(Déclarationtache) ALORS
+            			
+            			Déclarationtache.DateFinestimee	= DateHeureSys()
+            			HModifie(Déclarationtache)
+            			gdhHeureAttente = DateHeureSys()
+            			duDifference2 est une durée  = DateHeureDifférence(Déclarationtache.Date_debut,Déclarationtache.DateFinestimee)
+            			duTpsAajouter = Déclarationtache.tpsEstime - duDifference2
+            		fin	
+            		HLitRecherche(Projet,LibelleProjet,"Vrac")
+            		SI HTrouve(Projet) ALORS
+            			Déclarationtache.IDProjet				= Projet.IDProjet
+            			
+            		FIN
+            		Déclarationtache.IDEmploye				= gnIduser
+            		Déclarationtache.IDActivite				= CS_ID_ACTIV
+            		Déclarationtache.IDStatus				= CS_ID_STATUT
+            		Déclarationtache.Date_declaration_tache	= DateHeureSys()
+            		Déclarationtache.tpsEstime				= duTpsEstime2
+            		dhfinestime								= DateHeureSys() + duTpsEstime2
+            		Déclarationtache.DateFinestimee			= dhfinestime
+            		Déclarationtache.IDFonctionnalité		= CS_ID_PAUSER
+            		Déclarationtache.Commentaire			= "Pause repas"
+            		Déclarationtache.Date_debut				= DateHeureSys()
+            		
+            		HAjoute(Déclarationtache)	
+            		
+            		HLitRecherche(Déclarationtache,Déclarationtache.IDtestDéclaration,gnIdRdvMenu)
+            		
+            		SI HTrouve(Déclarationtache) ALORS
+            			Déclarationtache.IDStatus		= CS_ID_STATUTACTIF
+            			dhNvsTemps2						= DateHeureSys()
+            			SI HeureSys() + duTpsAajouter > 18 h ALORS
+            				Déclarationtache.DateFinestimee.PartieHeure.Heure	= 18
+            				Déclarationtache.DateFinestimee.PartieHeure.Minute	= 0 
+            				Déclarationtache.DateFinestimee.PartieHeure.Seconde	= 0
+            			SINON	
+            				Déclarationtache.DateFinestimee	= DateHeureSys() + duTpsAajouter
+            			FIN
+            			Déclarationtache.Date_debut		= dhNvsTemps2+ duTpsEstime2
+            			HAjoute(Déclarationtache,hNumEnrEnCours)
+            		FIN
+            FIN
+            
+            Affiche_Consultation()
+            
+            
+           type : 32
+     -
+       name : OPT_Reprendre
+       identifier : 0x2ffc9256034f165a
+       internal_properties : BQAAAAUAAAC6LpMmk46lwixoDzRqboQCLdO/2144jEqTFw8C6fpeh9B/yxfTBncQOHjchpIE8R6vPV5qEzuEuapYVFPCUV2brA0M7DmyQYWQeEp9INqITlmYwzR8KUbiuS943YaN75PwStEMJ7V1RkToI3mKRFCNK8azSQDOijP6LwvxovHTgpCbYjqDTAXbuHx2Rfw3HOgU0uOGtuNsL+2Qc1YnBvztj/AQW9NqnX53mBwf3cdstvWXwNb+gPd8vnufNPIMyvJNaCTz2RBxpzRY70OvV6QqZYFW8epwQ+9oOBsPDQBROj3kHIOaOJxJxko4B4WaoNaQrriJSXN5lHmOpptDVyCR9N5KmeA22W/YuV51
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            duTempsAajouter	est une durée
+            dhNvsTemps		est une dateheure
+            HLitRecherche(Déclarationtache,Déclarationtache.IDtestDéclaration,gnIdRdvMenu)
+            
+            si HTrouve(Déclarationtache) alors
+            	Déclarationtache.IDStatus		= 30
+            	dhNvsTemps						= dateheuresys()
+            	duTempsAajouter					= DateHeureDifférence(gdhHeureAttente,dhNvsTemps)
+            	Déclarationtache.DateFinestimee = dateheuresys() + (duTempsAajouter*10)
+            	Déclarationtache.Date_debut 	= dhNvsTemps
+            	HAjoute(Déclarationtache,hNumEnrEnCours)
+            	
+            	//	PlanningAffiche(PLN_Consulting)
+            FIN
+            
+            Affiche_Consultation()
+            
+            
+            //HLitRecherchePremier()
+            //
+            //Déclarationtache.DateFinestimee
+            //
+            //HModifie()
+            //
+            //Déclarationtache
+            //
+            //HAjoute
+           type : 32
+     -
+       name : OPT_HELP!
+       identifier : 0x2ff7312b4da66d7b
+       internal_properties : BQAAAAUAAAAqnRLh7jtwx/4uQOtFnLI/4+SgyZ2ORfqul5e+H0KxnM8wic/PRVezY/DkJilv4So/+4FOAT6dMwx9W8tgPIYq3LUPcIRqTVo9KxFbCXmyyGueuD2b6Tz2M6v6nHTfHHtX9oqSAXArdYyyND5LFv5ixDI2mDPrOnaJI8yibGYLRys+tyhv/85/OTgv7W3Rh8bwuQAVPk3HnETAq4AohRu1qtAjhRSvkgjS2l2So4Mc07iBvTiOimf15VEzfF25m0BbzPJRRKPC5nM4peMmPQT2e8mnfI1UHsG0wBxjFSVeePyzssXB7KbqZUTP9UbWi2HedJJpecZbk4aGzbnp0U37ZorlB4v2MQ==
+       code_elements :
+        type_code : 26
+        p_codes : []
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+  - en-GB
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      //recupFiche()
+      gnIdRdvMenu est un entier = 0
+      gRdvSélectionné est un RendezVous
+      gdhHeureAttente est une Dateheure 
+      duTpsAajouter est une durée
+      nMonIdTest est un entier sur 8 octets
+      gdhMadatefin est une dateheure
+      
+      
+      
+      //MonRendezVous est un RendezVous
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : Affiche_Consultation
+     internal_properties : BQAAAAUAAABGkTZxBMVEfKw90N3crdQP+Xix6SZGnyjRESEfzY4afz4NhmeDrI2stjNblBaJNFZ7InTyBwvCVVVdrh1kiUKdWSJ7CjqfjnfO1tzQ9L2WL2r2peClbepNWUAYHKC7qFrLCcOgIA2oODRuw0ooG9DnTJ4eE4QeWYomfIucxXlGujm4hDU1c6zK8X97JZaeSDh31ytJAVdJ80Ts
+     procedure_id : 2302985657717687662
+     type_code : 14
+     code : |1-
+      
+      
+      PROCEDURE Affiche_Consultation()
+      PlanningSupprimeTout(PLN_Consulting)
+      MonRendezVous est un RendezVous
+      
+      
+      
+      HExécuteRequête(REQ_Consulting,hRequêteDéfaut)
+      
+      POUR TOUT REQ_Consulting 
+      	//HLitRecherchePremier(REQ_Consulting,IDtestDéclaration,REQ_Consulting.IDtestDéclaration)
+      	
+      	MonRendezVous.Ressource	= REQ_Consulting.Nom
+      	MonRendezVous.Titre		= REQ_Consulting.Libelle_fonctionnalité
+      	MonRendezVous.Contenu	= REQ_Consulting.Commentaire
+      	MonRendezVous.Note		= REQ_Consulting.Description 
+      	MonRendezVous.ID		= REQ_Consulting.IDtestDéclaration
+      	MonRendezVous.DateDébut	= REQ_Consulting.Date_debut
+      	MonRendezVous.DateFin	= REQ_Consulting.DateFinestimee
+      	
+      	SI HTrouve(REQ_Consulting) ALORS
+      		
+      	selon REQ_Consulting.libelle_status
+      		
+      		CAS "Actif" : MonRendezVous.CouleurFond = REQ_Consulting.Couleur
+      		CAS "En attente" : MonRendezVous.CouleurFond = REQ_Consulting.Couleur
+      		CAS "En cours" : MonRendezVous.CouleurFond = REQ_Consulting.Couleur
+      		CAS "Pause dejeuner" :  MonRendezVous.CouleurFond  = REQ_Consulting.Couleur
+      		CAS "Besoin Aide" : MonRendezVous.CouleurFond = REQ_Consulting.Couleur
+      		CAS "Cloturé" : MonRendezVous.CouleurFond = REQ_Consulting.Couleur
+      		CAS "Malade" : MonRendezVous.CouleurFond = REQ_Consulting.Couleur
+      		
+      				
+      		autre cas : MonRendezVous.CouleurFond = Noir	
+      		
+      		
+      	FIN
+      
+      		
+      	FIN
+      	PlanningAjouteRendezVous(PLN_Consulting,MonRendezVous)
+      	
+      	
+      	PLN_Consulting.PositionDateHeure(MonRendezVous.DateDébut)
+      fin
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FEN_Principale1
+resources :
+ string_res :
+  identifier : 0x1ff5cd7d02eb0f03
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : j
+      en-GB : j
+     index : 0
+   -
+     text :
+      fr-FR : h
+      en-GB : h
+     index : 1
+   -
+     text :
+      fr-FR : m
+      en-GB : m
+     index : 2
+   -
+     text :
+      fr-FR : s
+      en-GB : s
+     index : 3
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 4
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 5
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 6
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 7
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 8
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 9
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 10
+   -
+     text :
+      fr-FR : Mise à jour terminée.
+      en-GB : Update completed.
+     index : 11
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 12
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 13
+ dialogs :
+  -
+    identifier : 0x1ff81d0f015de115
+    internal_properties : BQAAAAUAAADrTTgtTMmAH5swaVNqokq7Mt7QFhNlIw4Tss4GKjPAKbmJXzgM
+    label :
+     fr-FR : Déclarez vous une pause ou une autre activité ?
+    image : {}
+    cancel_button : 2
+    buttons :
+     -
+       label :
+        fr-FR : Pause café
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Autre activité
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Pause repas
+       image : {}
+       value : 3
+  -
+    identifier : 0x1006a00500651af3
+    internal_properties : BQAAAAUAAAC2KOIynK4OSxhXaN6RgLseMj4/g9yvg8MhrQ+V1wSsgTx17SyoHJngPLKR3mMc/T82Wa41u6M/+I2Q4tIlS235XeMLfsIuX54=
+    label :
+     fr-FR : "Vous venez de mettre une tâche en attente,\r\nPrécisez la raison : "
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Nouvelle tâche
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Urgence
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

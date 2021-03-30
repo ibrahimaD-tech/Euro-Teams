@@ -1,0 +1,843 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_CarteGoogle
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_CarteGoogle
+ identifier : 0x2034d9490cb1461c
+ internal_properties : BQAAAAUAAAAi2WmWXSOjMIoyFZ1CVAzQNk3Fhfl8lGzcPzFcCJWzDLTwySu65ZvcFKzIDl9uhra31moaBp3hj5Z19e8Z1n+4kIZ0qOSp59kbrgPLhwbTCrRrZBSjHtDPMLey+TdpwOFoLq3U4qJjRwn/NNflqtMGmrFx5FK7eJQ3bAw1WWdOyxfNnWZisTTRPt7mxs03AvazAtfacmoFmxTRai/0RNU0Q+H60axb4MVZF/fUfsanyj5hF09mvEaVS2x/VaMRJfuEFwoEEwbBNcMraURUUbJxJAZPxChRQVMeM3502OdPZo+HpPDW5MwWHQwNy6UIWYrcKjY8GojcNVJqVNV2Q4C1WGjcoB1TJ9edUFmKljeEzg+cPRpuODy1AO+AULSPX4r0+0r99RgVgS7ky/Drlm0/j6yJ6uzXd8L1vjkNGxFZgy9MTueYvKBx4tH95savbrBkTXRwVRxS0h+Zvn4HUiuzNF0ueF0adqdouJfgnPjlztVTtgyfaxbZoSg34DFsf3VGnWhHJXCVxJHf14LczArZ/RtEdx7fcNr4KXFBxN9oYWL7DgNW1ql9oJxptX7RdKeHYmZqRMGXx49cZXbtGhUGDp/9PogGKD4vfEmYO7kvI66rwtk9sO5Oavj5zIP3EP0S23qiG1OhmvupTOY8L5LdF+8RKSAqPpO7Y6RwfdAF7FOVSXYQmVs+gOoeBHH2pnwYuwFzDdikLiHBTCiE5SC8LDrGrQ+2A4PXSbXNFJQeZk+1xDKHHk2VQViQsI9aBNvc0XezJGZEaHVGbuZwkk3617BhUr3a9tlwpKeQCLg3+nVfC9w5b1zIJ2Lx79Mt1klN1oBa5gslmvBlx5xyFxwtBSoeC7+CqwyXKsxR6I5uJ3ndZ11WdQLgLjh+HSmrBEbHqu8u5tWB+l20EVIrKhPZdbeYgOP7IpQMh57IsjXck64FAqbdgwOXxi7OMJ0dUqWSv63Y73bi1xBIldRH7raYE5TKktCr4eD0G+CH0kdbFkp3ZP8FCchBQhd3oTC5hNqlDx8=
+ controls :
+  -
+    name : BTN_FERMER
+    identifier : 0x2034d9490cb2461c
+    internal_properties : BQAAAAUAAADsypWALKNWHI8ozqEUUHZBZiZLMmbVTWCclF+a/gLWYpQbt91vdKXfQJOrkZtYOpjX5TosRpqlrN6CsckryjyepWk8MQHKoDw2Mw09AReABaZSPXP/Zt05T9XfNXHgQMZ68q3tV59ghcLwGCxxnNnrqFYu+tA7xxuYmdIJjKEY87lu9ORX9qjhuPN1MxsbO16lsys8zM+xd3MXJgMek7uFZybv2mDqx2+zk6864B6KvDhfpBEkOljn7ay3Ilj9u3XGc+wLu9emXc2HlVQ0qRC4G0HN+tbSfBbr0wepcoL8FFfubkD5cdEbqJf3eLKlTM6uJ5r20SJgGkZ1bth9GHSmz1d0TY4FgxbLOHo1Yd6y+9CaG+Rzox71PJKNoUeoclFUpMi2WyPNbbPXFNFwLoxo8XDT0q2XbQZX8gEEjN1VUlByDfj8BsfJE6DNbhib1NAM8M4gZIylNJKivpA+8JdEuSpZnw3eEG5YvUYstFnrgGcTcSHF0l+qTyhkRIofrGKhNmvNgO7zDNz1VZ2XqzGcShMMzWwx6oevpeAlz+EagHFHx6zg1jJIDVXVww/qrOQ/hNp2Wbia8C90Ji2u+dWsP7QmNeVUKBiivbw3CVJfDpgsZXXlPvjM02CyKj9QFbyC/woUI7BzhO6djRexFZYnVEnnlEdBuQmn+pDZwUt6UuxSH/HTI1MV/aZr6QE7k7OiBaucM24/dFGPTK8lKqPuCUo19JSHAUFmA5SkyKTVv8a+5m4VmUVoPgRirar8sdhSz1rKlVbMtn2bDfEJ2UCeUxKl0ZTZjAvxq//py634Gb6gB8kbU5DY0GRGcMRHvLXbC2Lv24MtXtge/98NdBEQIH39gS7vNi1Kv1a2Zi0JRZlouFAw7dm5mI/FMkoZQWIDhKcRZP+hHaK1itR9SgYSxjZS0n8i8/rKzvLUgQ4CSzMcQBSnBX6nh/SMJrIiy5TliZ+d3a1ZpUkBqnnchi8ITeurEHAnHE0KV5L0vr/8t0/B+oj7stTYHU15PAMd89xHT7PkCI03KQ6DXLFVqP0QUnCiH8sYSD/M6Vo2DDrN0fVumvhSx77A2uoxSoRmh7bevLE05Uhb89Dh3OjRvvyQY+0q9NwpH31N3UopJO6toiWTmgmUu94oM36ljOCA16WToxNrNBoWEYyF+y35AyNpnV9fWIhD2a306dApru7Kjjpfy4bM47mABaL6xLj3FpX6qiHCYAziiOFmHEz1tJBo1BzFpjWgZO9E4q07i0jaXw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : BQAAAAUAAADlg+MZNL4UeN0CScoq3Rxf5gUg+iFD8TrM0IfnmXTmBKnXFNpcar1erZwYI1JZ4ul1VlNr8SlCSqUmSE/t8z2z4c2+cp3Psfdy+iN4xUHIwl5xUoKjn7dnHGqeRB4bYV3hoAh6uZDhZG7DA8DKlJ0/EDI8mUO8cvaPRnoI7rwYYjpPF/Vtuayt
+        code : |1-
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_EXEMPLE_COMPLET
+    identifier : 0x2034d9490cb3461c
+    internal_properties : BQAAAAUAAAA2E8bv3XNEABkgLW9rnnhb6RdxLvjJqII01zRYmFjgpzYAa6yBq9d9LFItlOdE6OTYjAw406e3/d7O2MXUfPtFeOuiBxLAl4W8UVzCdHiLekoJHPfqAP3cjV6cZTwMc+24asVShX6ub8Gu3c5PCXhsXFh1PtFFL7laNY+sHry06Te2mobuABbxQMAECQzxm5YUWkKg1GN6f45zepHmSgvDSVUXtTZ1yC07NrqOuzyDNWpI0FXQEcOopvwTfU0tpW88ZMUP+bvCUdkCxZb2p+5PqMIJ2G8Ol3UjWRc4wzg/n+uTZVMPBMaje8Dm7XAMVnB285xqKbm6XhUw2TX3GavmEC61KK3x1ebftHJE1jPBn7L2tmSWCCdyBvHJO24fMGGmqxrYOBUYr0fGAJemVP1zSx3xg0/TbllXo74DsFcqsKpcyW529JUgSEeuNn505oQBreDDGzI924FqzIo+bs7mTL+pQfc6mzdSMRhjgRLGAoRs+PX71L3gn1Iwk2TteB3ZbiBsPVkbFBrLhuiDYMOVW9e3vJJ60+M+BBorGbzLn9cVctEsphM5ZeVefcctOAd/qfn0HKbUZCFmt8//4zIbuVr3B6wKh+NfAWPJiaa2lwdwfPig3kvSTLWvHrirETAVlmXOakJASmQQ4uk=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         //Exécute le traitement défini dans le modèle
+         
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_TITRE
+    identifier : 0x2034d9490cb4461c
+    internal_properties : BQAAAAUAAAAf7+6FmIzjS40EUlzeyN+7/wezEvP+fEBcjf/pUs0ogrzXx+7g/4g3bpXvLbNKhrRIPOsCjTiAFEIxI+Wj+y2UUk7rxAOvgCqyATIL7i1Q1haS80625N8PacX0VHMiXqtjIZ5qId7s+1YxsnVkHgIYBWc5AYTr+CdZMsx0pewkvT0n8jLLQGJnFEaKA849iwOY9F4MhUCwLm3O+Acdq1BDa4oSntyK9Sab2HFagNBYzI65FsUsKu6vG+E5w29iQmAXShIxYwpyKSRfoATo+PyxaPlox18uXle6mJ5sWgX0ULPYWya57Ut2I1J3eptNpKUkwDSxaEXDrmH8NvNybTwQHF/Qb+G661wvJAopMafoDG7ZTE5ajLhbPUqgCD5XsEmENyKosGClswJFtafapQRHjIvvZGLefit1KsxGQsive9D/qWtvrd1RV9ZuOgRJzzsww7yELw3CB1dTk16LwdAWl+/lxVRcl4zy02UdthrGbA88oMosHfO8l0lEnr8efhrrUDfIMzetiY/9NQZF5m+gIlW3iwVXBxxTBIkjYxvkI7RJbbseEijteu/OnZQUJ1e8TIwXFqh81+Rxe6Q1rPf2mz4EnFTkRv/yYbg+pVu1FQy7J2PXDXyZuny6yl3s1T6MZNROsjlM6Og1d3iFBdGFj23qaL2yp2EbtsP9A8As6NqzqLxkobgezV9MgFT+gqCLQV8U6BJut9U47m1e8sUCEP2cftyx/g8=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         //Exécute le traitement défini dans le modèle
+         
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : INT_TYPECARTE
+    identifier : 0x2034d9490cb5461c
+    internal_properties : BQAAAAUAAADoYNkqsehVpl7rlTPOdlGolZ9RIkHid6Kr5Cl3Eicgs8ELSaJTRpelReAnA59yIRAobgQVpFpO7+ojBK2W9tUCWAG13y5Y+dmwCWcsW+xHXk4Im4FYNCDD4H1WRYUKwjIlvSpIfglbnBKjoqx8y+Db8eYNTU3lAPlSxzY+LBGfoLYCZ0fC1cNJWr4x0kPJxLPv5N/27bwojixquAd95kx2LiOz3VWt1l8xqmoRIRSxrK3MTj+f1cxFLR+BBAU3aADcBcdYTZJcBijcCWwEwD/Lg3KZVXJy7U4I5vtYJ7I7J2ZFgMk5co2OT8WizpgeLIqo2UtuSmq0YQEINvfuFVK0CDANPgTYkQJSXpfgYn4un0TlVF9vCDespOTwzENDO0qPcBhqfYamUYW7DzZuydGnzZ/3PJsLjAbMPmgMw9D/bWabFcOXIV7B0jHvJ9uXpnnAHHBYQLUQIX7ehGRFak6bGcm5N6+8IvMnAFUs5R1Dlfmq70fYtExIFwFi38lU4dX68cEJRqo7dblz7PBy7LKi+8+LSUxGel6GC0z1JsyVFQaiUk9Q95jJPpLori1yNp/LMfzgYWWnBnS5aD0f5Tml5GHEzNvGTpDwU03SYPbkIX5NkaRvmE8OZse1+5ILfJ9EI7kBzGHPal64AZlpIKaikaoNbKuNBkOd45xz+4o7q6XLDh0igov27GT/rEtKXdF0FDqKKd8R6Y3TfHGsIhW1DtIxKKbcqnAQ3JkaZeAYXtT0oJMNWZzczy0XSCgabmIj/pM+Ilnd789FMEUGHB9vqL5cqYw+kHq+kGMFRRI6xK1WRD8Eqfd/mcH9ufFfVWRSvSa5UYv5GXfWoPm8rgH9g0DVtzt9WaLFSZmKVDaP4xgNvYBT8seijR1Cp5jL2y+RWooW9/oOqWlM7VHrLave9xUlKBWnnuKoLZ/PSNHqU6jTcAkWzD0YTyrHkS3fR9Rf5uEF96cmc6Iko5lGLaBpzKCX7J2HHlwsiPmAIT5vH5rywlTICh2D4baDSe00hdMGFfQajXs+AXCfWWh3x2h9zPynRHi9buckDTsStcM/1hryPCjGYkJMUXcuSOjZC86VpcAoekE5bncDTYbzvSEqe7ZZ6cUVnf9H9tGFj1y9Q+5NbmRiYlNuOwZEuqNMvAsmnyscN2Y1uO1RGsxLQvyXKPidZCztMDHthDQeFCxJ9mfZwmMFJ3GC1Em+CeCuKF7lDW/alp7w3+JKaYt7EGf4jokeedw3aNFPKDLaqa1rLVPZnohnRLPUYSbGquZvUooB958Oi3mTEyUEMKvhV4rmms6gzUXS5/Nf+x7QUEOqrVw=
+    options :
+     -
+       internal_properties : BQAAAAUAAADT3BY0sQJ4xUfQxrcSMmITb9bSgHBGLibx1mkN1BWUfL8vjF7WWVIwVUwq9QmRaqcx5iwLnTNiuOOFyR4QSHAaeX8nfnJw9BrDk39quMesS8SrUylk5eiI4w97jl3uQt0OFoHSWjCrfN3IuC7VISlNE6kA9/m0Cy930V88uA==
+     -
+       internal_properties : BQAAAAUAAABlkO/OiLwZZTR3RmpkW6/zV7H/f518iw8oRNgTilKxj0tOaegeYw05on02a3vebLJU55rWT3wr10q3XwYOWVcJjty1Ck65zHMAqM5Vsd5UCEphx/TQSXPFGcA1tDhZ9aRm72zUQKuEckcSon0PzW4IOwIipV/ko00kecy/cRroKlykdHVoo2IETnoWKrvkBLx7tM5D3vU=
+     -
+       internal_properties : BQAAAAUAAABOqkkLkzLU4XCSKcT27clOpysxWqqQHP6dzJUgHNDO8AKvjZahVsZKpKeGpk6R43aQPMbknkLCLrmWgQhdVNyCYvZnsaurhjgtDfn8oM2ms1QrHNu2t25Qb00o5ACTHBDxcG1VMjxcKF3gusDNF4z/Kc/DldRtj7WbKR8dy5X5m3zYrwvfe/kKxfFvHUk=
+     -
+       internal_properties : BQAAAAUAAAAkb9ndSefe5lKvi2IrWijY/3spTkbqMkI7zj/TsyOWTnIenuVV4NiV/eVOnKsWTjE1RYCxCqP+FJw5dSMF9c4IFJ+GdIRVSwIkxn32qEw0KGmnB3A7pTR3cXk+uiXXlG6J5aGVf/a/W9Vw2YP8k66rEzQkENn5XeaB2Uz8q5m+0y40
+     -
+       internal_properties : BQAAAAUAAAD7ryDpDbSQeIpDQlu3Q3oQN6jXOmGQdHP0jK2r+3YZwFDrxSHUOoUhxnI7NMoIYvNYSnS3vhr5peruAPzOG4WAYZAzKMPs2KtnwUEU6H6CiduGhzAlJ6h4CFMaPqrI5jAO5pwxth+l0Hf87rF5La++LwJ8ZAy6UOAHRJaj86cKkI6mBgcbWVJjhoANUW9NfVlg/LngNHnCYw==
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1+
+         
+         INT_TYPECARTE = 1
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+         
+         SI gbTracé = Vrai ALORS
+         	
+         	// Mise à jour
+         	AfficheItinéraire()
+         SINON
+         	
+         	// Mise à jour
+         	AfficheCarte()	
+         FIN
+        type : 17
+  -
+    name : COMBO_VILLESFRANCE
+    identifier : 0x2034d9490cbb461c
+    internal_properties : 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
+    dropdown :
+     internal_properties : BQAAAAUAAADfonl1P8q8orFwOES/CSv8JT+UeMMZrtQjhWzWA+0V9+VJucQxEarJdfcK7Nml8fN8GRKvAfcIvETtOw4v5OAzrSYgcuKiy7fA/qxPLb1mewQpC5KoUdBOiDRAHuVsbknGtw8nbhr2XuRPTdSacfe6KxJ1JfKgoeKyzeFktH2mBRKTp27PQkADusv3zASOQnxQbKOp5JEN7IaUID/BI8MG8h+suGr9jK17MrLm/GgwkbfRPHLqF3blY43AudNjRReUUWFWnqZOzLD3mHd4s2JWPqavuxCtqrKj58dbpF23H1U+D+lBbG1lsPRrVJufGE/kLrjGbS3BdTvRGr/o328HWzvO22EMwMtBSxxRzqhlxNIk0rG6UCq2nTbqz4n4G0hOvNwzcjcKHlYHHMWRugwu0AgYAc+61BlhZlFJsk+gYGgNjwoXbE2K/z2uWrtfXHqERTBFxtYSkHyhXdMbE38PrYdyt/od6+PnM1mzkJQPJ3hU3gvwRziWxuxUSPrcRD3KdDVeMoa5XEkEPV4wPT2CjvV12FFu6YqV8EUiNF5du9BXABW5/x7FQddQFN3JWmon1djgHBEiQZwGRjoLqWQFKasqK9ODMDj4wzlhgTsiHK9cEtwF/hBjoMjOL3edp1CsoPx42bhnCGctZc8xczqV5Dubqc+pOOyPtD3rNF84GGniWyvxD4+bdEeblO9/7Y10/LrnhQhtjFtYx9SAyXp8g1U/ekuv2qajjhdHmdxiw2MjZN5CXITVschw2nB3YCCWdededev5tc5Sn+wH/qGXxKMSXz0yIesxpEb3faqqmKK00AxGVVKiIIyMy0QtAA29boB7R2PXEN11wL7h8N3YLGiTvVxsRM8YiTpcXwqGEWJxFe9+7xdUuokCXbUq6/4qqffpgp/QgW8XV/56zpaQMS8XDmW7EyHASnUCxu+KATVJKvRz3L+oaU/rfxQNFBmYLJlmTX+OWFlCbrc3jJjcXcKjzAober1zgUoRXbheDqu0x/mFaATlCGZgt0J6FTcvRuQ7M8E8Gs7vhLnp7nJcmMbZGVegh27YvAYiatKNxEjKxPb/M0oFUuqNA4P7mSwUDTNtKj8WFfmI5dKlzntYifECP5aR8/z1LQ==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+         nIndiceDépart est un entier
+         
+         // Affiche la liste des villes mémorisée
+         pour toute sVille de gtabCoordonnéesVillesFrance
+         	
+         	ListeAjoute(COMBO_VILLESFRANCE, sville)
+         	si sVille [= "Montpellier" alors
+         		nIndiceDépart = COMBO_VILLESFRANCE..Occurrence
+         	FIN
+         FIN
+         
+         // Par défaut, on affiche Montpellier
+         ListeSelectPlus(COMBO_VILLESFRANCE, nIndiceDépart)
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         gbTracé = Faux
+         
+         // Affiche la carte
+         AfficheCarte()
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : IMG_MAP
+    identifier : 0x2034d9490cbc461c
+    internal_properties : BQAAAAUAAACRokhnKqGrwKHpGhvADr0Zhitv8wy8wX97inABDjdHvrQHYnaZyLgUxNeEhl3a1UeJTmrdmeUOd0nnaUA/KWpqrE2+R1VRlMheIrTbYjoFUUE2FsQAe4Gp07znSpHAXzT+30ykFK1DQeBiqLL5anwXCRW/FBZBh99QCQBClCZ5LMxg7IokTnfEmPEFuloaUq4J/8cmHTrBSSVoxdGwYhof4RK6ow57/QT2iKwOiIdcFV6vYNsdofzycH5RQwzUnAO3jntrIdJlubahmEQSfvlempR3Nl1Ouozv3S+2Ocysw2mqB6l4HYNMAM4NjiM3VkW0+rcJ5zoxkiMj6xRIN6WXmghIrsbigb54QmGz9mpo4WZ8qMZnbmdP5P4U+csKvfLplMJSaYTt57okHAT6oXRrEORRL8E8jdyBKWwWuX/UGTsq2VqWQ7dkbH7rG6tcjQM+d/BrFc2H8vF158zl8Pr2JvgtkQf64M8dK1Q9c2OIo7qgVMuHfe+0dxvVmknIVOkfq6rli5FTet97AFV3Cj/Pd5eZaNJlKOhMYSFPgtoFZVh3fAn4z+59M2yFr/dbmepkuFqdAMj7kSAxG3/4h3owmzjsyDfSPVPt1Wl4lsJ6lnP3uEjnYJfJ5AMkkZR7J/oTQqYau7RtdycZCHQsZNmgV2PK67tGJEm6lQu4MUkrfBi6GlHerjSfxkH63EpE+VMCsxblM9F2Vqttde3Msw1bur/35qTtd3ZRfhz09qLEjuW1c2eDB+l0YLFIM0fLasxdjWu9exn4W80HZcVm7Yyyvt3D6W+utPi5+EeDBnl7o1cpoUo8z2goIgorpCMDQ1oekHfTrdCq2MfOqbrf1TmnjR9GAf6y/rduTmS9CVkRNySVbvof3RYdactHsUnK/xcdIwR2RlboKvEoUQFuoVuxHONYjnOI4xcskjN84SQ5V1H9xR6ul39JewbFz+NvYV0B7rziit2c/tNDDYMw4IVaK439BfjRAQhqzf2F+NmHZUoe7n83KIwsxkQtG6Vq22W48TY4PsQgePF8Z5Al1mBkXxINI2JyF4vGRZszC1U+bZN4Q95tUBeoGPlHF6QlVCm22D+OTgQ77kN2vn6e0iQ8B1mhueOk/YmCfKK3n1svUiCawKPjwJBNVgbqH8j29HGr1qmvEvbKGP1+P35O3HecWEK9s6Yeetx7g7C947fa79YlmWQQ1BTEQOq+0k7hYPxP/c3u1WSJhOG97USuQSE+AylvujQcyOeN0O1cMscYRyUq6xjDFcSVVhX3yQKl
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         
+         
+         
+         
+         
+         
+        type : 14
+      -
+        code : |1+
+         
+         
+         
+         
+         
+         
+        type : 18
+  -
+    name : BTN_ZOOMMOINS
+    identifier : 0x2034d9490cbd461c
+    internal_properties : BQAAAAUAAACUH1l3p9LAhfwYlz1VhppjCwZKvIxQvxgNV5FPk/SjS3Gxw+m2DEFX7o91LlukjDumk/2HM9n1sGdkekyYSpNKOXwewD9Po4o1wpe5qbadV5HoUXb5BTrxrmOwbKeUKa/J7HIk4aouEk/gXfnte8usMgrsa0+MbnHlvlJMpeHgpfGzOpGz6asVEFIdBXK7essnMDLWrlk/vw9CFnaP6yjb+hr9uAQFyYQ1q8bs2P+krvh6Y98hVR+SUOwtA+bKkvHM0UzVBFDqKlbvlRqWp/wsPrHOpsSaHwkX99P4a6N8DoomlOWGEgUgRddSjoUJZpW1e+P8nO8P/ll7mR8OpgW2f/sUEmr0+FG6Tokxd5P9oicnM+c/efmQvgw1hmFWV4Qokin9NWhThxkLBx4FXMY/MO1WeycWUTxd49PGs3DIJmrqryKeBqMzqNw+c+T7w8yGIxYkDNkQQxJMpsZWVpacgVFB6P21fsKXVVm6sm1LN0DTV3fDY9PIRHrLW/V/q05exvGtCnAOp8XG8fXcIAvdg0iFqkNScRWlgA/lo9cB+pO9mqdgQPlHJVwTWIEPEuaaIVVT4c3zHyHuOor4tPt4MIzuET7h00W7TmyuE1/zr0X6qhYrxIi4M9dAoFXunITnm3adW54K5Gmts9cc7wvdJR8VRzmA2jCzh6cmuNBir4C/+gr3ESCtDxso1RsNlx8sUF5FS9SuhmeYvRZOs+9sQHgfsuYaWDLM/RfFvuKHQoxENBLthYrCHDxWwMPvuUyWdrpxMDHca74a5rIjGNIMGLKwRRaqdkBFCVhi3Bjr0W3NniEfd2ZuZlmcMoQKMS1a91HrjX7GdqAYkgs7lCuO9J7DNtvivb4KI82GeOXxLMzx8ajx+71Pv/Z94gCBWCevvVaVwjFNxdnpGX7js/pYaVZP6Nv3Kjz3tpOEpvLznEUyaXoS7N8FxKc+z0zjsxCgKjxH4muQ1SDP03543YgUmziGiXP/+cVADqBpv/AcRoRU6d1F88p/45UzPFnLoK760V8ZoUvcaOvA4fvRCRrYaUiy/bhYbYpnUk2HSefbWG2I0jsHY+QzkIITNZlnvbiR6GG4CKxSM2rchhJd9ql0dILz2t+nKBPw4/6rSvu43nUM+9fwtql8Urae7MFannCDgw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+         // Diminue le zoom
+         gnZoom --
+         
+         // Butée
+         gnZoom = Max(0, gnZoom)
+         
+         SI gbTracé = Vrai ALORS
+         	
+         	// Mise à jour
+         	AfficheItinéraire()
+         SINON
+         	
+         	// Mise à jour
+         	AfficheCarte()	
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ZOOMPLUS
+    identifier : 0x2034d9490cbe461c
+    internal_properties : BQAAAAUAAADjuM3JfisHz9iPaRy5BiY34G4GKJu8eNIh432nJ90T/8yezzrKYRvFjvICHtKLsdd+DunP9meNAJyH5x3jWeVFs0N6rV9JPEW3WJU7bnyYPYB3xmu0IvRiWQ+uF960DH7s1WT5aaBOzxE7UX9wQpCRjw1aJfoawUhj/5UIoWhIGzRdqMURSPZh8HFyZylVEeqyYO5+N0wgBDIEVHmzAqJjHghi4Nx38fWfXhxwB6QNhTMFGJpxntG84CHEWUyVzaNQn4AZTcBFWFATOVN2zVd2/m7uLadFxyMFbmagB+hHlUOeNbdwspfB9LiwkTV7TgQF+38OlGC3dNtKYWee8eXBIvCUZ8veQ0VAeTlnMXhVelBMsShyQU7b1pFmiF5C/vDM7SoxTu2tzOSCpsRBx9tW80+wp6QqDF+xrWQG7G/SqxFTDdqaQ14EkgecLW5ciCr9RDsccCDMZ7XAdgICQo3GGV0HHFpbakv6WV6gBTWEF4VR0bNjgx4zG/aOwFUxBCcCgUmZPwubMMoMPbUHvIya4QB0FwTe8eUJLHxUX5cJcXkbNBBVC4jP9Zo9STB8gCAZ2DI1Sbk0pCGrcQ7+gsfItXypQwC7+sKVDh5nqyCVGID9FknCz66Xt9s8j1P3W3mKJBm7i+t7PzZ7sgd0nlMcp7u8Jz3aWBHFpsdm+8Nj6jksQHdGbcQj7B/J1rV3crLtNhtYSIa3C0WNZfhSxQwz9oUPQPJVvNYYXx+CXcuqU6PCjxI9rGwLGglYo7DhNcK/dT0BqYFmlTamuLKzGcy48FzIwwtAtBWrTXd34E6SudzA4r2FiMNoZV9czwzb3pQq3BpF1Pxe8E3P3kvGMOCdRZEwtZUDhSMkOlkq1pCJVROaYAET98qLKjR4YWjNV+ORtoeddIAevjjhmqiYiraM2Sqd2z8pYbdsWjpHvzU3288BY5YBzk9aqoTZnf96TqaPRnnAdVOQB/KyiMvzUv8KwnowvHhVEFNl0jrYRSpidD3T3eAs83ro8eIBYzxkvTsSlkaaH/ieZNLaBYWniP02VzrbH7vfBtR1PldwuOw2bEgTKG8u+3x6JIiWwzp3IWiTcH0mg21SaIxwmFpMgQ/ys0DehZbTAfBhYD0uf9oTZz9xsUfqrLuoAC1IUjyoorY5yU55
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         // Augmente le zoom
+         gnZoom ++
+         
+         // Butée
+         gnZoom = min(19, gnZoom)
+         
+         si gbTracé = Vrai alors
+         	
+         	// Mise à jour
+         	AfficheItinéraire()
+         sinon
+         	
+         	// Mise à jour
+         	AfficheCarte()	
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Afficher_l_itinéraire
+    identifier : 0x2034d9490cbf461c
+    internal_properties : BQAAAAUAAABBDbGnALtoyrEO11h0NJ1F9TSDxfs/3/xG3XK30DHkWqdszwaS4isqsCkq4L78ZDXLEdZ/N42I1h87MaZNGosIFQH09G3xdIoOVqwV5/oi/SndPjNlcn1sN/1PDxxtUH5c5sLRYya008klM/VJLwTVYqzNJUVWqta+ZaYm4nspODA+MOxoqerL602JTPDSNPgNMZCysgA+jqafgMJRfNMF2Z3Po6gwxw8rBGDSDHkEys1f6GeGIMDRvX3eEC4LFVb8p6aGWmgXnnVbwabOB3Z1yyKeCtah9GAazRkfayTgMBhZEocWutGCKz/pp1RK3rd+tTcLBknwEXQBqWNVO/hUfYAF952oCD8/gtZcQks2/4R0NKqZOWOD7nMuVTacBFI1X7R4LVuTPbMhM0xV6NpDB7H4UOjzp/mZevt4Y8GIB0MXIXKI8dtXxTGutSMkDfAMYrXR7aqx464jnfjzFvQQq2mk1CmwPJN+ong/9WeE30M1Ua1U5X+n0JwhxB8rIWsbQBXvE9wIkqrZdiWJTdvi10JYYQNDfpFpdBG3VsWKe8OLeRO5RMwPh6pPOZHboaw4NsfjXUgK90S3HgWHIGMWXx3BcT9kyrjGqH+ItxMK3m4yjtwarFfue0tqAL4/7GByoM7SSGfBxZHsoaDbwiwPaBvRzGQ=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         
+         
+         
+         
+         
+         
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : COMBO_VILLEDEPART
+    identifier : 0x2034d9490cc0461c
+    internal_properties : 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
+    dropdown :
+     internal_properties : BQAAAAUAAADfonl1P8q8orFwOES/CSv8JT+UeMMZrtQjhWzWA+0V9+VJucQxEarJdfcK7Nml8fN8GRKvAfcIvETtOw4v5OAzrSYgcuKiy7fA/qxPLb1mewQpC5KoUdBOiDRAHuVsbknGtw8nbhr2XuRPTdSacfe6KxJ1JfKgoeKyzeFktH2mBRKTp27PQkADusv3zASOQnxQbKOp5JEN7IaUID/BI8MG8h+suGr9jK17MrLm/GgwkbfRPHLqF3blY43AudNjRReUUWFWnqZOzLD3mHd4s2JWPqavuxCtqrKj58dbpF23H1U+D+lBbG1lsPRrVJufGE/kLrjGbS3BdTvRGr/o328HWzvO22EMwMtBSxxRzqhlxNIk0rG6UCq2nTbqz4n4G0hOvNwzcjcKHlYHHMWRugwu0AgYAc+61BlhZlFJsk+gYGgNjwoXbE2K/z2uWrtfXHqERTBFxtYSkHyhXdMbE38PrYdyt/od6+PnM1mzkJQPJ3hU3gvwRziWxuxUSPrcRD3KdDVeMoa5XEkEPV4wPT2CjvV12FFu6YqV8EUiNF5du9BXABW5/x7FQddQFN3JWmon1djgHBEiQZwGRjoLqWQFKasqK9ODMDj4wzlhgTsiHK9cEtwF/hBjoMjOL3edp1CsoPx42bhnCGctZc8xczqV5Dubqc+pOOyPtD3rNF84GGniWyvxD4+bdEeblO9/7Y10/LrnhQhtjFtYx9SAyXp8g1U/ekuv2qajjhdHmdxiw2MjZN5CXITVschw2nB3YCCWdededev5tc5Sn+wH/qGXxKMSXz0yIesxpEb3faqqmKK00AxGVVKiIIyMy0QtAA29boB7R2PXEN11wL7h8N3YLGiTvVxsRM8YiTpcXwqGEWJxFe9+7xdUuokCXbUq6/4qqffpgp/QgW8XV/56zpaQMS8XDmW7EyHASnUCxu+KATVJKvRz3L+oaU/rfxQNFBmYLJlmTX+OWFlCbrc3jJjcXcKjzAober1zgUoRXbheDqu0x/mFaATlCGZgt0J6FTcvRuQ7M8E8Gs7vhLnp7nJcmMbZGVegh27YvAYiatKNxEjKxPb/M0oFUuqNA4P7mSwUDTNtKj8WFfmI5dKlzntYifECP5aR8/z1LQ==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         
+         nIndiceDépart est un entier
+         
+         // Affiche la liste des villes mémorisée
+         pour toute sVille de gtabCoordonnéesVillesFrance
+         	
+         	ListeAjoute(COMBO_VILLEDEPART, sville)
+         	si sVille [= "Montpellier" alors
+         		nIndiceDépart = COMBO_VILLEDEPART..Occurrence
+         	FIN
+         FIN
+         
+         // Par défaut, on affiche Montpellier
+         ListeSelectPlus(COMBO_VILLEDEPART, nIndiceDépart)
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+         
+         gbTracé = Vrai
+         
+         // Affiche l'itinéraire
+         AfficheItinéraire()
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : COMBO_VILLEARRIVEE
+    identifier : 0x2034d9490cc1461c
+    internal_properties : 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
+    dropdown :
+     internal_properties : BQAAAAUAAADfonl1P8q8orFwOES/CSv8JT+UeMMZrtQjhWzWA+0V9+VJucQxEarJdfcK7Nml8fN8GRKvAfcIvETtOw4v5OAzrSYgcuKiy7fA/qxPLb1mewQpC5KoUdBOiDRAHuVsbknGtw8nbhr2XuRPTdSacfe6KxJ1JfKgoeKyzeFktH2mBRKTp27PQkADusv3zASOQnxQbKOp5JEN7IaUID/BI8MG8h+suGr9jK17MrLm/GgwkbfRPHLqF3blY43AudNjRReUUWFWnqZOzLD3mHd4s2JWPqavuxCtqrKj58dbpF23H1U+D+lBbG1lsPRrVJufGE/kLrjGbS3BdTvRGr/o328HWzvO22EMwMtBSxxRzqhlxNIk0rG6UCq2nTbqz4n4G0hOvNwzcjcKHlYHHMWRugwu0AgYAc+61BlhZlFJsk+gYGgNjwoXbE2K/z2uWrtfXHqERTBFxtYSkHyhXdMbE38PrYdyt/od6+PnM1mzkJQPJ3hU3gvwRziWxuxUSPrcRD3KdDVeMoa5XEkEPV4wPT2CjvV12FFu6YqV8EUiNF5du9BXABW5/x7FQddQFN3JWmon1djgHBEiQZwGRjoLqWQFKasqK9ODMDj4wzlhgTsiHK9cEtwF/hBjoMjOL3edp1CsoPx42bhnCGctZc8xczqV5Dubqc+pOOyPtD3rNF84GGniWyvxD4+bdEeblO9/7Y10/LrnhQhtjFtYx9SAyXp8g1U/ekuv2qajjhdHmdxiw2MjZN5CXITVschw2nB3YCCWdededev5tc5Sn+wH/qGXxKMSXz0yIesxpEb3faqqmKK00AxGVVKiIIyMy0QtAA29boB7R2PXEN11wL7h8N3YLGiTvVxsRM8YiTpcXwqGEWJxFe9+7xdUuokCXbUq6/4qqffpgp/QgW8XV/56zpaQMS8XDmW7EyHASnUCxu+KATVJKvRz3L+oaU/rfxQNFBmYLJlmTX+OWFlCbrc3jJjcXcKjzAober1zgUoRXbheDqu0x/mFaATlCGZgt0J6FTcvRuQ7M8E8Gs7vhLnp7nJcmMbZGVegh27YvAYiatKNxEjKxPb/M0oFUuqNA4P7mSwUDTNtKj8WFfmI5dKlzntYifECP5aR8/z1LQ==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         
+         nIndiceDépart est un entier
+         
+         // Affiche la liste des villes mémorisée
+         POUR TOUTE sVille de gtabCoordonnéesVillesFrance
+         	
+         	ListeAjoute(COMBO_VILLEARRIVEE, sVille)
+         	SI sVille [= "Paris" ALORS
+         		nIndiceDépart = COMBO_VILLEARRIVEE..Occurrence
+         	FIN
+         FIN
+         
+         // Par défaut, on affiche Paris
+         ListeSelectPlus(COMBO_VILLEARRIVEE, nIndiceDépart)
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+         
+         gbTracé = Vrai
+         
+         // Affiche l'itinéraire
+         AfficheItinéraire()
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_ITINERAIRE
+    identifier : 0x2034d9490cc2461c
+    internal_properties : BQAAAAUAAAD7hcHY3EMG/xiWmN2AWZqp0221xDmNufltGaX/Zm+V2Sc6RU2LcYPta2YbQXJcQJXAOiZo6mPNeHulKEhPgNN9mLb2reoQaOGKQHaAHVwJacm9CyRuO5ogQKvL9ZrQoDEw+vJbhZ2ykgZiaut09Y41q277MZWXmpeQI/OFw5AqUvKeNP3y/mjOFujCgy12xSupC4hmZhWywq5aKUp58I+5xvq2rdV/6IZxcdiZBxgcLYN0CjdIgLyIEJ6LrICupS+I6JmEoE/F/lI+3/XImnQqnNRPCjNydnuoeG7zjRYK97CCZQlvkK9tX5OE6tmfgun3OImPomLYMpiOnDQWuVKTkML0DDE8bfobBNr7gRSlIwTtrNXuwLcxsZKoca5krXegr4M5LcoJEuUdd7PPEsuqpwAtLPZ0LQMQ9ggck+Iu1Yx7TYIaGNARhlVVkcEVtHNs/FhFxn0FYQgwJ6LUR3Xr+596QcxSZ8SZjtPoDkXaVS4UCGMxER6bhTGWj+oST4aZQEG9+vhre59xnDMFXHuNJraeeFE+GSvkHztxinv85eXyLAu4dOkSfT2F4lLpUfUOyip+P5r9Q3Jz9YBX2AjEDjsZ65Xz20n85xyOO5uNAg56BNclnQN7SedwXVOzcvc+E6wsiwFbxckhceCSSglA+FeTKjXCH73Oli1rEK7LdZiX3P+QZydAL+F2R8CXgXP2GAoEQqWlHWUllyzvvPWyFhNPZF3q7IqKQa7/Lmzb0Hc2RaEIsGSa2ROAl+7YfHdlNnrqs4ePl+KfDUL78PBX9UFEDuFqlBxSgaeDjdw3f3Klyh/lq4sDB0id6k4KjAPMaG2oivmovslTsIsr6mzMa+XXdHHK0Rea5yzQA156D1q7EDmuUX1grS5GU96SH7CdJOyIjBipSokNrlTVANX3w7pggR5L3sbRXHAv6AMS9V7FWLYYsOjXGwhLfwgcXYyKo/Ms0msdNhPiHBPUFuCe4UMp6cDSKmEtU91zDXvcpyERXAteSTgXdBxoFmBzrcCFXeXYJ6z3M1c8MkxXstEJUIDVqu9BX40AG+LQxEol+3vQ9g7xjF+m4Pj7ppOuq6PgTAfbJAE0ibstRVneI8fNvXjevnl07/4E7zGx5WIOyrLkw0vf0HNMb6s4GD/IuPob7HA=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+         gbTracé = vrai
+         
+         // Affiche l'itinéraire
+         AfficheItinéraire()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_CléGoogle
+    identifier : 0x2034d9490cc3461c
+    internal_properties : BQAAAAUAAAC2GU/FWrB3A3wb4sHWj+Uln7dUGQEIopL7K9x212vCmlT4ZA8BrpOySyDhZ0NcAI6T7DFWE8IUSIjQgbJiwpG4CMiMPlBgKLqEPaWDRrWwPdOW2gOzVS9suef6PrI0jaZJtxIJavoE5dJc7iE55vdX2i2bCBb2k9dVGPF2nwor/q+DjBd8a89vcMc5796PLgqb1a8weqgBdrCsOnsUE0RXGD5zBgEj9tgwx5lubBIDryfTa9nTH3zwJAcNkGZxfngYhvvsOxIA6FkBrEwDPa4vFx6ms401butYWLOcpu6c0h6IbVjc4cUlqFBpcAKw7bEuH+ZDcvitJXIF0ek3iKt/pF8RllSm0VoIyM8rjbsZEU6aKV75QuVEa/aPnBfhVFxpHBEqTrS8aJhEa3TrQkrRsyZUf9S8zxCKSQ48N+/AhQAoopGpUQ4Z1DVVJreOcgqXDdWbeS4vUWibvgHpYA/WkAuGRXgFyKa3VzwYpuOcAGsWBtEdiPBbi7jSV7PC6gf5NgKhV4T88z9BBlrXJ8WJy6Hdop/LAqn10xawebuECLECxwup1ydZXRjIlODgcP4TNwicXAA6G6YITUcnsCXdR6yT1eYzqzkufxwnIF+9l8BH8PN2qgwOAoTVHcnSTF5hWIoLPoZYmp9M1eCGTn2TUUS46R6AlcijkdCUVSiAshLpO7etrJJs6D7sy55NzXeOU3UxmJOTZNZoWFzhjgQEmxLnew7RdBlDctzlLGqKGBgCMakc3HjDZwg1snizo18TpimH3s/5qJfvJFXyrqu60iS5YzRDnnqxJw2HHvYQ2/vQE4B2VhRoY1uZ5/uG1hpgUxpmFjLFhUE3k9xUBuT8EL9I5XVUF1H5vP3OvDENl1Y/Ekwa2egf7Z1TO9L3CbCW7slYAGTZJWvlQl6cyFrzNwarESr7rjYJLVVDsX1z9YSASuC7lHd0p7jVjDTYJBPeLXic8PVJJifPKfduFLoZRY0/Bg950reDu7uqQ9MBBjhdKYFKnfR7SARSDt90C2WLykU+JYT691pMCRsna5FUT9Ka9btnVGwCyEt3a9Ms9Tk+KAo0GfHa7Kz+q8twfJJl94GvdDyCN5acXa2/DhXYak+qOb6FqogGxRwE3QJo1cFwQrBxEpQJu693TddJN3U09WKVXveiJiCr5fKxn7mWr3asIwdgt/uX6rzqDRxPJwjqXTk4pQITVbPVnHvA77SgHDPc7E/GIxWBnI4b1Bk0fmZ1wKdIpsip3cQ4uAiRIj79I5TRLe9Gp2pYWFU7kS8UbFk2/F2X+IJAcQmD98Sse7j0s9pLJmW0v1HMTPjK+xW9SL1m/a6uto9hzIsKP6V/vTVczuZN6gVqz3Fcsac3NqOzHLD1Xf3Ob77IhJXS/reJl6XAmjrwh7F+XyopXTwqLWULlvY6tp6POW6h2/34quVWprAei/06ovckruoTjPtmE/gaiPPCm+sNIMRyWNpphgV9ROc+Rxv2owENIZwkT1cR5UCtfdNUhmJp
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         // Si une clé est renseignée
+         SI MoiMême <> "" ALORS
+         	// Affiche la carte
+         	AfficheCarte()
+         FIN
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_CréationClé
+    identifier : 0x2034d9490cc4461c
+    internal_properties : BQAAAAUAAAC1Kni24i3BAMogRyCgdJsngoZxzagj6G6qJK3LM8SfMBsoz+VyL008ITEEyvmW0JoyoRRuh8cKFeb1neO/pOihN+NAjsEyL/rH4OZgSfrwUcddFtm4S8p79gnHReZxW+js0+E6Q4O0nva2FoVxDKKGOh5P3+VN9N1fKfxNLN2e0j8Sh18Kk2HXxZZaueKIaVYhe0j+WMZGdLeGpG4YbRriuEtDQkP6g8fGg8GUFfOtumY+QTvNx2KmiPs+U6r8ezyN/KOJWpS744X+7nWVEYxS3DLRq6uy7GxIxY91XsTn7yDHTy4ZyUFBM3piP5edLUkTzhWvCPXOq6RfID3bHfOX1nU+hWNYIYhhkCGbtxsn61scg6q9xz/RWlePPe8XdMtWPKB/ZAnpvIcftv6MRrQ3MI0fdqbPzcGD/TOIF0H8UZXMHjaebhEsrb8QXzdBHUv7OpyaYJKFCt+OPRTvdC2CU7z8FGAoc7gkCZ3ih6Z2shHWi/tDidxeEi8YgaCE+NheogQi98B/4BnMJytrmbleJAjcyckv1vwdVpD7YsxOtXX2XMpxdJP1aZJAsLN0wBVdr3VAUgoW8RvUTrHHS/yYnUYE/mdltTmZCy7laEUppmSBYzGRR0s6BsJsUX4/IgY0+qSAOdcDMQ6zQkd28OdlIk7ZcgR9FkdBZsmg+ZyomwWsJrsF3rrt8g0HScoXQnjwtRPp1b3Qsabw+9RDyf7S3MKZqNdU5J84ycHcefv1dytqfHb8LdncbghxDwaJy+bcYRnyhtmPmONCGte/upby8Pne2BTJX/VBnGJCMlT9vfKsFBUFxkEO1Ro2ivFgQFw/IXwRzsMFVuEgFOef+9ie87bMBOWGZRbm7h59LNPQNk7+u9/CfSWUKNSH5ThP/R/iRKZnfUyjx5QAH9UQpywtjsOnSZphl22OEv1U5HIxDbChmkcicnnF2QT0hN/6oKkvDA+9UMW6iifZkbOpyllRqPw51hjeFYppZlWR7EkrIVfFJjf2ge0Ru8A/5G6MbQyncCEPtarsEbzEJzk+sD1xb8mEz3wEQkufclJlF6jr8VmnHH8Q2eXyVEo6bBcYaXH4t16Ce/njTvzWL3ZvCcIJBhxWBfu7llIgt7HkIqOWd4HM/gmuYbRThkAi0inEYUWRVZOeOradp4tL0ituRsqT1+qDS0/wQ/e5QEAJyNSc7SLiSip0nGWbpwexFh6EqIgkxbSQCzpShVFB3QxKvHhBfYAhb5hLft0GeOdXYo1GD/+u2mKt+MUfiyUFLeSddD2zV9K7H19pLRoPMs+5GqNqji0BeKxp6cL4cHPpsY2e3oWkd64+OEo0syimHK/dV4t6L9bQQ8kXDt6jgvoSl6X1gT1nNDc4F9e7vLQ=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : BQAAAAUAAABuDaSXQQIj/dqF8qg4uLfs+Bw6BDxcKvQphleVyQwGQCXyZV284dS8lPc0eBsrpH2Kv0uKrAQZrDzm5CX3BWVYOMFrqAgyAz8vhIrWw4QI+s8hQRcXZNSzh+fR9biLQhOlg4USUDPtAyK0WASESydf8fbqMIiVy2RS9LJDssVuN4Fj6w==
+        code : |1-
+         
+         // Ouvre un navigateur sur la page de gestion / création des identifiants et clés Google APIs
+         LanceAppliAssociée("https://console.developers.google.com/apis/credentials")
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAAD/picDxgpEolagkn5o6grbQaBDejqOnvzNhPmMRdBYNojncuOCscHolSfv5ejIP47k5ENCMCa/jkOud7wq24kd2lr4BUMu9PAuLdLJNMB5BjGazznZyvU86wwt10lH5IQlaiIjwsXpu2uxUqWLcZtS8+24Ayca4vW17lx8jNDw3xC6c7PRsBOlEryvIyA36w6csqQtX8raw46N+6OlAH4omdVepARK/y/Aqr/ppUCLN+ciqPI55dWEADKB1SyL
+  options : []
+ languages :
+  - fr-FR
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      
+      PROCÉDURE MaFenêtre()
+      
+      gnZoom 	est un entier = 12
+      gbTracé	est un booléen
+      gtabCoordonnéesVillesFrance est un tableau de chaînes
+      
+      // Définit le tableau des villes
+      DéfinitVilles()
+   -
+     code : |1+
+      
+      
+      
+      // Pas de tracé par défaut
+      gbTracé = Faux
+     type : 34
+   -
+     code : |1+
+      
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : AfficheCarte
+     internal_properties : BQAAAAUAAADP22YF2Vt6eyjYoXaU78Gbd0EP8FVdRKEmj9JWCBe8ATY5D+OPThNEpijkpdBJ+nMkY2SXRSUTGpwE5ZACe3BIXd+TKA+ag3TJ/cPDRYeyuRrDGPk0RvuqD+FuZ/Dbecz7AGLNuBGPweHaG6swLK1QfOGnQd5rlReDtt6X4AvzImFReQ4+dxaSPP4Zhg==
+     procedure_id : 1167797110980822556
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche la carte de la ville sélectionnée
+      // Syntaxe :
+      //AfficheCarte ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCÉDURE AfficheCarte()
+      	
+      	gglParamètres		  est un gglParamètreCarte
+      	gglMarqueur			  est un gglMarqueur
+      	rLatitude, rLongitude sont des réels
+      	
+      	// La clé Google doit être renseignée
+      	SI SAI_CléGoogle ~= "" ALORS
+      		Erreur("Vous devez renseigner une clé Google valide pour visualiser une carte")
+      		RepriseSaisie(SAI_CléGoogle)
+      	FIN
+      	
+      	// Extrait les coordonnées de la ville sélectionnée
+      	rLatitude 	= ExtraitChaîne(COMBO_VILLESFRANCE..ValeurMémorisée, 1)
+      	rLongitude 	= ExtraitChaîne(COMBO_VILLESFRANCE..ValeurMémorisée, 2)
+      	
+      	// Marqueur sur les coordonnées
+      	gglMarqueur.Latitude 	= rLatitude
+      	gglMarqueur.Longitude 	= rLongitude
+      	Ajoute(gglParamètres.Marqueur, gglMarqueur)
+      	
+      	// On souhaite récupérer la carte au format JPG
+      	gglParamètres.Format			= gglJPG
+      	gglParamètres.Langue			= "fr"
+      	
+      	// Récupère la carte
+      	IMG_MAP = GglRécupèreCarte(SAI_CléGoogle, rLatitude, rLongitude, gnZoom, IMG_MAP..Largeur, IMG_MAP..Hauteur, GetTypeCarte(), gglParamètres)
+      	
+      	// En cas d'erreur
+      	SI ErreurDétectée ALORS
+      		
+      		// On affiche la carte
+      		Erreur()
+      	FIN
+     type : 458752
+   -
+     name : AfficheItinéraire
+     procedure_id : 1167797110980888092
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche l'itinéraire
+      // Syntaxe :
+      // AfficheItinéraire ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCÉDURE AfficheItinéraire()
+      	
+      	gglParamètres								est un gglParamètreCarte
+      	gglMarqueurDépart, gglMarqueurArrivée		sont des gglMarqueurs
+      	gglCoordonnéesDépart, gglCoordonnéesArrivée	sont des gglCoordonnées
+      	
+      	// La clé Google doit être renseignée
+      	SI SAI_CléGoogle ~= "" ALORS
+      		Erreur("Vous devez renseigner une clé Google valide pour visualiser une carte")
+      		RepriseSaisie(SAI_CléGoogle)
+      	FIN
+      	
+      	// Extrait les coordonnées de la ville de départ
+      	gglCoordonnéesDépart..Latitude 	= ExtraitChaîne(COMBO_VILLEDEPART..ValeurMémorisée, 1)
+      	gglCoordonnéesDépart..Longitude	= ExtraitChaîne(COMBO_VILLEDEPART..ValeurMémorisée, 2)
+      	
+      	gglMarqueurDépart..Latitude 	= gglCoordonnéesDépart..Latitude
+      	gglMarqueurDépart..Longitude	= gglCoordonnéesDépart..Longitude
+      	
+      	// Extrait les coordonnées de la ville d'arrivée
+      	gglCoordonnéesArrivée..Latitude 	= ExtraitChaîne(COMBO_VILLEARRIVEE..ValeurMémorisée, 1)
+      	gglCoordonnéesArrivée..Longitude	= ExtraitChaîne(COMBO_VILLEARRIVEE..ValeurMémorisée, 2)
+      	
+      	gglMarqueurArrivée..Latitude 	= gglCoordonnéesArrivée..Latitude
+      	gglMarqueurArrivée..Longitude	= gglCoordonnéesArrivée..Longitude
+      	
+      	// Paramétrage des marqueurs
+      	gglMarqueurDépart..Lettre	= "A"
+      	gglMarqueurDépart..Couleur 	= RougeClair
+      	gglMarqueurArrivée..Lettre	= "B"
+      	gglMarqueurArrivée..Couleur = BleuClair
+      	
+      	// Détermine le chemin
+      	Ajoute(gglParamètres.Chemin, gglCoordonnéesDépart)
+      	Ajoute(gglParamètres.Chemin, gglCoordonnéesArrivée)
+      	Ajoute(gglParamètres.Marqueur, gglMarqueurDépart)
+      	Ajoute(gglParamètres.Marqueur, gglMarqueurArrivée)
+      	
+      	// Propriétés
+      	gglParamètres.Chemin..Couleur 	= 0xff0000
+      	gglParamètres.Chemin..Epaisseur	= 5
+      	gglParamètres.Chemin..Opacité	= 80
+      	
+      	// On souhaite récupérer la carte au format JPG
+      	gglParamètres.Format			= gglJPG
+      	gglParamètres.Langue			= "fr"
+      	
+      	// Récupère la carte
+      	IMG_MAP = GglRécupèreCarte(SAI_CléGoogle, IMG_MAP..Largeur, IMG_MAP..Hauteur, GetTypeCarte(), gglParamètres)
+      	
+      	// En cas d'erreur
+      	SI ErreurDétectée ALORS
+      		
+      		// On affiche la carte
+      		Erreur()
+      	FIN
+      	
+     type : 458752
+   -
+     name : GetTypeCarte
+     procedure_id : 1167797110980953628
+     type_code : 14
+     code : |1-
+      // Résumé : Récupère le type de carte sélectionné
+      // Syntaxe :
+      //[ <Résultat> = ] GetTypeCarte ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne ANSI : Type de carte sélectionné
+      //
+      Procédure GetTypeCarte()
+      
+      	sTypeCarte est une chaîne
+      
+      	selon INT_TYPECARTE
+      		cas 1	: sTypeCarte = gglplan
+      		cas 2	: sTypeCarte = gglPériphériqueMobile
+      		cas 3	: sTypeCarte = gglSatellite
+      		cas 4	: sTypeCarte = gglTerrain
+      		cas 5	: sTypeCarte = gglHybride
+      		
+      		AUTRE CAS
+      			// Par défaut
+      			sTypeCarte = gglPlan	
+      	FIN
+      	
+      renvoyer sTypeCarte
+     type : 458752
+   -
+     name : DéfinitVilles
+     internal_properties : BQAAAAUAAADd8tvRqntyTDaQeYZIdKYhTJcH5+8B7A+fql2Gu0kIuQZ1YyER6CD5N6aARPUDTDPf8ASdkJJS4MlrtclhCKr7/AT+Ql47Lqo+sWsCUWLVvovO+CRARMJWGS4nCDVdegZMu2xxMu8OCyO28MP0MrZx+xv+BPqsYMYNwNhXXJFACExtSe+Hbz3t1AMZ2ADAFrnHjd6wh9hifYEhFz4OWp3mGidtOR5QR6KLlh2s/PmOt6MZSLj9TUxuzWMBka1UD1wx2Blj0K661s9if8aI7RjUFg7yKaQ5DkU743IUMiIWKD+Oz6raxtEtf7qg7oPmpfLdLq/KkaqqXmDiqYRvEAnfQoiLVY6XIrGTNAXyoc3DLM7LC1P8+iLgpFDETqzAGg==
+     procedure_id : 1167797110981019164
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //DéfinitVilles ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE DéfinitVilles()
+      
+      
+      // Coordonnées géographiques des villes de France
+      gtabCoordonnéesVillesFrance = [ ...
+      
+      // Ville (Latitude, Longitude)			Latitude	   Longitude
+      "Brest (48° 22'N,4° 30'W)" 				+ gLien("48.383" + TAB + "-4.500"), 
+      "Quimper (48° 00'N,4° 06'W)" 			+ gLien("48.000" + TAB + "-4.100"), 
+      "Lorient (47° 45'N,3° 20'W)" 			+ gLien("47.750" + TAB + "-3.350"), 
+      "St-Brieuc (48° 31'N,2° 45'W)" 			+ gLien("48.517" + TAB + "-2.750"), 
+      "Vannes (47° 40'N,2° 44'W)" 			+ gLien("47.667" + TAB + "-2.733"), 
+      "St Nazaire (47° 16'N,2° 12'W)" 			+ gLien("47.283" + TAB + "-2.200"), 
+      "Rennes (48° 5'N,1° 40'W)" 				+ gLien("48.100" + TAB + "-1.667"), 
+      "Cherbourg (49° 37'N,1° 37'W)" 			+ gLien("49.633" + TAB + "-1.617"), 
+      "Nantes (47° 13'N,1° 34'W)" 			+ gLien("47.233" + TAB + "-1.583"), 
+      "La-Roche-sur-Yon (46° 38'N,1° 30'W)" 		+ gLien("46.633" + TAB + "-1.500"), 
+      "Bayonne (43° 30'N,1° 28'W)" 			+ gLien("43.500" + TAB + "-1.467"), 
+      "La Rochelle (46° 10'N,1° 10'W)" 			+ gLien("46.167" + TAB + "-1.167"), 
+      "St-Lo (49° 07'N,1° 05'W)" 				+ gLien("49.117" + TAB + "-1.083"), 
+      "Laval (48° 4'N,0° 45'W)" 				+ gLien("48.067" + TAB + "-0.750"), 
+      "Bordeaux (44° 49'N,0° 34'W)" 			+ gLien("44.833" + TAB + "-0.567"), 
+      "Angers (47° 28'N,0° 31'W)" 			+ gLien("47.483" + TAB + "-0.533"), 
+      "Mont-de-Marsan (43° 54'N,0° 30'W)" 		+ gLien("43.900" + TAB + "-0.500"), 
+      "Niort (46° 19'N,0° 27'W)" 				+ gLien("46.317" + TAB + "-0.450"), 
+      "Pau (43° 17'N,0° 22'W)" 				+ gLien("43.300" + TAB + "-0.367"), 
+      "Caen (49° 10'N,0° 22'W)" 				+ gLien("49.183" + TAB + "-0.367"), 
+      "Alençon (48° 25'N,0° 05'E)" 			+ gLien("48.417" + TAB + "0.083"), 
+      "Tarbes (43° 14'N,0° 05'E)" 				+ gLien("43.233" + TAB + "0.083"), 
+      "Le Havre (49° 30'N,0° 6'E)" 			+ gLien("49.500" + TAB + "0.100"), 
+      "Angouleme (45° 40'N,0° 10'E)" 			+ gLien("45.667" + TAB + "0.167"), 
+      "Le Mans (48° 0'N,0° 12'E)" 				+ gLien("48.000" + TAB + "0.200"), 
+      "Poitiers (46° 34'N,0° 19'E)"				+ gLien("46.583" + TAB + "0.333"), 
+      "Cahors (44° 26'N,1° 26'E)" 				+ gLien("44.44" + TAB + "1.433"), 
+      "Auch (43° 38'N,0° 35'E)" 				+ gLien("43.643" + TAB + "0.5842"), 
+      "Agen (44° 12'N,0° 38'E)" 				+ gLien("44.200" + TAB + "0.633"), 
+      "Tours (47° 22'N,0° 41'E)" 				+ gLien("47.383" + TAB + "0.700"), 
+      "Perigueux (45° 12'N,0° 44'E)" 			+ gLien("45.200" + TAB + "0.733"), 
+      "Dieppe (49° 55'N,1° 4'E)" 				+ gLien("49.917" + TAB + "1.083"), 
+      "Rouen (49° 25'N,1° 4'E)" 				+ gLien("49.433" + TAB + "1.083"), 
+      "Evreux (49° 03'N,1° 11'E)" 				+ gLien("49.050" + TAB + "1.183"), 
+      "Limoges (45° 49'N,1° 15'E)" 			+ gLien("45.833" + TAB + "1.250"), 
+      "Montauban (44° 01'N,1° 20'E)" 			+ gLien("44.017" + TAB + "1.333"), 
+      "Blois (47° 36'N,1° 20'E)" 				+ gLien("47.600" + TAB + "1.333"), 
+      "Toulouse (43° 37'N,1° 27'E)" 			+ gLien("43.617" + TAB + "1.450"), 
+      "Chartres (48° 27'N,1° 30'E)" 			+ gLien("48.450" + TAB + "1.500"), 
+      "Foix (42° 57'N,1° 35'E)" 				+ gLien("42.950" + TAB + "1.583"), 
+      "Chateauroux (46° 49'N,1° 41'E)" 			+ gLien("46.817" + TAB + "1.683"), 
+      "Tulle (45° 16'N,1° 46'E)" 				+ gLien("45.267" + TAB + "1.767"), 
+      "Abbeville (50° 5'N,1° 51'E)" 			+ gLien("50.100" + TAB + "1.850"), 
+      "Gueret (46° 10'N,1° 52'E)" 				+ gLien("46.167" + TAB + "1.866"), 
+      "Orleans (47° 54'N,1° 53'E)" 			+ gLien("47.900" + TAB + "1.900"), 
+      "Vierzon (47° 13'N,2° 2'E)" 				+ gLien("47.233" + TAB + "2.050"), 
+      "Pontoise (49° 03'N,2° 05'E)" 			+ gLien("49.050" + TAB + "2.083"), 
+      "Beauvais (49° 26'N,2° 05'E)" 			+ gLien("49.433" + TAB + "2.083"), 
+      "Versailles (48° 48'N,2° 08'E)" 			+ gLien("48.800" + TAB + "2.133"), 
+      "Albi (43° 56'N,2° 08'E)" 				+ gLien("43.933" + TAB + "2.144"), 
+      "Nanterre (48° 53'N,2° 13'E)" 			+ gLien("48.883" + TAB + "2.217"), 
+      "Amiens (49° 54'N,2° 17'E)" 				+ gLien("49.900" + TAB + "2.300"), 
+      "Paris (48° 49'N,2° 19'E)" 				+ gLien("48.833" + TAB + "2.333"), 
+      "Bourges (47° 05'N,2° 23'E)" 			+ gLien("47.083" + TAB + "2.383"), 
+      "Carcassonne (43° 13'N,2° 21'E)" 			+ gLien("43.217" + TAB + "2.350"), 
+      "Dunkerque (51° 1'N,2° 22'E)" 			+ gLien("51.033" + TAB + "2.383"), 
+      "Aurillac (44° 55'N,2° 25'E)" 				+ gLien("44.933" + TAB + "2.433"), 
+      "Bobigny (48° 55'N,2° 27'E)" 			+ gLien("48.917" + TAB + "2.450"), 
+      "Créteil (48° 47'N,2° 28'E)" 				+ gLien("48.783" + TAB + "2.467"), 
+      "Melun (48° 32'N,2° 40'E)" 				+ gLien("48.533" + TAB + "2.66"), 
+      "Evry (48° 37'N,2° 26'E)" 				+ gLien("48.61" + TAB + "2.433"), 
+      "Rodez (44° 20'N,2° 34'E)" 				+ gLien("44.350" + TAB + "2.567"), 
+      "Montlucon (46° 19'N,2° 35'E)" 			+ gLien("46.333" + TAB + "2.600"), 
+      "Arras (50° 17'N,2° 46'E)" 				+ gLien("50.283" + TAB + "2.767"), 
+      "Lens (50° 25'N,2° 49'E)" 				+ gLien("50.433" + TAB + "2.833"), 
+      "Perpignan (42° 42'N,2° 54'E)" 			+ gLien("42.700" + TAB + "2.900"), 
+      "Lille (50° 39'N,3° 4'E)" 				+ gLien("50.650" + TAB + "3.083"), 
+      "Clermont-Ferrand (45° 47'N,3° 05'E)" 		+ gLien("45.783" + TAB + "3.083"), 
+      "Nevers (47° 00'N,3° 09'E)" 				+ gLien("47.000" + TAB + "3.150"), 
+      "Moulins (46° 34'N,3° 20'E)" 			+ gLien("46.567" + TAB + "3.333"), 
+      "Mende (44° 32'N,3° 30'E)" 				+ gLien("44.533" + TAB + "3.500"), 
+      "Auxerre (47° 48'N,3° 35'E)" 			+ gLien("47.800" + TAB + "3.583"), 
+      "Laon (49° 34'N,3° 37'E)" 				+ gLien("49.567" + TAB + "3.617"), 
+      "Montpellier (43° 35'N,3° 52'E)" 			+ gLien("43.600" + TAB + "3.883"), 
+      "Le Puy (45° 03'N,3° 53'E)" 				+ gLien("45.050" + TAB + "3.883"), 
+      "Avallon (47° 30'N,3° 54'E)" 				+ gLien("47.500" + TAB + "3.900"), 
+      "Reims (49° 15'N,4° 1'E)" 				+ gLien("49.250" + TAB + "4.033"), 
+      "Troyes (48° 17'N,4° 4'E)" 				+ gLien("48.300" + TAB + "4.083"), 
+      "Roanne (46° 1'N,4° 4'E)" 				+ gLien("46.033" + TAB + "4.083"), 
+      "Nimes (43° 50'N,4° 21'E)" 				+ gLien("43.85" + TAB + "4.350"), 
+      "Chalons-S-Marne (48° 58'N,4° 22'E)" 		+ gLien("48.967" + TAB + "4.367"), 
+      "St-Etienne (45° 25'N,4° 22'E)" 			+ gLien("45.433" + TAB + "4.383"), 
+      "Privas (44° 44'N,4° 36'E)" 				+ gLien("44.733" + TAB + "4.600"), 
+      "Mezières (49° 46'N,4° 44'E)" 			+ gLien("49.767" + TAB + "4.733"), 
+      "Avignon (43° 55'N,4° 48'E)" 			+ gLien("43.933" + TAB + "4.800"), 
+      "Lyon (45° 46'N,4° 50'E)" 				+ gLien("45.767" + TAB + "4.833"), 
+      "Macon (46° 18'N,4° 50'E)" 				+ gLien("46.3" + TAB + "4.833"), 
+      "Valence (44° 55'N,4° 54'E)" 			+ gLien("44.933" + TAB + "4.900"), 
+      "Dijon (47° 19'N,5° 1'E)" 				+ gLien("47.333" + TAB + "5.033"), 
+      "Chaumont (48° 07'N,5° 08'E)" 			+ gLien("48.117" + TAB + "5.133"), 
+      "Bar-le-Duc (48° 46'N,5° 10'E)" 			+ gLien("48.767" + TAB + "5.167"), 
+      "Bourg (46° 12'N,5° 13'E)" 				+ gLien("46.200" + TAB + "5.217"), 
+      "Observatoire SIRENE (44° 0'N,5° 19'E)" 	+ gLien("44.000" + TAB + "5.333"), 
+      "Marseille (43° 17'N,5° 22'E)" 			+ gLien("43.300" + TAB + "5.367"), 
+      "Lons-le-Saunier (46° 41'N,5° 33'E)" 		+ gLien("46.683" + TAB + "5.550"), 
+      "Grenoble (45° 10'N,5° 43'E)" 			+ gLien("45.183" + TAB + "5.717"), 
+      "Toulon (43° 7'N,5° 55'E)" 				+ gLien("43.117" + TAB + "5.917"), 
+      "Chambéry (45° 34'N,5° 55'E)" 			+ gLien("45.567" + TAB + "5.917"), 
+      "Besancon (47° 14'N,6° 1'E)" 			+ gLien("47.233" + TAB + "6.016"), 
+      "Gap (44° 33'N,6° 05'E)" 				+ gLien("44.550" + TAB + "6.083"), 
+      "Annecy (45° 54'N,6° 07'E)" 			+ gLien("45.900" + TAB + "6.117"), 
+      "Metz (49° 7'N,6° 10'E)" 				+ gLien("49.117" + TAB + "6.183"), 
+      "Vesoul (47° 38'N,6° 09'E)" 				+ gLien("47.633" + TAB + "6.150"), 
+      "Nancy (48° 42'N,6° 11'E)" 				+ gLien("48.700" + TAB + "6.200"), 
+      "Digne (44° 05'N,6° 14'E)" 				+ gLien("44.083" + TAB + "6.233"), 
+      "Epinal (48° 10'N,6° 28'E)" 				+ gLien("48.167" + TAB + "6.467"), 
+      "Belfort (47° 38'N,6° 52'E)" 				+ gLien("47.633" + TAB + "6.867"), 
+      "Cannes (43° 32'N,7° 0'E)" 				+ gLien("43.550" + TAB + "7.000"), 
+      "Nice (43° 42'N,7° 16'E)" 				+ gLien("43.700" + TAB + "7.267"), 
+      "Colmar (48° 05'N,7° 21'E)" 				+ gLien("48.083" + TAB + "7.350"), 
+      "Mulhouse (47° 45'N,7° 20'E)" 			+ gLien("47.750" + TAB + "7.350"), 
+      "Strasbourg (48° 35'N,7° 45'E)" 			+ gLien("48.583" + TAB + "7.750"), 
+      "Ajaccio (41° 55'N,8° 43'E)" 				+ gLien("41.917" + TAB + "8.717"), 
+      "Bastia (42° 41'N,9° 26'E)" 				+ gLien("42.683" + TAB + "9.433")
+      ]
+      
+      TableauTrie(gtabCoordonnéesVillesFrance, ttCroissant)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAD97Xq+a95UXGJhNt30s8bzKsrT7/Ki6rKqv6wk0+8gUGtfVJm7d6T6qbc0QVOCDK6FqNz2TuCvqma5vFvpMxxn79bqY1Ko+qRoMKBnCrc/ARecYuKNbVOAONLVIgKn7U8xUQwOXYNosZWfPtfgZKOxS4cqAhkhZg==
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1513e9a600bf7525
+  internal_properties : BQAAAAUAAACFrAzp/7Q0S84R+ikNeRgtAIFcvdVNEy0l/bgnbB29kPtJH0AWHFq9qw==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

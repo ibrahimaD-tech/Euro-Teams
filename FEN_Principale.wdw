@@ -1,0 +1,990 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Principale
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Principale
+ identifier : 0x2fc7720d01147530
+ internal_properties : BQAAAAUAAACY1CufQCjs/zap1LPQuZa4Jt3ZL6cSlE2BzUgIkzyy4+OrHuZRcE4+djUou+YOa8LOfrQF00h55e6mxt4aR+Th4/ocm115v8BM5O69pLCWtmxmv8W08Tli68QgI+uzsnLWAmhnTBGynYT9ASpyHRucI2dI/37mkZDtiaACOl494GpfOPtHIdiRK7+feVCmXl693hB517MOc9jXWn3Z7Pt9dBRr1bY8FcM8eUDZy7qUFuVtRnAerPMgcrc5802TG/bnlQoSzEmDQEwYgwWRtfRBpCFv9AWinfwp8S9Q5h/Ds6n32P5w/xUAXwPyDVp/EOLLb5BCVNGOHeAHHjof37xYs9jt6ysGEfeQehFm+Trcl2u4kp31IZZ65krPO3z9UwhP4jcQYG7viIzJTOBdV5hXd2xZhIVxaW65iJSW3gzv9MuXC0yNkptQh+HiRsijCXUAScM6FZ2r9iZOgZTJAb4xfaoKXrckmt8AJJ2W8fSVzfo52UJkJ9/152D4UWV4mqe/jy9gimJsGHZZLlIZsgxmPn9cktd0Js57Ix1YRmqyVVXxbKHCIUNwbrXaSs2+rrWUOitw/IyI5ZJebNtFu+aP++EBZaawg9ROg69AHGvFSF10MXWLiWPtpZAXxuVAK9uqX/koE3WZgmfORRIyDll90PbytMz6xs1ThRJqcpqLHxhd5aE9h32Gv8ExRX7LPsA3B2uhidP8yqzoty3nbCI0OtHEg+mmTwxywOS0HREaI9BYchCkdB6e4qgomr5Fk/WevHi+XPAdxWw6tGYvQVHpr0aaNlPzFD62EdThHR8pPgdRiIAHfPorv8ihGgpq6jXMGkPvn3EYz89awUQoQDtznjdY/l1orQ13+jNa4n0i9hwsFhMxLTcxf6OJzM0P6y6buhb6iZLlEZRzRjYsniHaUONX9R2ieLASfIl/ld0zVbPzbpCtNQsaFx/JB4y+z3iJHMzcOPrZkxz3rYWUrki9AXADSxKyLj5fZKCGHs6E/0YqHDgK2Lm5G0l5R2WHezN0g61Uggr04Fy4ghe/0rJCNy2lu9utN2lnGfGdKb+7LzkgpRCKeqbgK5gY8tWTwCOvahwh6cIe1IWxhFtBZIizHmTv64UmsXxOxugdEhMfsFxGThzeB9xvh383YEtINVU1okqsE2Y8TOYb0I6SMckDLvoVy4jVMWzkI2ls5UInRg9HFO3UwTYcGwfrbWfQjtCZ7tHchTRrJAIUQXRXnnCs07yX90phmIOcmuXMgeyBz7TKpJ+A+4YhARPNOxTkfpHpx6sl7R5foKq/ihqe/mXoo1ql/ZnRPCEDkKphHIrAL7bcSSNnf0wfAE4ikAvays18I9ACPNRfXI/RQ6Q5IB+vE1cuV5rOm7yEVSsD46XYTsX/NpRuOizQ0pxr+GWWQRWj5VDRTh4efPftwQksff7HrWk=
+ controls :
+  -
+    name : STC_CompanyName
+    identifier : 0x2fc7720d01157530
+    internal_properties : BQAAAAUAAABRqMCPeNAoyHEVfaH7f0GPkOl0Hcb6E1/CF3QFCeFPH78ZXzashl8QzGlBlEYG6L3/8UFI+q1Mo5cBAXi1xuLNF0t6CXrDFCFkwh9mHU9thez17nyiQXHYKjGNCFzjcjWj5/7nqPqSMCuwU66xH4vZX3nRBGAfst9xUVItDP+SFNI7uNk+w+t4GPVATsuIANgaKbu2CLGj9H2RYE9OS++wPogX2geYiYmtx4TmafYNGH/rJzZC6RJDFsPvjiAWOY0KXBj084v+eFZsu9xmDqbqddfv94cPSJqF7Cnspv8lBCO2em3fnmrrYqLst3sD4484bds5CLXP4torIbT99kqvROdn+3JlC0iVgIikPNvGCMNpxgLHAZS18tBASy5sZbfRDn04DI94fnNZU8X4PGjRTmrl+9EIofPBchSvxXIFx1blNUG1BorB92K0hyJZKc3ZybyKl3NquHRwy86qAd8pssUPCUXY4tLHOvGsKSAaAvZV/k0jAQCRxB+RQZunw/cil20TmnEdKL6SzGa0Nj64ZhjrPAioAKvDKCjE3Ghob4KncnK8LttTk6Z3yxlWobxZ5ZgS2fNucN4dXU3A4w==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         //Exécute le traitement défini dans le modèle
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : STC_Slogan
+    identifier : 0x2fc7720d01167530
+    internal_properties : BQAAAAUAAACO+ajt54N9Cal1wW+6RNU+8Zpu4DUXiieSsm0BmKLA9h9rZUFczJQstQxNmS2NXKdncBaNTkW7WFRD1DrA8v4FoijDghzWRzPkUyLATgGFcOeQEYWtdntlksIn2dNLghaa9kFYUNk4px+3Srp0MulDn2Jolwe/BrUUp3D4tO0pPgF5PcX1mkcR2tI2Zm7Z/EdfOa6Pg6NiqF8JV+oLNchYsZfTiGyr9HMsXSsfpCVTT7DE7vLGC79sGEsyhM34g7kIBL4nP9ZC9h/At45/N3AxpFit9AmYtfeC59qYtp5cjHSXZiazU2NRkMsQpyMbN2JaKA6Ek7uEwQr1Jdc9VgiGqNyVSgQ9Kz2nk8T8aFeeiZw9uid5AvQ5OSUnEX6flVS4iXwz7/qlTtX63rtRdo5vkfeON0/q6XoKSahhOxqwTwKYClpY6iE4M8YNL7ZrcNV8VEp9lmd+VW7SJ/FVdLEWmq2uj4V5qawO9XfkNK5ZCmH7N2Fwl43DXTFMsy+78v93h0PTP6ZaPomTBruqqVAVQig3TKYuQE8hrvui7NhUHpZRHKBchwS3uAtfkqqvBVznsV0FIQ==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         //Exécute le traitement défini dans le modèle
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Bienvenue_sur_Euro_Teams
+    identifier : 0x2fc78de104988245
+    internal_properties : BQAAAAUAAABQQIQLgvH9/0CMuiWs20ufIrFWmNzDgrWKjQ3Ml4ixO2r0Uoe2DqaLNwhEbkwFKVuyVqYf3wyt8Yfw4HS84iXAJEA8fM71sy/2pbyBiOig+38YWcDAexHwQEnZ7OXzY7YSn17LgB3lvVIxs4331SlLmtepu7077YqAQYIQuoEzwwPnid+82ABwBwisc41UJhWY75gVVfKRhmwolL9SDikRS5Q1aMVVg0zMKZuThzFbnJrD6wEatC4vlSgjU/n4cNhQpq4BW68joXVIt4AI6fh4+v6pMpn9fgw+2SdlzH5eYbj/D0UkBKiOs2hPq5lWpGezzwHFek98bw8y42K2dvvKUvymGxEUTDu/tK5u+cs4bKv91K4KxLxeu0wsE4KyjTtcRBymsb32xZ+66n7+ius6bq4fx709BiSReJMR0qEVlC66SuW+X/FYsW/+bCUziZO7WBQZTdQ5AjPjLPEIe098XjAxwp+fMXS5NcPb1P8VBKS4qE2Q7TxDKwghQRv5611mtse0cI0sZi3wNjJ9Q6VEDFR3+hFzac2z4ehoTZHCgeMGzU7qc38mHfDbJerzqzILREVZY9ul3uDFo8gvB1hcCuxccAizsFidm38YUcoJLc+jKwEGSVfWZZ+sW/7n5geHW3u7DFG8MK0HP2I4C59rt+CrGmxMwX4uxvCn4vqkSkvXqn4lW1GdmgDTU6yVxy2AWbi7wXCxutNvgNjA4w7O8QQGyFe6qglmDySAHw5BplCAMWBWwCAr42qZlBL2n1uc2u4qBF5t6LxIvsuToPSSs3XPCFdowSfxDIT8vBwwzmC/Jp72DEs=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : BAO_parame
+    identifier : 0x2fc792620a3d1b75
+    internal_properties : BQAAAAUAAABQxVwrmqjJrR4yBPbszAv2DAGzVxwISChKtI/f99eCrZ0cKJLPSoAreTZo46XZ926PP76JvPf0zfksIXFTU2lumdIG0tpCXj5P5PSgPPHs/LxzVsKfYGMOHG0DPfm8S3ify2kvA5QdoQ24O0nbJYRVIwNyBkNZka2OKhvecjWLI7CW+iuFnW8Dxf5GV2dg9AOsoJNHmid79t0Zca9BEFUCQAREFTluHNsKFQy6/GnZGFstEAB1lwF64QoxUik0bg7gRzRonStL511rz1afuSn5kdhUlHY69J0gRDcaxQZeAl9ZEga95gHe5UrQm+yWwDaTQAqqwupG0E2JUqr8A+ZkF6WFKxB5TCaYFldAb1ZnrmCcd9zz8k9cDuDBXPY+4HhXUzUXbJUvyPy/IoTlIYkvH7LI45fMH/JOgqFjmyXltIr1X6M6ooMrHY6kiy6xXsFNT9oWKF8R9/pZmnN1HP1Cm0qfe9u2ITTtBRIK7RkTSuWr/AKPNdw/BUql5iFjfQbpKKaKx2vD2VmSVsPx8mYpizi6JxFmgGaEc/xwkaDFCcPw4xB7cTEaQoR9VZ++IltN+TB3BEIrFh9JZrggJQymyqYZVsVfa07IAfPydaj+bkODZGihR4WvpVPK9YXWYfuVeF2b8CZnzY0ZjBgmTOvjNDgE2AUA8sSpa7aPRz5rPVuCZYi9MVs/zbK/ViFLO8/byzw5XLp+OR4Ne2YXOuqQsYxDr2FFH1xqfOG6lW3ORCh2N5lYcPsGD3WOOMpXPqdy3ddy5dZJhBhhv7jxxFnjd7nl7mN4+rN2FDfUaW/gR0pgkCvHmyMiCCJX3Fz/ycrBlO8AblGIDOe0iARA2AQk6LtOfdqmJNpEZxbJBVkDCkTx6UfDGYf9hQilhrFjhMtHyuQh2BfdfCAZavWZ3mPmfYjXCpxS75xk+Nn+xVAfOyTIew04bMoMEijwLUYnajILbSc+9toWVz1CEPniW/R6FT5VsMvsnqPdcW+H/593OTAiqqufz7ldr8CEq+foI+9pThSjUkuG7OAMef2zZnXFiUrBwxcntAEvRxn6JS5jSdYiHInZt4dC3C/yvtsju03M
+    tabs :
+     -
+       internal_properties : BQAAAAUAAADLAIxKrdH/0PMjPW0gDE3pg1UIGOfr0oBq4jivYycQT27OGj4XHPAqs2XUK9BfZz59Ie0/Edemh6mWeJpy/Usje6pQiXaPIEkelyWE9f+N3V0udGhWlrAPnecNOciZqumwfnBhJietCRj0IT4wR41Po1tRIKv5KwJE1rz94HUKceTQF7UCzm4lQTQOKWeg7J6P
+       controls :
+        -
+          name : BTN_parametre
+          identifier : 0x2fc792620a441bd3
+          internal_properties : BQAAAAUAAACaqZfPKwIm5IZ5MpCvhY3yiL9bxQaRGwaguzgiaDj5Khe+pXsRwAivydLPZRI9CxFUMCW5714WkD82wlvk1z0pixjgLNL32xqOU8skVxK3l+dAo+UyCiAPi+cKADyIt1KNwGL6LPbB7HjLBqycsfcZB+2uA75VH2KtZFXS7OfFZ2ofx09GpeFayuf5+I4NVbsFijnHtgNmqtMkwH79WiVL9SKbdo4Xb/MsdGvhc/wa5kq7y9ZaCzjKuu86E9AKU4HfhzMRkxvPiDLhS5wMChLxYBlK1lDOYpXKPyOP0TAQ/N33zR3GgF1sojMun8CRvD+wK96OLpzjmH4eE/64W1hnO0f9Q2R1W/XNUhBktWb2IYiLQ2Jc3a3xbRS3XExr29BALGcnAqzE+UfbqU46YN20A9+LohBpYIxA8R6PUXR2FS9RHEnDT1V+WqAdDO45vn3+x9fOFD16XdJ1KxFkMRhByLPiEEtaK0hM5RiNQnCQqg+3i4kUzE/00jIHncYg4jFoXva6csfT+rIC0042p1Iv6oXM5EWWDuXdg8jYkt7PLm270/DR4T85iOt7d4i3uD3dERPSV0UT8WIBoOYWi60FafRsun0FgNb3eMyMqpbL/ZYp7P0vvlGofn/CbK5RpcepeVRSRRyP5/69ydYtl84mrPY+RKez36nrMybXOhmeE5oIjWFR3fGw9TS/88bcKeEtSDMZT9zvUktuE39tCjJkAizLUeoZV9muA39kKnPKko8HcgQf5lLMpc82p+vV5+y8prVDieqxCr+doBJGV5zUC2TG2awttqs+vaiheM2xx7oHGsqsssUgWPIpHlHrWeYBd8sWmspNvMKOr5U2C+v8FliY5qXLYQUEJwqItdZ/fMDD9xDdRwwPstEHDPB43mjlmcbg/Zw/EhaqIBUxam5H0R15AwRNSAofsbidEzD6V3nS0u0Q8A1ExmFfyWMXJI5dH7Z+LK2KyuMUBatdF2Wx76mJTiM9gg3tTuWVvOrIWsnT0BqtK6wVHW45//obQnQva6f6w5w85lPJMt2VMTFY5lWoM/NpvAERm88Efi0J9IgPzFD4OjMLkV0y3BHPuLqLGpa8x5rfhIclfNNxb7Mi0sDXQm8Ya4K7Y6Ex7ifAD7YMFRFSezpVc3/5KnA8uuek73ui/9fbbaE4WHbDlDsWxoYHcGN8
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               Utilise(FEN_Parametre_Generaux)
+               
+               
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 29
+    controls : []
+    code_elements :
+     type_code : 63
+     p_codes :
+      -
+        code : |1-
+         // Version 1
+         // Description 
+         // Menu organisé en tiroirs empilés
+         
+         // Fonctionnement :
+         // Le champ Boite à outils permet de présenter différentes actions classées dans des volets. 
+         // Une action correspond à un bouton.
+         
+         // Adaptation : 
+         // 1. Modifiez le libellé de chaque volet du champ BAO_Menu dans la fenêtre de description du champ
+         // 2. Pour chaque volet, modifiez les boutons (libellé et code associé)
+        type : 14
+      -
+        code : |1-
+         
+         ExécuteTraitement(BTN_parametre,trtClic)
+        type : 66051
+  -
+    name : BAO_Consultation
+    identifier : 0x2fc792730a6b5d22
+    internal_properties : BQAAAAUAAABf1GemeLQOxz+ljrva1jWZ1yl7fig+aq0kFsWHNAJ36AsYFa2ZglsUaZ8aTu2id5hq/zpm6jLQ/r61dSrB9XP58ywarYcqvDOGMAIUa0x1kDT2u4w3cGnYU0VdnoCjJ6I0qB2DkrTV/P0i1jMYfRalwLcGxulKM4SyHg55qPIHFA2N1vxyCLJoewF7cTmB3bK2CuuTKRWJEHhLAbeq+R2JFjDWn0Wpn90vxq52ISur8yJ22EyptwA7/33F0AFovHeQ61zaxoGlKGQrzALADiyKEaoWkpaB2kcVRLTKsIeFfgBP3EwwLWnNf/m0051EFSQUEMJAesVQQC4IR5LzTJvgRE2xek7TLxL++hl/t61yWJyK+0t6bfqsWQYQb1XH/R/dCdYpVao4VO62QTfBKJ/HIM7RAVT52YDLqyQCbH0GiGV7aSBfx7Khb2saFAdq0HJhPVBnQ2774yhoHJ77VonKZuUYZUQH1hjpfKEfo3NPmcbKR5L8ZBi9ii0tWmWDuEWMYuacAa3XeX1obL+jD5kYntKIl5JPYMeT3gpRZzRLxaoeTaRkXKrP2ezuXtEMHuqz5uNZKTLrbg82pye2uOfptBV3KzFtH8a8ES9dIPWFizoZYItVhemuRb0fs4stpn3CBuMUm5dGb+9APG9Oe32KhpjXp6s3iSC0s5p2a/29apwL+V+UFEBrA4AiGC5IIkchneR0VZRQFBdS4BeoVNL7LqsYZwNhnxxTuwfryq4k+Q7i++bsf41/eNaP/cCr9SAsx12hhHTY5nCUI5cLkJN2nKY+Vf6oby7xwLNh5PoD7tJvMiVKAMwGYmFP8RpiTC3Xs/Z0lEwZVUxtd+TQKkaShf1HRezhqNCGP4BsFzNNW+ebguPTVkmzqbqbYQumpGRbttNY8hnsxRvpViHdTn+HnPKAYUv1HqfNqFYhULYBkvbh/ige0hz5T37AZEdKmNF0WnnnCkwAH0OE5Faw1LuG+xDA8xbUHWimel5tAFFzAbQLa+PM+ZTy71R/uvpS0Q5ygJyXR1+2vz3cRsGvb/DnpAaUnm1sU5BER6BwB95b6xO9rfXahtXtiJ+jJUAi4o8uOxH51/vN9E3vuhxVcL9NEouKK+MwVtc=
+    tabs :
+     -
+       internal_properties : BQAAAAUAAABQ2PSU+f7E/XZ/fJfx1BA3L3qkzRiLiwEfMA1zAKqqRSh80MSTQ6Cbue5+lWv8mnFt2PnEP6QbjyFKKL3K06iZTfE9rkvfbiJBUTaF92jbtvHZQ5dTSAgGMURDst+Oud+w5lUDCFRZUZqzHirgJU+JCFPioNq9ysteBAidWBf2fT549v55Rp0KUZhHu+jxgBmLNVBrxqLh0jWqm02cY5fCMxrJbqYz
+       controls :
+        -
+          name : BTN_concultation
+          identifier : 0x2fc792730a745d9f
+          internal_properties : BQAAAAUAAAD53U3lt5aJapLZSwsMtvHge5bppVihZEhUsmyd/PnEByOzJGu9L0ncI2uRzut7LLkJZVFlCESOkD0iLSPmPodb0VZiRKoIg/6EMqJVwX/hj9iZPVsqCti3Cs0o6f7fjyDzB31TeZxpikVOF7RtfbT5VfXovAFniXDnNYv59Uog2IapnN5EPFyTw/JjmR1BXz4Yrs6khFACmn5dCPOr36v5E1cwGoR9yUfsJf7yjIM9CrlXpDIrsOIxz+kuTAE/NnoBnLcA1kDVa1X53TPRaeWe71cITOatp+9cZXrcUaewtPlUz6/dwggHcOAXea6gWpQhiR9N5e2wHw3tQygR4Fhiqm86CkFp7m5aiSXQdtXjCT0z6XofNF9h9Vdv8oklmSzwrXkVV0RKMOIuWu0mjTg2lIHviP5jC2nJT5cW1Od1SqAPbOehrNohCqBNghB5ZbP228DnpmOWumhC8sJHI2D1dx3+Cdxw2VO8vdck3GeNP643/V8bYACOpyJ3DP9s+DsdMhLCcKOFokTzaj40I+EydF87k1ELwnwXEjpFB5SBfpKykxA+bMxZMD8gbJNXU4CKUR+ogdhGh0fz4fAH0NrERCNOfk5455NwNXwuV4s0+I8ePv0A/zKftSLAEFX6Sn6uSjLPTw9ChXBvUeQFkPIPBqgWKDftNB9r5wrxpYAZ5A3X+Udy/DKNTPdfiqLy0bXf5mzGRwjdbGEwOGDHiPjKDPr4Xg7Jw3FErQbvtvQFLxisOtMlxD8Us87NXsYg8VZzwKhCrXs50qQZGQ+54OFPK8ADg9/AwJWUG2JJ/c73ThqErSL2PRQ7wSOssxeKRtIO8M2YBmhNOmSS0YMm77b3lAbVNcGCehX65VVLs/tyzsMPEDHNK6txMFGqi8roOsE9GdTO+GBX32sJxOFXSpLM5XHRc0/xKoBy///qUXClSCwFRgwH17TpxxRr46D5Jh2+1OJhcj9bnMCRQHHG69m5cHeFXlh74l6zphoun4X59AbHD0ZKOXp/6c3uaDPosuJ2zG0k38xcsj2+js9Ibuu3ZTiHA3knVYVOYDWA8L/yw9nktHCEvsUMy9fLMqcIl4dYzZb7hdXRYxzOEz1N3dAp0aF6lVOUwmU67wCK/qmJtEQz7ufR8LOPTKMyVxwq1ZE2uCDl1UWVwTEl4xJKLQ==
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               Utilise(FEN_Consultation_)
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 29
+    controls : []
+    code_elements :
+     type_code : 63
+     p_codes :
+      -
+        code : |1-
+         // Version 1
+         // Description 
+         // Menu organisé en tiroirs empilés
+         
+         // Fonctionnement :
+         // Le champ Boite à outils permet de présenter différentes actions classées dans des volets. 
+         // Une action correspond à un bouton.
+         
+         // Adaptation : 
+         // 1. Modifiez le libellé de chaque volet du champ BAO_Menu dans la fenêtre de description du champ
+         // 2. Pour chaque volet, modifiez les boutons (libellé et code associé)
+        type : 14
+  -
+    name : BAO_Menu
+    identifier : 0x2fc78a3301e622c4
+    internal_properties : BQAAAAUAAAB/WGvD5ROqSn/CTS0SDFgjexQKrnNCLVsfj3yQ2q02ca7QeLTaFX9iMZx/2vln46ZaRks6mnTeB7zyAI+H6ChppGvH4Ig6PzSEMZVUCDvlszGyEcYshnlWc7udZH6CLmVXFin5zIPLY5td10/SbeE7FEv5VGydtBoDlb9gdzafSreFKANdrZLEgRJEtmuDYD7IZRbfMTk5OWstz1dn3Y0AjyNnJ4coyxI8fJ3B4yn4H0avlw8tjQELxeOhvmaf7NLn7NdqITHQkzhv7UnsrISrFqDU/VJelO75ah0bgrJjGsRXHKJE1geaFXepF6mzKJLRh3U6YpyGot13YX7gjgKW/znKkyFn/ZyFTeHa9TN/EGiKrABM+BrORRBjL4Mxwphz8KrPvGx08PUFPd4FXMyLD8dx0Tb+cWa0xCGVWtTBwp4zG6l209JATlXE+q+hrVCtcieBJxgzwqkY2tbuvnJqqHy/4yapkhuc4PcSZzHruMpPngKejy2dyZ78Hwc6JZ9mI+cN7UhaWgI9gTtQB1E0kREckWtZGQeJn96uXcupiwn9I6wEDPoARzFZteStF46UDc6ewZyG3dV5ZoP3RxMMD7f8NTKUSnrhFt4PddU12KyhaAJSSfRvq7bQ1RI1MBag2LTrJ4EXiE9iDwjvTJlUkgEPrw+Gw1dGavlHg56rHghYwRRk2FbRA6XOOs4HNxlhJSmCc1VV2Hp09Ra4nwlnd0qJonjkXQNU16gHM3UPXvRorWVitZAnIikNh26whXnpPgshrlTu6a6LM4l1do7y9KfW1/wuCSCdqo4IB5cQQKw1GDIK1WuwqGuWqv+/88p5xAWUFXLB+iTwQzjUKmPWERHwFJYYR95qsTx69CKKQOI6cYBR1/os6BuAywqsGayDGpDWm3iz27lgG3DZ25/pbleb4MQomo2q9A+Puo5LXaoEjmSaGDgvEgasM3dQi4ZgJPUT+OgaGXMLtK3p84ujSa+IhZlCbofzYJJRldFiUckQAE0QG5x0rTmYyWzND/n3Mssnyj2epZBuHxk4gRX4Fuo9sUSpMPMCJAShjQSifNB7zpKLbUg6FTV9j+cxm9vXhsMY3a0bcYHM+XjMDQE2fFFU0uxUZGf4FQnf78n2J+M09sw4
+    tabs :
+     -
+       internal_properties : BQAAAAUAAAA3R+0jEK7PvQQtAS+H/PJQiWZT9OGlSNWfzopCWrIOf/7XYjR+ebP8ddhXFusxd/Xdj/W2EC81XfsQ50CLQ8ZVDLOaerf2pIvYQT3CjM2AcvM+DqOmMD1HV1ZE3TX6ulA388zuKbavZDyFnhboZuUWuVlpKfnC/7gD2d6+jrU4fbVTOIkTbh8xjSSUGRu1xEgqwRzQRZV0yKpU11eV0oeN2M78R1fDjnuBvkuV4QspBh2rhcOp8w7WTLwfOtG6wA==
+       controls :
+        -
+          name : BTN_Espace_Employes
+          identifier : 0x2fc78a3301eb22d4
+          internal_properties : BQAAAAUAAADTp0oCzY5XyNTFmxTrblRdoDN0lFwwwB6QiXdkLof71xX4dfg/pzPe0oEro3Y2ScAMv2DPw4MvFUTQhkUPqAjGlKBZrveSRYUPOPV46LQnjX0lS/RknhjN8zbBtO2uh5U28G6jFIJdpk9IOqRDI67I4Wn7vqj4aSy9SNKbR7JiI/pUZHtX/pe0vp+o8Fx0gD4ssFt1fd1AXLFhBE6jKec085JJKkTkkahGq0h2lftl2WAYzM84iek6r1U++ivdp9MZdnAmsXePnfqZevALo4oWAafGtMCXIkrbKI7lUIGQE4kux+w4crKinqwBeSZEy/wJHESx2KIWPnyJwVkX+mAxRke3Abo12AxV6GF+nAl/zl+Nq3c7ps9o4RAKRGeX6ZnVneaKx6vO/6xOyEswwFHt1TrreqyiLtHvfJXwgmoU3yymuqNv85IK3oAJv9jMxKLfAyXPHhEDY23CfD/PBgQINuhhz+hvdbEvp/Q9HB+SetGqFOh6m0O3rTWgiV4dn21j1xoZkMruIKQr5Z1HVIbP3NEoJ+PU2jLWl5CyTOJRxhM/euAXdvqCN0D6Gkct9bayFQPmLSbKSPDgNG4UVMMimTTc2QGq+c+qsB7fa4dFZ9D9W8iotK8zRzYNH86Fx9cFOwdPnZW9PkXwyYYbxwJn+9i00q48MB2txUMsWiRJX9D5ENjHskJKo6Hi5PiayrUePVEtle7H9Kzr7mdE/eu92xenaOblXwWTnR49WHzfE/asWoQGro1RnZAE/u6FyyeDcDNw5acxDw8vuKfqjUzDZ3sll8KZgob3MgM+y0hMEardtyNaG5XuMnUNMt5vIZE2td7Yh8ibog+q/R7mM41IwodfauJq8H2BmGeB69ddtpA5QHXjtiBT5NW2q1SZtaUtBVyC7NYBMWO2PzGKamhoYSklyJQErD7Dmv0pRsLPkd65/57rjeQzH7E1CXi4qcBaNu+YZSlLkHkJUknvauE7GfhRRYmhD1cKKjhf26Qmb0DV2ks4FT8UkCA3nxoaxZqfbqwif79yJTm2nFa0EP7Yd90/on5L3G6uh6lDGVuoKRCm6ZPcsbcDilPLJxqc3cIlQHtzJ5Zd/WeVdkMiEWDwwZSuvAZG/+aiv4uyVTAc8uD5ycGRf65kqR41RMATRVA27esVmRCsz726BZI=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               
+               ouvre(FEN_declaration_activite)
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 29
+    controls : []
+    code_elements :
+     type_code : 63
+     p_codes :
+      -
+        code : |1-
+         // Version 1
+         // Description 
+         // Menu organisé en tiroirs empilés
+         
+         // Fonctionnement :
+         // Le champ Boite à outils permet de présenter différentes actions classées dans des volets. 
+         // Une action correspond à un bouton.
+         
+         // Adaptation : 
+         // 1. Modifiez le libellé de chaque volet du champ BAO_Menu dans la fenêtre de description du champ
+         // 2. Pour chaque volet, modifiez les boutons (libellé et code associé)
+        type : 14
+      -
+        code : |1-
+         //
+         //BAO_Menu.X = MoiMême.X 
+         //BAO_Menu.Couleur = RougeClair
+         //BAO_Menu.CouleurFond = BleuClair
+         
+         ExécuteTraitement(BTN_Espace_Employes,trtClic)
+        type : 66051
+      -
+        type : 66054
+  -
+    name : LIB_DateHeure
+    identifier : 0x2fc7966d0d77e38f
+    internal_properties : BQAAAAUAAACjzNIah3pp+bk8Oy5Rmhkv/1YxU4w8/KFrBU1jmkPt6LWnP62dvDYtqL2vrdMO9BIPaAYPtIV+HYtlWn3Jyg/iuMI1HGGYzfnswt9OTNtsLI4BJ+CQQICphyS85IkGlzUqG75TTCsONgVWBqGVYbxvaRmNmg0kOasXVmFI97GV8fscS4aYJvXXGy+mg5wckd624mRkn8H3CIjedJlLtMpcXBYUeRhYBQQUSWMde7QYfcUCQAAbTQJSDKsBTu5gYkLnBRpeu99sqLVLftPTbKWBQKzBuSPDPLfqFM7NHTbW1Aw6mbu6pfix7qyut10+Zv3pGB00WikMRi9L9GFCXDIAkwvy9bObk2UM3xwdy4vlqP7LnbdzOeZd7lPGknv8SNnzuNEYDxQdj/wpt2d6Eg1ltf5H4bcOeqpmCN8QtADkDX4SHq99qwB/HpkR6C0nrZRANwNZR2ms5T8UxvvMTL+/lbIyqtClLubcYxEHvyI+fh5nzfGD4fvErFx0oslCh70XkyNGhBvOtAjC7pJcU0QVAsdv8p5Cfi7LQKfaYyM51Woe+RVt40UpkzaCQAV5s6RwAM/6cQEnEvF4849EUaM7ihnlqMxH6541rxRUHP9HQIVyoQyF08l+IODekuzmA1KVzKDV8Jv5UNBGHZFBKRVDmT7EOm5AtlrqSTz4udmih4no/u3yu30+imjmWqVtkB8jnBMsMkaJngrJd4pbU1GAooW4adyDWjHJHzZOgdQpGRLQ4X8uV8T3/7cfV60q/y95Co9aLiurSfbgsBE4kuWELatsHljqHw2qiWr8YJZ002vZgWEmqGPCqn07ldzFPNc9VKvim1CSow==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Texte simple formaté pour afficher une date et une heure
+         
+         moimeme = DateHeureSys()
+         
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : PLN_Fonctionnalité_Employe_planning
+    identifier : 0x2fe1d4591c818a7e
+    internal_properties : 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
+    type : 80
+    code_elements :
+     type_code : 112
+     p_codes :
+      -
+        code : |1+
+         // Ce code permet d'exécuter le code de changement de période à la fin de l'initialisation de la fenêtre
+         // Les différents champs de la barre de navigation ont ajouté des traitements pour se mettre à jour
+         // Le code de changement de période provoquera la mise à jour de l'état de ces champs de navigation
+         	Procédure interne MAJPremierAffichage()
+         		ExécuteTraitement(PLN_Fonctionnalité_Employe_planning, trtChangementPériodePlanning)
+         	fin
+         	
+         	MaFenetre..Traitement[trtInit] += MAJPremierAffichage
+         	
+         // Ce code permet d'exécuter le code de changement de période à la fin de l'initialisation de la fenêtre
+         // Les différents champs de la barre de navigation ont ajouté des traitements pour se mettre à jour
+         	// Le code de changement de période provoquera la mise à jour de l'état de ces champs de navigation
+         
+         //	MaFenetre..Traitement[trtInit] += MAJPremierAffichage
+         //	resulat_req est une chaîne
+         //	resulat_req = HExécuteRequête(REQ_Union_Agenda, hRequêteDéfaut)
+         //	si( resulat_req = Vrai) ALORS
+         //		i est un entier
+         //		
+         //		POUR TOUT REQ_Union_Agenda  SUR IdAssignation
+         //			
+         //		
+         //			HLitPremier()
+         //			PlanningAjouteRessource(PLN_Fonctionnalité_Employe, REQ_Union_Agenda.Nom )
+         //			PlanningAjouteRendezVous(PLN_Fonctionnalité_Employe,REQ_Union_Agenda.Libelle_fonctionnalité)
+         //		fin
+         //		
+         //		
+         //	FIN
+         //PLN_Fonctionnalité_Employe.Couleur = VertClair
+         //PLN_Fonctionnalité_Employe..RendezVousContinu = BleuClair
+         
+         Affiche_Planning()
+         
+         
+        type : 14
+      -
+        code : |1+
+         PROCEDURE AvantCréation(rdvCréé est un RendezVous)
+        type : 135
+      -
+        code : |1+
+         PROCEDURE EntréeEnSaisie(rdvEdité est un RendezVous)
+        type : 136
+      -
+        code : |1-
+         PROCEDURE SortieDeSaisie(rdvModifié est un RendezVous)
+         	
+        type : 137
+      -
+        code : |1+
+         PROCÉDURE Sélection(gnRdvSelectionne)
+         //nMonIDRdv est un entier
+         gnMMonIDRdv = gnRdvSelectionne.ID
+         OuvreMenuContextuel(MENU_Déclarartion)
+        type : 130
+      -
+        code : |1+
+         PROCEDURE Déplacement(rdvDéplacé est un RendezVous)
+        type : 131
+      -
+        code : |1+
+         PROCEDURE Redimensionnement(rdvRedimensionné est un RendezVous)
+        type : 132
+      -
+        code : |1+
+         PROCEDURE Suppression(rdvSupprimé est un RendezVous)
+        type : 134
+      -
+        code : |1+
+         PROCEDURE DéplacementRessource(rdvRessourceDéplacé est un RendezVous)
+        type : 139
+      -
+        code : |1-
+         
+         Info("Mise à jour du terminée.")
+        type : 168
+      -
+        code : |1+
+         //Info(REQ_Union_Agenda.Commentaires)
+         
+        type : 66048
+  -
+    name : BTN_PeriodePrecedente
+    identifier : 0x2fe1d4591ca18afb
+    internal_properties : BQAAAAUAAACnSg8KyyZdNkmG2djZfPur9tQX/ycA7dGrSuInpAX6ROUrw7K4OEDEIUvnjJ/UMF7rIc5GwOK9ecVd5ed3Z48pPDAJOO34dsOvSKqDaHo8l620oScERCE4xYDehY9euF9NBnENo2xnNgWZyimcIfs6DqPlxS8DSfJ7+4n3mQB15Gqk3qyji+c9Dva4/6/cW5DE+juNwldYadfCTLAMkMUsTBOZU2WXUazgTqkhcRckanQsTnH3kavAmpeFjKOF/Y9sS9lv1kCQuyoREt0vKHV9fF+P3NjJAUBnWRaWuWgReTv4SzgCaHfXEHljDEFhL0SeumlvVG9f5J2ekyrD67RyEcjLipHUHQ/xVejllcVq7KENVJ1gq4HUtPQ/LpYKtwM/132YOzVIKj1k72Be9iBmpQEqhHDifHLezX7nGCqiJpOrbt136jzyURru8NJsU5xRcpctHpB2RaxXDlLpezaW+fe5BeH1hx635JXymBoTXzUHN8vZ1QIDRVQe5P8+GdqCUyjjzP0K5B410iVDqPJSMkxJBKsKkTg8UkzEGRkKszQFVEgeQCBEMnvRsrhIvD4JVd8ZzK7WHior4Gi/M1jp0xxFDy/geVhbwhVkMy8qoul22ZLd7x8t1dmWsdw5/wWeKeq2FXI4m0pnEk9ob2yyR29BlmUxBEGJf0jIgwfsD/wKFgcNQklnpajMj7uA0ywPN6rJ0X8O87f87GmYMFf7emBqVWHR7ffKJJ+zS+BOLs9umd045hDYSoDZimWyTdNf2BZUBloC0pD5mcff4ESTv+PAZ2AwM//E4G+OoXiaUyj97dA1smIV5BB2TW31Xf4asvb8qaeCXJ4n2nQozku0RMFwggcyG9pA84xuITHvDfwqe1S9V6AmA+iLKQGmbHDn6KaxUG4RJtO9obyouT4RVCHGM4I6/kxE/g3ZUB3hdpJ0xq9z/uo9bR3E14KdjPHG/xO/x/kexnmkkWJACcT0tqRrioxrkVB5iSFnQcB13Y27Wf4YwQsfI3GMf9Ou7dKoPUxHIhvgX1F5OAAf383r8H5ROOXdTZD8mucKWiU+eLvRHRm+eD0GyA8YEgLmkDKPk4ZNR1mOenC9FoM9EXB6NXmZHoSCgeUShG08Pn+zRs24pnx//yxwA+cEFFLGfpCM4R94B5U2bFraYmWjNE2aufEcmFzNb6mtzCrDmmjmeps=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         PlanningAffichePériodePrecedente(PLN_Fonctionnalité_Employe_planning)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_PeriodeSuivante
+    identifier : 0x2fe1d4591ca38afb
+    internal_properties : BQAAAAUAAABb+N9dk9stsqzIMz6yAXzjJVxU9knKBO1tT0XJ0EftdgqGtKM6+pBUuE+awAOZjdab9dHDSqs+d9EYxPB/jHoUzzqSxkYLLi+rSZWz8Uflnw+5MoFkc1D7w7SomLyJCfgjXhgkpi/8ti290Sx8ViVYeZq7RM38TQ7oObluF22ZYfVEFhbNTjVE7aPESH2QUTVc8/DXoETZzUjBlUkDFwpQK6thPaGIYUoGa8PWdarfwqilEUnZSZjElpyEyEjGETJ6/NsojMEb9YuMXeW9IoJZHKDisBPKvYqUVvbs9dFLxr7P+kOlfeQyBULmH/S3Rg01KZ2x0MB1g548npZTCTEG6JTDm/Qa7Le810gE+2dbBQHBiscvoP8xLJwYB08PnLXGHE4lu6GJ/S5fPnFgXTqAYI5nNq/naoweBIU/4/Py8V+98NIxcimRBnUf5MWEQXSAeubNb0h3bvHQvowlornextSFyH+jxTguODuAgqiCo9NJIhcibkYfMKVp7qZd3LjxPQg/ci/n5wrq/tp+pX0PrIFGJqnFt8AZ2vOvMtPQW5DuCD29IjSTiBT//CBfGlyifxzT2LNCjQxGbl44MAZpzPO9tt4oBfDS4VV8fPI6q0hd3wROJ1QDf1n2hiny+a71glY2MjKy3eEaOuixwdUGXfRfZQ1lgLf/9pT3Mvs5/9aRrh5bWKs5j23mOPza7gwVClYsVReaOW9CyLRKya9WBezZ9Q5KHF/od3u/kYWjC/rPOyEvE3EeJEK3PHLo0I2ORZ0ppPgoAMD7h1rdruRlCL3VB3cFI7ad9FjQ9uLYdhlYqx3HlDXeF86cBX6AmW/aVxD6TeVYjhUlrWb54B6K7mLyoNqBBDt8Lnm3aru94rD3i8MlUyLZmU1d2nBUuY5syTa4eRxuMG0V/kGjq31zCVhWCPJ3l+RxjTceE8si60X62tz/2CRSU5g35yQaioKnNUTnLCpE+njsQDGxY4y1a5GjAtMYUWJzldIgFLeDJ3zAzdAjQ3p+HltVjuYUNrRSjoAC9/z3OLwtP4or4TfWDlsyntyfBXnQeZASizs1bGRb+9hAhM1lr2FfVL53l2ZrYchwg8cIsZx5ERfc7QvL2TCdUGqwAeMwOxZ5m+RDHALIJcxVcW4m94DjenjnCwZshmYR0wyfrjpIDXDFhs9tLi1CHms8crM=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         PlanningAffichePériodeSuivante(PLN_Fonctionnalité_Employe_planning)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Mois
+    identifier : 0x2fe1d4591ca58b0b
+    internal_properties : BQAAAAUAAADk7KFcIqB2Mk9QR3AK8wmt/XwRhIbWrzf5Hg3IZYErLo3NwN+rZTgFvJMYX1tDQBXfA27cjbSUxvHXswYJPl0l9+HenZUnErT8rQ9GTzIH1c3bxmGkj4ngiFvPXscb4EXrCC9LloO09irqa4E9flWnjCWonXYvTwYYqSr584hb1hQmsTcUgoUwB/TUG5fFwenax3Xmtr8hKcFfv/2zET1kIrkFv2MTnJ2vjj+gUdnsJdbMYJGLxqTB/JSI23ly8+HKCu1UFFfswC/JCuRT9TcrW4Wgl0T9RoXXku+dhqmvjGkbmJZkrITlkhlqcUxYK549qvkCxdq4NgIZCvIjCNjfGNNqqfDFBHkvM88GvLBwf7k4W7gzcUT+H1w//wsgv2pk3BcjxIxHrJsnYRFFqMUrEjJQj5NR9MAaEtaesUC/0p/C8lKhQqMW0Mu/rUNoE1DLzXsExAQxtPSdA4Gzv/TpHietOaEquS6oEFJUBgB0qAnA7ODDISDc5E9+eqJZcCJdzNj1ijElniSXrtCCBfRLvS//5M/imax4OXRD7zFCDpxqaf39Zl12jqWLOCT6ckGiYYD+I2RJ6LBt79kprYoNKGOgBIU2AqUq+9Zm6CL21frqeb+BJ4ovY/tJLicGT5aD4n9lUIEYwPxnB0SYgwqQyHYFq6owRfEw1uhlOVdm/LehTNznTO0dHTjzEDUzi0g=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         	Procédure interne MAJLibMois()
+         		LIB_Mois=PLN_Fonctionnalité_Employe_planning..DébutEtendueVisible
+         	fin
+         	PLN_Fonctionnalité_Employe_planning..Traitement[trtChangementPériodePlanning]+=MAJLibMois
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Semaine
+    identifier : 0x2fe1d4591ca78b0b
+    internal_properties : BQAAAAUAAAA5dXzneBlQO8sWK2zjbPBV0ahTZ+4qWgjSZ1xoXRk4D5PN7oiC3EiiPHyJnDVphRNR2vTfR/hpIhIQgMPdpwMHjxNn3vkBBNWVsLO4LcOrGB/DFBNAW9uJM9mOoO51XQg46X12HRr04Hlu//DAWFpJ43olQCQYYJaIoTdKWdZOFVlesu50RGU/9awPqf3CmqWgGpx5ahRxSeWt8tcw3B09n+oiFQcmYB+3nRmsLXqipUmFn7ofXnPDgqOFiZCiWRbZKF3Fm5LoXAhzC5Lq6PgXdozh3+gchjHvlYMpz25hF8eWdC9/lMevgEKrvphZphYbTO+V1jFNDWJUaXwk4HuwYJdaZCIfPKw+kaHP/74kZ/n3aESFa+ujW7YsVA7RkzupaD8R6lX4VBy1/zz5/8VC7oSG2iQm0Akm7diL9XZALuLHPEqsdvRu1T7NZyhPyxdCZbiZZQaYkXmRU+W0tFk3vxrcyfomMavxnJ9Keug8Ed18CfwC1jd1pjXUPaLmD7SAEluEh9sLFwvAu69Sp2sJvXrPHs6OUWljvrd2YqQexLwp34jwXm6nF0eNTbmtloyZv00EqwlmzmeZ/BGhCmWTkQjqmpLovqtc5ZxT7ZJi1dX+zdrpZ8xSlVjj/A==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         	PROCÉDURE INTERNE MAJLibSemaine()
+         		d est une date = PLN_Fonctionnalité_Employe_planning..DébutEtendueVisible
+         		LIB_Semaine=ChaîneConstruit(<§$000a§>, DateVersNuméroDeSemaine(d))
+         	FIN
+         PLN_Fonctionnalité_Employe_planning..Traitement[trtChangementPériodePlanning]+=MAJLibSemaine
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_Jour
+    identifier : 0x2fe1d4591ca98b0b
+    internal_properties : BQAAAAUAAAC9Z8EIDq78eCmqIm79BoU/B6w/qiMh9rvNZRJ8xI+/CjSyw0vjJe4SetVUWRrDvwlqYO6sXwbFdAL/J/CzpGNLyvjoE4h9BJmSWDCtW/A0C6zo/EfNXOP1uxjnvLzf01H/qTZUiFVzw1de0oCQ7azAJQykj7+ZxkxICSF6du6gPcZLr/BbsEF98iayyax/W4aCKMc3xMb0vmQPQ3vRjRetClOb1K6x4fxfbPCvnErUVWaN9FbYcLq+nQKd29jEleRLixs+05SHvTUV0foqt+1rMzSanrw01aktR2BcZxvu8x911oWknkFuCOnaZFHfaeYyZJqdaSdLDJXx+xhRhb8vXCuOd0JxqYdoTIf4+Luvl4qUUzqbkVErPTUQ1c2NGoSaHx8QkxHxXsqAuYeIdm6RoHOulVtWP9HPgP5/x33T+Un6mkbkoDjG3+T9fhgLL/L8FQy7AjERkBpEzsjqhVK0oLlI7ASti9DXUBdEHdZoHFpues8xHDXUdiNmqa6nOT2vzkEsN1Hw7JZ1jBsxIsjhBMH4X6oCLq9M4NMJzcxUyj5L6cWJ16KL3V289KNPVBg8KdaZTGrWKMqlFy3HHz/mzLlydnccyh0bYy25fea6QAvpPq9VYAk93e4RzgSKquw0nW54hhSsKdguJvl3sn+MtppDQTy68ON2Lgi4yTIDBM5gYUoOzILvVOb29sZz01YEIrsDOhcwTSW1c1bgJuVo7C+9tXLi0lZiDtuTbA0qp9HJmsGvGlIa6x3+zBHa76RYwSw1KRG4QzNwEBacx1liBgUA9gG5bD6ChQzaRH7zY+ssHErupbbFCucNQoDSZh2P/ns8Bcs7k8rq0us7bf00dZpHnJgpmXIYMA6Of8wLXsAKlG75ksHFwflsAY2O8Nbvwb9qXBNd5mJcKF/G4QoV/0Wj6UumpzXzu1FwqodBcBNKLgEcoOJizOa0iv/IPD56nGt7nHfFHSWoXTN0i1PwS4rWEHKKhofLzz5qn+FksJSL+18OvXBsla9JWi+KFXwn+/AZTx1MXXKDHCK2+0wBR25nWmRTM/c3Lkhf9lJV2kMuhrd46r1z54AGG9CqBFpj/eKUXc4MLGTelVUfllQ1b2g0GwdfqwnhCZE8k25Yy1JLi8AuSxCmYjkE6fQqzrQF0/eiw0kptHkzZ6C61g2x3kFwMVUvyNPVKASiBg==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // ajoute la procédure de MAJ du bouton "Jour"
+         PROCÉDURE INTERNE MAJBtn_Jour()
+         	BTN_Jour..Enfoncé=PlanningMode(PLN_Fonctionnalité_Employe_planning)=plnModeJournée
+         FIN
+         PLN_Fonctionnalité_Employe_planning..Traitement[trtChangementPériodePlanning]+=MAJBtn_Jour
+         
+         
+         // Ce code permet d'exécuter le code de changement de période à la fin de l'initialisation de la fenêtre
+         // Les différents champs de la barre de navigation ont ajouté des traitements pour se mettre à jour
+         	// Le code de changement de période provoquera la mise à jour de l'état de ces champs de navigation
+         
+         //	MaFenetre..Traitement[trtInit] += MAJPremierAffichage
+         //	resulat_req est une chaîne
+         //	resulat_req = HExécuteRequête(REQ_Union_Agenda, hRequêteDéfaut)
+         //	si( resulat_req = Vrai) ALORS
+         //		i est un entier
+         //		
+         //		POUR TOUT REQ_Union_Agenda  SUR IdAssignation
+         //			
+         //		
+         //			HLitPremier()
+         //			PlanningAjouteRessource(PLN_Fonctionnalité_Employe, REQ_Union_Agenda.Nom )
+         //			PlanningAjouteRendezVous(PLN_Fonctionnalité_Employe,REQ_Union_Agenda.Libelle_fonctionnalité)
+         //		fin
+         //		
+         //		
+         //	FIN
+         //PLN_Fonctionnalité_Employe.Couleur = VertClair
+         //PLN_Fonctionnalité_Employe..RendezVousContinu = BleuClair
+         
+         
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_Fonctionnalité_Employe_planning,plnModeJournée)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Semaine
+    identifier : 0x2fe1d4591cab8b0b
+    internal_properties : BQAAAAUAAAB4GVA4iwWoh9c5yqUpibgYNmkBqjywhXDoYBbTD7Nh9xuh4ckBiYUc1sTWkdSOhvYcJ94OIRpKoKPJU1AIy3ou1SN/qet/hvkTk7Ex2GcO0h4H6mHp8DFas/Qw8NaJQU8bvFr9J/IuGkY7h0SmliZQKFuhP47EI7cfh+a5nTtBdCfXkce8lpc9Om4R3PUEuXNzMDySolvLyA6arJ3gjxhkbK1/MrkfjDH/UcYc7jLvXzV6P0fFMNqE5npaFG54a3LnPxr3+9hlS63SHxxPaqE/daK5nI++0AxPJLA745DIeqwga0/00ahu8JNQDKTE3f0OuEjbBfD82y/9x0WULo3AHOOGAqJXe+W+OukVTn5ugoMgmglBW79Oy3beSZ4Fmj1H3hQDZZJFM68GjQ4zYds1tvn0jK7+342BHs6z0m6Iv94fFqWZKH/z5oFQ0u9zKTtEFSqU1fPE1KjZGls92X8L1UruVoI4iwgLznKSygSi/UsHpOwYzKBG3AHAdylllkqxk1tyrG+8qcsWhBYzR1Y5LA2B0U8O0etgNUxp6dJrpuW/95uCnBVRY3i6W+MZKoB66eofz4OcrNU0vCghjWoSvLF/iYoGvAOIGy8QURmhJPck9nDwuxPryvXBWOS6wBxPgBQfz/G4sHuGylFbADLG+BeGlMymeIXpeMIO4JhAT3wEbBRa/j7di7kk/EjKvyj9PB12gBL5Rn/SfW2Y0Yyj3HvM4puliftwEpKoCkyqUdLlwEtzv4lwuxbmzBR5AQs7OGn8iONfWqJudrhW0CBfiz1TGicO8QXnn8r3q8xzaNvyEhbTn7miDn1WxP0gLf7BpC1BO8nUjasQ3uU6F89LZHoRKyhDemmN8v84Cypc1WreTxS+AgHqkvGCMK+vnJq3SRllp2s5un08L065d+9hpDv1ZrNnjwLoUg3YJ5kWWGoGccV1r3maOreKlDil8Jyozn3LTx/cACzkfjxah3C7LgIX9lo3tmTt3no4f/ykGngHmG0oR8OHQ/H4aNyGfIeW8qEDCopX+rVa6/pJiyUrI1h80ZLvy48Z9o21KFRAv5qAwZEb6cwZOG1Dkd1Wvt2QxIt01d/4RwGboTDmwZFo2CqVUKz4BBCgKygt9RfOKmFxxg+LUaQ+cbuhuG/Gnon5AwqNGP+I/Z3SmOVSAXKMNZ4qD3LdEdA=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         	
+         	PROCÉDURE INTERNE MAJBtnSemaine()
+         		BTN_Semaine..Enfoncé=PlanningMode(PLN_Fonctionnalité_Employe_planning)=plnModeSemaine
+         	FIN
+         
+         PLN_Fonctionnalité_Employe_planning..Traitement[trtChangementPériodePlanning]+=MAJBtnSemaine
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_Fonctionnalité_Employe_planning,plnModeSemaine,7)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Aujourd_hui
+    identifier : 0x2fe1d4591caf8b1a
+    internal_properties : BQAAAAUAAADpqOD0o/2au5QdBtwO6c24lPGtYT4+NnoPrCzWp7+br5kZIDHxEHwV8PnnYQV8nMq+R3MO0Dh145AROtB1/DGIq+wAojjGu1nrIg8LIPrNfOa/qpmrHDRM3zcztmszlgWeKFRXqzXK6W8n6jItRgz9wa0X75BIImwjskEBbP3aWowXVpZupIOC3595dpAesFrB3/NA9vxXztx60ynQMbuYHrF5oUAwV1D7u4kuriyxrRiuptnMWH3ubReBiJLufWS6SNjih1Efhn2wIWP/w7cI6gcUlScVegvjflwRFdLzXkem/Ab4Df0oCVmxAVHxQFOmQZxNYLN8gPAti2AOEz7O6ta/4lP3KJkZ3tpbKWjvRYMtwlHaZFU5KJ7mriBu6lI8+Bhc6SlmR/Q6ENjB0dchkOF5J/LyePXu2iZGoHJJZh+oHcgd4kCnw4vrZf84KKY02XZ8kY6jpSkjy3W4MJqIyrJdiXJkNs6kBtpZ2ZqJBgA5dd01ZJgbTkCN82EPh1LeDcLBXnSPagdvLD0pBzhYXwPAjj4oaEwHhXjOOzXXaev70gH1IhgA9UCDat+ZyTgBzqb+ID0UdTs3+nek8Xc68xFoExMFzvfSonx/WQUZf0xsRUIp36qvWVqfId21QakVhWBw04kUGcfmwRHPN/SK3ytsL5NDR5rKJK02PRKnQWyReO2aQbv0kjQE5UssTNVe18Y55QqRTJvg7ObpL8CwSc0ureKgwvDHt9zsTAOH2SatKNaUUl5TmXXEuiR2W4VyVdIYKozaxOwTCs0cFUbntpGhs2PG+tiHbJcG5KVWvcGra5NFUxkPhWbBGKnzPqucZTCPwR96tMua8m7QvH9//0Hl7bELXiKHinK+AaXfqx+ov5Sll4oeZomUIkRf7F6i8GAiwscVJUPRvwH5ArBYWC5TjgYQt8S0a/oFelovfYsIChUzz+nMSSg6a339OR7h/C4QkLoUQuBdBuYtEvRaQkEWYETrxaBhLxFeDS3Bau08tr2yK2xGllylbQGez5mbEDeXU+NrMh5AqdKxghuNsIYmDcALKCbdrDW4hUG5EKO4DO/TGN15PEMZ3dAnUccMd6asDgIMuaDf7rMD8R2ZbtWl+1bR8GxoScxF+Q8vtPNCoBQtkVoB8q4kWmAiLDNDHnNoawZN4rd7/M677Sb2aw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         PlanningPositionDateHeure(PLN_Fonctionnalité_Employe_planning, DateDuJour())
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_user
+    identifier : 0x20082e77361401cc
+    internal_properties : BQAAAAUAAADl+kRSFyMBWTffzLL3IyA1lsKhVpn5EJZ0L0hG/joiXwFCsV+QGqYpnvkvbM5Q2ptPOEtfYZ60UflVUCXSbgmwT9u05TEzcxaUd6CoGXHEIpVM4lrVAXFiUX4rDmGQYdJT2356e7HrYj/l8pA0UahX/deva0KQprcXelpcG/CXi6gKUEz9bcgQMDU2p1WAhY9tZoY93jHtNZjqJZCUBphqAinmmIoMQIlBugWSqMfQuLtDYIlgd7flgmwMpyIQ+bkZI3hBAowEtF2IDQPKyyCCXdb99jMB5NkW2Kc0CjIpE3Y7dgOy/zT+8CQnCcs6MYxmVjpXWPCa+qs6eyrInHPHxd9Twt2KJ+3Q0b3wLpoz2T8PcYHPqta+T5YwpmC4Zdf8cWAHPdO3OItOwTd87iXY0WBWykoOx+Qx6CZuepISTGFD2n/u6K2wcrMBS/4AiWD5QFndfgcpncUOf2NKVD07Tw3HHz8vv2AHcsf1uf5yJECN6pSf/2oHZebJ4UZCOv5DG/Cv8lZwFmgQMDSvsnPYrhwQrm1syFhof1XoVU8FfNeiUp0ANO83mzpul1exQV4nymouvP2qO0Z6MPdRTSXS20Isl+FTmGJyp77WuB6iaar53TY9MpzfrziZvSNpZhUOkRblNA4emq0D3Y8kL+Bn
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         Proc_Index_user(LIB_user)
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_Mois
+    identifier : 0x2fe1d4591cad8b0b
+    internal_properties : BQAAAAUAAADOC9CzuE4XFWZrd6OtlvYQasBnOS0o06bftxCAU9VJ38TzHi6O5cFaANVv/6BM4BW9z0bBuSdYKl7NgmN2fla30AL/ij9Fyv8rPNSP464wM/EYn+YUVxj/KCvy27uWPk0bkPzzy+Gj6K/WcBKGEOWR66GkBaYZJZczGPT2X0OmyXiE+N5301VfT2XRvCzsbHAweYoSloWPPSdVtUl9tJS9q06FOq1u/VynlEMXtpRP+Li6sNeASkuFj0yln6eOYwwZtxplwq4P2gCtdQpOhM+EzEuzB5irM+6IT4l/TxERi3q7AxEbYWkM30azluRb18nc+hQcKXBsWPz2FyyI6XW0FNRsBJPMUre7ch01PB1SMJNgUXs2ZTlqELnk8b+kdX3fdcrjy8po8mLCWKKecQqi+DQfXsJPC1qCRZmQ8uDFcMyq3uyVIEM+242TIU4O+1sHcdkNBIA+EiSHx7psxW2H411wr22gJnHD8GHOpo/7OeHQ9boIBdxWj2gupGy0vrJYIg6XkicQ19q9aaBtgXLAMCQ2QvIPbQPR52zHClJsOa3R3pFcdEJ6shAiyY2rZFW5rmSey4PyImZCcjVdBXmeh8qqfDFVn85CacNjdjUVKJ/174228TetJMbEWWU09Emg8TmeaQBnGjTpLMl7xAM8syU7PUBxX5aN7yt5u3/GWe7Vheco6gyt5Xb7P/XXtLIZpyEcOHxOm/s76s8f/qaMpC8awitt6IkPqLyQS16xbv+PFz2itF4GwdZT5dDu7TBHp/2eBMXvKmtU+d7B6YUQg7wGkLrJKwI+Yqj2wyZ/q8fwae/uq2HO4HNNSZ6fgTlZUdJE6t4bH6PkVEJyqXxjEb7LDxyyqpXsVcpu7rm0YC9lpFv732osgZqCKcIrm6fPU1GuUTMy3cmrbjhUXvnS869Nb4fgJCWVWgMcJBhyD9PK9+UA5VITNtecvgR9v0F4bMKKjClvwkdZbaCmglRlT51fnEvKtufa57S8FgsnufSb6IASeOGhkosxLv3DsKJ6VAhGniWtyq3tqzF1FwNEYUAydl/zXMTe5rmqvQIbtcpT6wsjxfubB5O1ktvHD95HivBn4/t5MUBmCcQKU1SJASs4+XMtFCJyqU1bR3r9vIZ6hB008O1B6EZb1Feqe/ffXCJaFkuSReRzZPXfluCYmF27eBwLlWb1pf11YNq/QA==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         	PROCÉDURE INTERNE MAJBtnMois()
+         		BTN_Mois..Enfoncé=PlanningMode(PLN_Fonctionnalité_Employe_planning)=plnModeMois
+         	FIN
+         PLN_Fonctionnalité_Employe_planning..Traitement[trtChangementPériodePlanning]+=MAJBtnMois
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_Fonctionnalité_Employe_planning,plnModeMois)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BAO_Bo
+    identifier : 0x2038ae9c06e0aefa
+    internal_properties : BQAAAAUAAADb5NVt/Vp7QuXVP8jvlkPPza4rZElK6RTrN8ii0Hnx1PZ4jXZA/eSEij1yhYpq/RxtOS58CJQSP6D2veKX0mvtrxUSPqYx2DBO+tWXXG481cvhln2FYs+YOmFim/Ooj59otk094MTiavz/SayDQwCGlxueRCPRtK1CtFdwHdsoMGnGTr5u0U9kHUSwkm8OWKVm4fMwg0vnZkKzKboGfDIjvKcWb/Tr7LA0hDaAHuSnpLwloear7zDnLRHqsLi6677cMbYm04l+Iw1uWykw2aNj7b373ZxSTUACtbiUPv55YmcmuzNrjwFSKZIQZWwefFE2RMo/kNIWlHbA67yTWXPZdVnor3rycu0LmhUiFvo9G3RY+r7Bu0pQDHUWxF8vEfF7Viz1mLQY0CBQYDCDyX7yBBG5DYRYvH2oGc0ZFEqv9uo+8CBLZMEJxof7kjpAlNAWBDtJq937NCpRKw6vhla1pVvAJStwcL7gGHNR60Pef8MakhkGA7T34dnd3U+mTly5aibJRwdKj5MqbDKNjSyL40KK4G3bsVKrOdOEIrOSU+1J1pynNSFVPQNuGSdB3GK2aIF7mwz5F9jrNLOtq+If+xsxHELtCBqTW2Ov8dUoLRSs/uaEaL0M4fTWsA+k+PCLwfHlOb0LzoRshLMQULmlXeffUwctYCv6KP/NP2UWohrDmcu7lavnVsR6M/Z45/TNN/YgFd1yMEsdcRnc1xIjsBKeOYsLrKbJqd2bvl7659alM7Dzy+VI8+p7vc0EJIr8HEBIofv8Jydte0TiBmCrTrCEvNfdp79fQjHLye5SdaXYT1U0971EpXg2Pql5IkrVbP6flhDo3suUYm+y6YB2NNwcCyX7ijg0mt7oOwdeo5m404Doc3psQW3Azm2B4IkoQDEXJGMfmv7+PdpmQlJZvCH4dnOXV8n7NngRLwXWZ4ldER0pdjWeXONgLjPJby7pArOhJxF9Ii1AgOA53THfzkuYrfcXjqEz7wKlpzNsoQRW7Ho2rTrjtB0WFnUaZGTbGvoXu5Tz0xHvlIffL/1nygjHbADL5QVsihMTwSxjzLqUztWICc2kGi/OKvi3UioDe2OHYTvwCmsN/+cTY+DY0VrKiRh+r80bFRXsMAcGF9Q98yDWp9HW+RE=
+    tabs :
+     -
+       internal_properties : BQAAAAUAAABzm8u6ad3Yb2yxEwhpuKOY+4t8zEdp+wgmDCm/hhtxfvQcKBTInKC8IT6T264inj/GWE4GQPnVE67ET/mgJH9DUzzOSFsr+nK85DlMF+Xll3afT2k/Gexuk1DZHfnEIMy/lYuUZEBlaQO0fmoSHr1z9DbshOlLcR9RGO9KbKSiorIs13D+poeM29LIJDPo8A3Rgrp4CXsc/lDzeDwwp1hqEVmy8j2e/VJ+BOdLwQma6AF5CaAMlw==
+       controls :
+        -
+          name : BTN_Réception_mail
+          identifier : 0x2038ae9c06e4af87
+          internal_properties : BQAAAAUAAAB+VcMPfmlgN0BxC4oiz7aPF54hPVWtykkdU7FIQopAwMOs+EWZWvKhNlwttZL0tOxcziIyFAkQE0J1FBiCU3SdT7qjAhYILYR/VkywL/Q9T/Z7H0P6/8o1ocuUwlXzUWs5w+J/QNqI5+CdenxMVa2z5+yvK+5eVrDHTl0s6k1yqNmyHuWAoyh2K+lOfHiGSMoK5gcIukxoYqDapdENq15Qitf2mREVQ4Cr8tqNC7aQrrHQGuHphmwJsivAU0Q+ymHEzU4BLqd/rVgwsaAQB54EFPq/PEHKDS416na4PWydNBWb+Grqek/AujSDSifl9cFABrGZJ6yn9emTRFr0BHDxaiCBwxQSAM3WXOj+toTEEo1lwBSuDqn/RAbc06k/oadzYprsu7sawV+GO1BMfbxBD76zX3J2+uDkal6IVZa6W0iNH8LNTOKCx2EzfFTysfSMcW0XRQwgYc1Stx/iqDHo+cBxpwWRAAirZzG/tzVQ4PhZYdceskdTQIDuM8Qb149etrdF8QbtY+GYUiJ+4ryt2hbWzv7D8EZ5FnpQU3Qc9LuCFEThDSW3k1SSpPyZfRYxzhjs0f4znc34yBF32HdOhRwRNxZFr513GC7iBW/KKfCqDx0DnwTmN7/jS+5VtDHpa+ovzpOmWlUmos/fEKa1DKsoGwxStQAmacfcSZ6aV/5sENbRcKwwPiVDxKy1rzGZwrj/NB9cVq+dc2y3c7xWwRlHjenkpm3ot/5lIL3+EX29BVo6vHM1JE5qwGOQGwf+kgsG1Yc6UgmKCA8UHqMV0/w5/69/EBun8W0B3jaso8mD/9z57nxS32BQLMegC62eJnSjSMpYgewmEAyq5EzQTlkT0lP7G94qU+2v3owAvVc1o4zcyn4BboincJ8KhihuTod6wtY/OmMGAaKspkaCYijxrEjwAg66GJ6p8q+eW5EwNC1UD1nOEmUNmfd4OsVAEUAkuongDPA8fzUybViFNpX2CHXtt3ZPwKx+NTfDsFlDOkQ6SEjRK96Nx7Uv30+z53An60e0X9SligO/eJBeWjOXxWSGTm+y78BkKEOi9i9Xyago309TOjkoeODw6cNVyAnCeRI=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               Ouvre(FEN_Chat)
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_Envoi_mail
+          identifier : 0x20478fd321364aff
+          internal_properties : BQAAAAUAAACe5pGj5CKoU9B1UuZ+SoujzalKrBnBOKVOPLdZg+XaWJIdnoutILHsjZC9tj7Lf9Cs6s9edxKr3cwxoHbOhyDa9rLhyOLTjqSzi5/MnUqFb4VDPccSpmyvqdB/jMkJJGSNm07QEE/RtKnVPlEcSqAk9XR+Q3zowEkHemmkyCezVJ9ZDC0o/4UVBZwfvcIxgz0hf98UYZG7ZVSJMKR4Ft7KUjyNCkNlXxni4Cs8Pw1L8Qum0nd7yndhBapSCH42O+KtivQ0yBiJfjVwbZmGOdRcGiboji+yxanuQjbbhIZ8aELL38riPAXu0+pf/LXtmGDDib8+PK5hiHBQD1VFQEITLrV4iRgvRHWNZlz2yhlEdwco+wzd+v460iajnUXLmh/vlXMx8d41BzNrs3ODn1+//Oqb/HHRbZKHkmJcGRedRTHChMKEjfMumcEpxBFkTHA2GDF7rCO8mrqZEKFmUG05OuJNfm6QL1+jEbZcXaIOODWV2OUAfV6TARq0T4zOtQHWURu47bP0RwhpbYqu+xS2Zav3M9iLp1V6QwECvZknyXmnJSfVcsV97WGaahb8QqlrBelPaxjrd8AqcFRk3mIcx1g7ycki5gq8YBdNz78IXYnjIvIIDmf1/CDNaFl1JTNNRSNUEBKBl5KtgoKc15M+EixGPlYlJubuqHvBo8lJ6Jlkceq3eRl1Vfab7qebdbbIgA4dk61En+mnrL3MGKG1XJY2+1bf0+3ZjwMgl4jTdMkmss7Cc2NhNFpTQ2bWYXkZ0WxJOwjffVnoekIy5Nb4nGLmFhm0AnPZNpQzlUgPWn/HvorW1W9CRjDdYRM0CiLg4CiYQNKqnR8cl374WqUTGAmV4/cMeIRyuR/wnEOnRkMKtSgdPLW4FX5SDywW5PBr7QBswdq12OII/O17YFhoF4ZDpqElMkyMgb7jR+lcazzosDguowf4r/2jeVlPVE/Z6YCXGroI6sMUxO75Jp+lGN570nT//iCnx6xa/uPZooZItCFEQ0vohbc2y6Y4+jfTwGQgo7553UK2ytvRExYtxOUJh9s2vARVBDFcEAAj2yWoZroQwJMwRjOElTdvdZGrbw==
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               Ouvre(FEN_Chat)
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 29
+    controls : []
+    code_elements :
+     type_code : 63
+     p_codes :
+      -
+        code : |1-
+         // Version 1
+         // Description 
+         // Menu organisé en tiroirs empilés
+         
+         // Fonctionnement :
+         // Le champ Boite à outils permet de présenter différentes actions classées dans des volets. 
+         // Une action correspond à un bouton.
+         
+         // Adaptation : 
+         // 1. Modifiez le libellé de chaque volet du champ BAO_Menu dans la fenêtre de description du champ
+         // 2. Pour chaque volet, modifiez les boutons (libellé et code associé)
+        type : 14
+  -
+    name : BAO_Menu2
+    identifier : 0x2038b00209b42480
+    internal_properties : BQAAAAUAAABXtoriLPiXUL/r327wZZ5ev7IIpEipvVtPKbtRMa0WBE6lX5n8kQhEJrNl1GgHktUmiRpj8pxl/u+1XjzXkEpjycf7Ntj/0LHW+sXq0NVQEQYzkU2JY9nRRHfdY1TJZ6vSQrKa0bbt+Vhi9GzDB6E23ccuxDu1t4AsC1XHnfLDyZX1dXNecp01PC3upsNWH6nf86lgmgINgHXBu34U/SpGqDZ5WKeqTHCImL2J08ofB+AfmppjYrZ3aLGo0KYLXtBsVRKqpZfYZ34ya1eIJd81Sz8t1NEuhkp6qvwRSMgFtWspqk4kcHGwgArzNPqh1qtv8wXzhXBL4immRsVd0InRETK0xITwXR+xXmayOyTpSFfVVHmtqAZRRdOnYLAkCTM/dpmLtCLaZx1Aj+ztME1KmlbF4YypBO1sAgkvo9I2y7k3x973WlEHrnSeDQ58vsOaxS5Mjhwp1DACgTmFW7kqrRpPanrBV21hdOcIbTdGb/iOxEQgOXwyXgeiUXu1NkdN6e0MV1Ty9yiASfv5yv9IGMr7S1lCz6h2REAvCc1aGCR8xBNj8g6OCxK2O1AKcjmUeL7QQhQDbCmJ5UEfjgC/Kk8R1sw71E3DVK5EUbrrIM/ZyyGSDNRjbnXAGG+Vwso7dqO2N1T54gBnccN+bLe68fUKFuGTUdmrg7HEetivdgfkcDcGE56rojiSqw8d31VioUpXnRL9dFUDYU/3qEFelfOjdksksu2f8Lx4q782bqciX37vNDxxXCl73SUFaDHgtSxqqlS2NNhYwak9Y0MDK8is+/YojKH9IxP3tbvp8JHWxBhY1cAvZBM/0NSWl3Jf9+F+Mwyssz16l+AxDC3einbgNu2MKb5bKI/DlkCTqXcubPz731jxhDOis0r74hvWMDVjCAHinzcafA82iueEtZmtgIJ4dg9aML8bE0p7DR6F8D6I55q2zuzrqXcuwICPPiOT2bUJ5mQwG2Xw7plIo8uPRfzKN/oCgfrEY9/a6wHyxJQ8ILQavg4vS0mooLNX33e8J3cQyPFsFubgTGtnH/3dGfG1PXWQwy2KNDMOYpQyfvkppprdf0GoUx37FUeTOhU0uldVyRZ0aqJ/SdNqzuHi5DUqcLY6FCxz2Nl4uw==
+    tabs :
+     -
+       internal_properties : BQAAAAUAAABTjuYuyt3z1NsfQqabrF74BmA+skVPnDKp0Q0+Ad+Rx/Q4taZVtttEChLDt7Wrqxo+KgJ+/x4TmFRdvKsnDcMrgnrNTeYCyeEOVf/gIKwdxw/9rv1eUZZR218mBEzVEJqgCBmeHy7+OkGG35M1a/ckHN7uFU+MxpKqBFlx4XBE3Qk4LQMjbjYPgp2z+PKobmENzcoxoCSiYIfaBUFe4xAO67N2f1fLc61Dju/vKmDK6Q9If+J9JqwP+Q==
+       controls :
+        -
+          name : BTN_Chat1
+          identifier : 0x2038b00209b92490
+          internal_properties : BQAAAAUAAAAEk7IVGzCnjXqW/Z51I0UxaXuko1AjQxJgkNwkE8TURUy2r9NVK6GN2mMC/fDC5CrXNp8ji1Yerz/iIb81CqO7aeM8tkoCHrB2BZ6JX72K2l0f4awhxIvI8nF2bDynGeXRt7IibiQQb4ECNklwQJ9vRLebGfQr3Sq55B9a23YsfGLD2vmk3v0PuKbhpvqjKX/IdJ2hslSJ6jRXnM9S78N/yRpUWswajGwNKP4oq38dbGFIvpNmI7/SgdBAQliAtipI/2oz/cDDqryjJ+raUwkFzOz5row5ceJVKjFnEdTiGNuiCyZbd8mg5OMsLlRPlYTHTYrqCfyolXVBLQ54Q3io2q+kiXPbwxEOflQLnyAAwLBkaReWL+p8T98XCspVvxbiJU7HgjUerDm9HhMcI0mtj6maI2QRkGpzNQFihbuRm5jZK+RqoXMQSdx9iTv2Z+v9y5O7wgknOTziiiwVOJPvBCrY9KNHdXvdGOV7Og7rvbm3gnnvJwc5g2ihwgLu4nkmtH0PABnJL0TgL1VVYkOkL+Muf5byECmAYod4+nyvKvW5ztuuLnjBsQNYyyymBBmG9RCrTd1tD3xrz9GPZWyGeClSY57uk2X7g1/QGtUcQSDj1eT2/wD720hqV5xMXA5J8Jkn2YNCYatkPrdKdkREVdQqb+mv4BNkmslxl58Fn18kLY2+6yPkEvYG/4TUAjH+oBZUtcZfCG2YAWuP40kW+V1zaOo0ccoh2RECQropbZcWI7eZ+D4YUf4+nwvPiUbFzzbvUDRZSHrG5fTvFxma4OStxmSotcYi4LeuqsckONZiKU8roJrIuOFtrTQQr/6T/MnhGhgGWnJk2M3BsbsWd5++JnWbQEVUzMgENmiVyiB+inh4tPQROV4xO+y90TuJ/WmWZwd4JYo2jzB/yvfo1bWYLFOu4trTzytrampcBMibGVEyr1fjhi9ZSmXHUfzx18EQiXHCwQRMOsM+DKlvDSzD/y9HZ0WdayK41jtFKjM5rcSJquSPaB7TcAKcRS9+7kf+3QReTXpqhDQQuGRyfAFWSvq9bryYE3oyTrqAB+johhGuLNvoGQ0M+KLHPXwrptCAUq/VEgoV+p2hZtZptLJjxr42j+dMki2UexZ83BYm8fY=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               nNEmployee est un entier sur 8 octets = 0
+               Ouvre(FEN_Messagerie,nNEmployee)
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 29
+    controls : []
+    code_elements :
+     type_code : 63
+     p_codes :
+      -
+        code : |1-
+         // Version 1
+         // Description 
+         // Menu organisé en tiroirs empilés
+         
+         // Fonctionnement :
+         // Le champ Boite à outils permet de présenter différentes actions classées dans des volets. 
+         // Une action correspond à un bouton.
+         
+         // Adaptation : 
+         // 1. Modifiez le libellé de chaque volet du champ BAO_Menu2 dans la fenêtre de description du champ
+         // 2. Pour chaque volet, modifiez les boutons (libellé et code associé)
+        type : 14
+  -
+    name : GRF_Prinncipale
+    identifier : 0x20479dc02a54ade8
+    internal_properties : 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
+    type : 33
+    code_elements :
+     type_code : 72
+     p_codes :
+      -
+        code : |1+
+         
+         
+         //ajouter le titre à la légende
+         grEtiquetteSérie(GRF_Prinncipale, 1, "Priorité  1")
+         
+         grEtiquetteSérie(GRF_Prinncipale, 2, "Priorité 2")
+         
+         grEtiquetteSérie(GRF_Prinncipale, 3, "Priorité 3")
+         
+         grEtiquetteSérie(GRF_Prinncipale, 4, "Priorité 4")
+         
+         
+         grCouleurCatégorie(GRF_Prinncipale, 3, RougeClair)
+         grCouleurCatégorie(GRF_Prinncipale, 1, Blanc)
+         //gestion  des couleur dans la légende 
+         grCouleurSérie(GRF_Prinncipale,1,RougeFoncé)
+         
+         grCouleurSérie(GRF_Prinncipale,2,OrangeFoncé)
+         
+         grCouleurSérie(GRF_Prinncipale,3,VertFoncé)
+         
+         grCouleurSérie(GRF_Prinncipale,4,BleuClair)
+         
+         //bulle d'aide
+         grBulle(GRF_Prinncipale,1, "Euro-Teams Gestion d'activité affiché par priorité ")
+         
+         //	GRF_Legende.Bulle(grBulleActive,"Priorité 1")
+         //	grBulle(GRF_Legende, grBulleActive, Vrai)
+         //	
+         //	grBulle(GRF_Legende,2, "Priorité 2")
+         //	
+         //	GRF_Legende.Bulle(grBulleActive,"Priorité 2")
+         //	grBulle(GRF_Legende, grBulleActive, Vrai)
+         //	
+         //	grBulle(GRF_Legende,3, "Priorité 3")
+         //	
+         //	GRF_Legende.Bulle(grBulleActive,"Priorité 3")
+         //	grBulle(GRF_Legende, grBulleActive, Vrai)
+         //	
+         //	grBulle(GRF_Legende,4, "Priorité 4")
+         //	
+         //	GRF_Legende.Bulle(grBulleActive,"Priorité 4")
+         //	grBulle(GRF_Legende, grBulleActive, Vrai)
+         //	
+         ////dessiner le graphe
+         //	grDessine(GRF_Legende)
+         
+         GRF_Prinncipale.Visible = True
+         grDessine(GRF_Prinncipale)
+         
+         
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAAD/picDxgpEolagkn5o6grbQaBDejqOnvzNhPmMRdBYNojncuOCscHolSfv5ejIP47k5ENCMCa/jkOud7wq24kd2lr4BUMu9PAuLdLJNMB5BjGazznZyvU86wwt10lH5IQlaiIjwsXpu2uxUqWLcZtS8+24Ayca4vW17lx8jNDw3xC6c7PRsBOlEryvIyA36w6csqQtX8raw46N+6OlAH4omdVepARK/y/Aqr/ppUCLN+ciqPI55dWEADKB1SyL
+  options : []
+ popup_menus :
+  -
+    name : CTXMenu
+    identifier : 0x2fc776ed04638215
+    internal_properties : BQAAAAUAAAASOsnWWOaapE61Xvb16/ak3OjLTB3Zj24MkRSMQZyP5UZk3gRc9g6d8TXesaBihUz0pDyreKfzqPgTznITSfrVOLvVDWNvcUPuXzYXlmbZhVnkMMgd4fZXTrtfPccR8WCNlMQaKs9mjRgoAAXNG1m+/3YqrJjJQKC+jZ41QNMerctmnCY0q0iJaWrD90TTkG7+cl1mWtAzuGh/xzfbLG36LxmTPvA8Z7cI15om/lcmBGuqMQWLrrSPOx2o78JTGADAKZ8pMQzhEyg0CjsQuYPCwtkLObSb0IG4SqKVeCuFwcZKFvtUYwCCkfABEIAl
+    options :
+     -
+       name : Option1
+       identifier : 0x2fc776ed04648215
+       internal_properties : BQAAAAUAAACvJgJqYSvBZ5aioxio6/iYUPhbZy8o69Q5KrDFu9E6RYDto9/y9WTf/5Zhl7emj00ujaSpDqZE5XWOSwaSFAlmJMVk1tIaVEloUsZ5Lij6WIDTD4Kkrj9qfruGKiZnBNIvQJBEfdOgosGP/FfgyrgrniuLzhu3XfnXv2sl26hzfwj3xlz2piZ0gDG0eieVzWSjfPDCOBO0SE4lFhjP6kehujGIJ9Od8Qd5TQrcvD9l/BpCcaMiak5CaQl7P4dhT8gHOBCFooAd6wC7qJdxbf/iqvulAnyPU3QCrtKDJeHkIF8Mv3N+XSyHSf+O7MiYK2fW1hdLMeuYRyvzlRB0
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            // à faire : insérer votre code ici
+           type : 32
+     -
+       name : Option2
+       identifier : 0x2fc776ed04658215
+       internal_properties : BQAAAAUAAACZMDTYW3G72hhxGSpyPeqKIrItxfZmV6DZuG6d64G61xADaAU0FCgvo1Sbq8sM112289ztq7OQiJsAS65WFqCekglVyk4k+JPR7b1bPwy6KxdybZcvzvpoEIG5oZnYHdwrSmBqBc2UdinVevdYcml5ohVHqK+lrSnzmVWpV3gUsJvSXbODK+k/r+rFrTB6VuUiY+NlmYQrz8HSizsAxxt0aCZ+HUljgvJbrmOAOX8N2Pcx01B4fm4k3/8YwvTWQzLtzvqNcP2M2T0gHa6u5JJLPSZcxaWgivBeSre6qkpdSSYb4l6HnrN6Y9k46v6SIUn4IJm25t2W1V2lxyZC
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            // à faire : insérer votre code ici
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MenuDatePrédéfinieEx
+    identifier : 0x2fc795e10c82c041
+    internal_properties : BQAAAAUAAAB3lF37qjhmxRnrefwfjsMzT++dw3wM8SDH33YkuEj0xhFNdPWxtiAZtRqSIJnEucPvwY2IvoikVuJU/DBP3l8XiDd7JKKaIq4tlSaeb2FtmLT58TpsB7qYVMyTGQxbEX9wJebgBSQuNmW1LpEcXSOlS/S7RixBKUBLkIsj4E/RwotX/FmhzBQ8XxHWydjzG7vgpZgY9fHZBNl1ApFXyFTDpGhqNJnv51AYRdHrsxsdAlNX5q9KkCe/SkoskHjMwvb9haZoYXMXmEz+8JBLig23iV431p+jJjB5viutbSSZJatQQ+tluJVIIT42
+    options :
+     -
+       name : OPT_Séparateur2
+       identifier : 0x2fc795e10c8dc041
+       internal_properties : BQAAAAUAAAB6q3ty7KrnM6xxyXlA3O113/5v5yxy+IWATOpdgG1h7sSqf7hg4o8G2JHWkjcHmlhVWERijwX4gB14oDSKUCPAmNR6JZFtbzUpWs21YAS2MJyLL+naOJUhaLZ/MMlZOgTG7UZ3T+QF+Kmuukj73htPB2WBV8a4uzkkiTY/pipfFoYygREFJ0zEzHf+pyaku7L/zrkOgNwctscWl2s2tVZX74F2Oh1p2XaVkOsF89T8j4gU6xYMRfHPZjF5oOD0bZ/MLC5OkGLS8ir+JMFJ52cIPlxiUrYStDreVAIcXP+dWdP0N2lwIzXiYY3u1zu/cRolLeexCxVe1Rip6Ri5JHreo5ULyT0=
+       code_elements :
+        type_code : 26
+        p_codes : []
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MENU_Déclarartion
+    identifier : 0x2ff730dd1f6e5a09
+    internal_properties : BQAAAAUAAAA8iBIYIWShGMxUANLXna4zYMc4VzXZbfCauNAVCPKR7GwNZTaeOfMIYBuMwtrj4mYUrLsDGmPIyg1nCBBHs1iONMhaShs+XxkAlXEMq8eaqv+kKmcSGv/QHsClheFfnxFv7PlWS5db4hRJwoaAqWr6GOZvuZ/1AXCeg+OIw3LE735xJ9lTs8ZBGA3SooZaTHIIlpSMRmZRkMMM2wGfLk/WhWj2/qew6W/nMZODTDH17/SkB3kRcj/BdAGxrGG3FEUGhom4wvnOnIj2zgySNf3eZ6H0i471xOmzVzMQ+IZI701OYfmyIYFMOO7sUty0v3vS5aKkIzH6ZqWNqDiOxA0rApja/bxCkEqURJjb58ajGQu1g0Gl7CPBsVMdb5s=
+    options :
+     -
+       name : OPT_activite
+       identifier : 0x2ff730dd1f6f5a09
+       internal_properties : BQAAAAUAAAD7BVqC8X3DOSIWv97n+iYxKWGzZrnIB8fQPbYCcJ2rpgnSPyWUn5ZCsJAfqt36H/xabr3zP/XJgHKY0ypaHtkaofGEtoZe6pZIyW0kZvCe5CZiVOcB1Y9FW3xXIookw+IZYF2S09EVxTc+lgbptFIkYC6mgeGrNiVgyjr82g/OcMVuhjgUWKP3t9a8ljKJXWJwR6dKWWrG88ZcGIBdwiGnffqtGiEu005DW5kDvRChSslolMfhGfXrHvGQNB4Az/aHcC4fi+ehCpdSV7uM3Zf6ure2mTe6aBHbz9kYL8sm+bl+/HuTQt4Uj8KfulGf6SAp7PhlixyUflzV1uccIddNc9w7Dhi7aQ6Kp5udrSCbGj1qmudlR8A=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            
+            gnIdDeSuivi = 1
+            HLitRecherche(Fonctionnalité_Employe, Fonctionnalité_Employe.IdAssignation,gnMMonIDRdv)
+            SI HTrouve(Fonctionnalité_Employe) ALORS
+            gnNomuser		= Fonctionnalité_Employe.IDEmploye	
+            gnNfonctionnalité	= Fonctionnalité_Employe.IDFonctionnalité
+            gdNmdatedebut       = Fonctionnalité_Employe.DateDebut 
+            fin
+            
+            Utilise(FEN_declaration_activite)
+            
+            
+            
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+  - en-GB
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      recupFiche()
+      
+      
+      
+      
+       
+   -
+     code : |1-
+      SI FenEtat(FEN_Messagerie) = Inexistant ALORS
+      	verif_message()
+      FIN
+      //Rappel_Activites()
+     type : 34
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : Affiche_Planning
+     internal_properties : BQAAAAUAAABldBVQJDQZfYu81V4HQLFKKrdQGE0VWG1wHFLAkOlb9ieYfb5eF42MdhN79LZpdHYb4rTyZwsCNVV9Tj0EKcI9OSJ7StqfjhdOtnywFM1mX1rG1XA1vTq9ydAI7HALuEq7GTPwMN34qKT+M1o4qyCXvC6Oo4pgkWIaXs8gV99YYEFOMNlvOfSi6VVDDbw41man5VedYzYq0mfP
+     procedure_id : 2297358301328593429
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Affiche_Planning ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Affiche_Planning()
+      PlanningSupprimeTout(PLN_Fonctionnalité_Employe_planning)
+      MonRendezVous est un RendezVous
+      
+      
+      HExécuteRequête(REQ_Union_Agenda,hRequêteDéfaut)
+      
+      POUR TOUT REQ_Union_Agenda
+      	
+      	
+      	HLitRecherchePremier(REQ_Union_Agenda,REQ_Union_Agenda.IdAssignation,REQ_Union_Agenda.IdAssignation)
+      	
+      	ddDateDebut	est une DateHeure	= REQ_Union_Agenda.DateDebut
+      	ddDatfin	est une DateHeure	= REQ_Union_Agenda.DateFinestim
+      	
+           soit nDatediff = DateDifférence(ddDateDebut..PartieDate, ddDatfin..PartieDate)
+      	nDatediff +=1
+      	i est un entier = 1 //pour parcourir le nombre de jour
+      	tantque i = 0 a nDatediff 
+      		MonRendezVous.ID		= REQ_Union_Agenda.IdAssignation
+      		MonRendezVous.Ressource	= REQ_Union_Agenda.Nom
+      		MonRendezVous.Titre		= REQ_Union_Agenda.Libelle_fonctionnalité
+      		MonRendezVous.Note		= REQ_Union_Agenda.Libelle_priorité 
+      		MonRendezVous.Contenu	= REQ_Union_Agenda.Commentaires
+      		MonRendezVous.DateDébut	= REQ_Union_Agenda.DateDebut
+      		MonRendezVous.DateFin	= REQ_Union_Agenda.DateFinestim
+      		
+      		
+      		
+      		
+      		SI HTrouve(REQ_Union_Agenda) ALORS
+      			SI REQ_Union_Agenda.Libelle_priorité = "priorité 1" ALORS
+      				
+      				MonRendezVous.CouleurFond	 	  = RougeFoncé	
+      				
+      				
+      			FIN
+      			SI REQ_Union_Agenda.Libelle_priorité = "priorité 2" ALORS
+      				
+      				MonRendezVous.CouleurFond	 	  = OrangeFoncé	
+      				
+      			FIN
+      			SI REQ_Union_Agenda.Libelle_priorité = "priorité 3" ALORS
+      				
+      				MonRendezVous.CouleurFond	 	  = VertFoncé	
+      				
+      			FIN
+      			SI REQ_Union_Agenda.Libelle_priorité = "priorité 4" ALORS
+      				
+      				MonRendezVous.CouleurFond	 	  = BleuClair	
+      			FIN
+      			
+      		FIN
+      		i++
+      	FIN
+      	
+      	
+      	PlanningAjouteRendezVous(PLN_Fonctionnalité_Employe_planning,MonRendezVous)
+      	
+      FIN
+     type : 458752
+   -
+     name : Proc_pre_remplissqage
+     procedure_id : 1163779959463836773
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Proc_pre_remplissqage ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      //procédure Proc_pre_remplissqage()
+      
+      
+      //SI gnIdDeSuivi = 1 ALORS
+      //	FEN_declaration_activite.ONG_gestion_activite = 1
+      //	// Affichage de la trace
+      //	//pre-remplissage depuis assignation
+      //	HLitRecherche(Fonctionnalité_Employe, Fonctionnalité_Employe.IdAssignation,gnMMonIDRdv)
+      //	SI HTrouve(Fonctionnalité_Employe) ALORS
+      //		//remplissage
+      //		FEN_declaration_activite.COMBO_Employe				= Fonctionnalité_Employe.IDEmploye  
+      //		FEN_declaration_activite.COMBO_Fonctionnalité		= Fonctionnalité_Employe.IDFonctionnalité
+      //		FEN_declaration_activite.SAI_Date_debut				= Fonctionnalité_Employe.DateDebut
+      //		//lock de saisi
+      //		FEN_declaration_activite.COMBO_Employe..Grisé		= Vrai
+      //		FEN_declaration_activite.COMBO_Fonctionnalité..Grisé	= Vrai
+      //		FEN_declaration_activite.SAI_Date_debut..Grisé		= Vrai
+      //		//gnIDrdv				est un RendezVous
+      //	FIN
+      //	
+      //	
+      //	
+      //	
+      //SINON SI gnIdDeSuivi = 2 ALORS
+      //	FEN_declaration_activite.ONG_gestion_activite = 2	
+      //	//pre-remplissage dépuis consultation
+      //	SI gnMonemploye <> 0 ET gsMonProjet <> 0 ET gsMafonctionnalité <> 0 ALORS
+      //		FEN_declaration_activite.COMBO_modif_employe	= gnMonemploye
+      //		FEN_declaration_activite.COMBO_modif_projet	= gsMonProjet
+      //		FEN_declaration_activite.COMBO_modif_Tache	= gsMafonctionnalité
+      //		FEN_declaration_activite.COMBO_modif_status	= gnMonstatut
+      //	FIN
+      //FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1fc771cb000874b8
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+  strings :
+   -
+     text :
+      fr-FR : j
+      en-GB : j
+     index : 0
+   -
+     text :
+      fr-FR : h
+      en-GB : h
+     index : 1
+   -
+     text :
+      fr-FR : m
+      en-GB : m
+     index : 2
+   -
+     text :
+      fr-FR : s
+      en-GB : s
+     index : 3
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 4
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 5
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 6
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 7
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 8
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 9
+   -
+     text :
+      fr-FR : Semaine %1
+      en-GB : Semaine %1
+     index : 10
+   -
+     text :
+      fr-FR : Mise à jour terminée.
+      en-GB : Update completed.
+     index : 11
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
